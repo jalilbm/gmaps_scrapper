@@ -1,13 +1,24 @@
 import undetected_chromedriver as uc
-from screeninfo import get_monitors
 import os
 
+# Try to get monitor info, but use default values if not available
+default_width = 1920
+default_height = 1080
 
-monitor = get_monitors()[0]
+try:
+    from screeninfo import get_monitors
+    monitor = get_monitors()[0]
+    default_width = monitor.width
+    default_height = monitor.height
+except Exception:
+    # Keep using default values if screeninfo fails
+    pass
 
-
-
-def get_driver(position, screen_width=1920, screen_height=1080):
+def get_driver(position, screen_width=None, screen_height=None):
+    # Use provided dimensions or fall back to defaults
+    screen_width = screen_width or default_width
+    screen_height = screen_height or default_height
+    
     options = uc.ChromeOptions()
     
     # Force English language and locale

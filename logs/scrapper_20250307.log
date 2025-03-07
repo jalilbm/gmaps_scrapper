@@ -2353,3 +2353,9 @@ Traceback (most recent call last):
   File "/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/concurrent/futures/thread.py", line 171, in submit
     raise RuntimeError('cannot schedule new futures after shutdown')
 RuntimeError: cannot schedule new futures after shutdown
+2025-03-07 19:32:13,724 - google_maps_scraper - INFO - Starting Google Maps scraper
+2025-03-07 19:32:13,725 - google_maps_scraper - INFO - Target location: dubai
+2025-03-07 19:32:14,340 - google_maps_scraper - INFO - Search keyword: clinics
+2025-03-07 19:32:14,341 - google_maps_scraper - INFO - Non-allowed categories: ['pharmacy']
+2025-03-07 19:32:14,341 - google_maps_scraper - INFO - Generated 3 search URLs
+2025-03-07 19:32:14,343 - google_maps_scraper - DEBUG - Loaded selectors configuration
