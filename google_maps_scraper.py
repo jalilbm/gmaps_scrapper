@@ -150,12 +150,6 @@ class GoogleMaps:
             return None
 
     def click_coordinates(self, x, y):
-        accept_cookies_css_selector = selectors["accept_cookies"]["css_selector"]
-        if self.wait_for_css_selector(accept_cookies_css_selector, timeout=10):
-            self.driver.find_element(
-                by=By.CSS_SELECTOR, value=accept_cookies_css_selector
-            ).click()
-        time.sleep(10)
         coordinates_css_selector = selectors["coordinates"]["css_selector"]
         actions = ActionChains(self.driver)
         body = self.driver.find_element(By.TAG_NAME, "body")
@@ -281,12 +275,6 @@ class GoogleMaps:
         return
 
     def scroll_all_places_in_list(self):
-        # click cookies button
-        accept_cookies_css_selector = selectors["accept_cookies"]["css_selector"]
-        WebDriverWait(self.driver, 10).until(
-            EC.element_to_be_clickable((By.CSS_SELECTOR, accept_cookies_css_selector))
-        ).click()
-        time.sleep(10)
         """
         Scroll the list of places that shows on the left of google maps search result
         """
