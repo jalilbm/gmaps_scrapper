@@ -17,7 +17,7 @@ from selenium.common.exceptions import (
     NoSuchWindowException,
 )
 import re
-from outputs import output_generator
+# from outputs import output_generator
 from random import shuffle
 from datetime import datetime
 from selenium.webdriver.common.action_chains import ActionChains
@@ -38,17 +38,17 @@ places_details = []
 scraped_places = []
 scraped_urls = []
 
-def generate_outputs(places_details, keyword):
-    formatted_datetime = datetime.now().strftime("_%Y-%m-%d_H%H_M%M_S%S")
-    output_file_name = (
-        keyword.replace(" ", "_") + f"_{len(places_details)}" + formatted_datetime
-    )
-    with open("test_2.json", "w") as f:
-        json.dump(places_details, f, indent=2)
-    with open(f"./outputs/{output_file_name}.json", "w") as f:
-        json.dump(places_details, f, indent=2)
-    logger.info(f"Generated output file: {output_file_name}")
-    output_generator.output_generator(places_details, output_file_name)
+# def generate_outputs(places_details, keyword):
+#     formatted_datetime = datetime.now().strftime("_%Y-%m-%d_H%H_M%M_S%S")
+#     output_file_name = (
+#         keyword.replace(" ", "_") + f"_{len(places_details)}" + formatted_datetime
+#     )
+#     with open("test_2.json", "w") as f:
+#         json.dump(places_details, f, indent=2)
+#     with open(f"./outputs/{output_file_name}.json", "w") as f:
+#         json.dump(places_details, f, indent=2)
+#     logger.info(f"Generated output file: {output_file_name}")
+#     output_generator.output_generator(places_details, output_file_name)
 
 
 def get_selectors():
