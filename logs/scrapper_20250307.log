@@ -7865,3 +7865,1826 @@ Traceback (most recent call last):
     raise NoSuchWindowException
 selenium.common.exceptions.NoSuchWindowException: Message: None
 
+2025-03-07 21:35:03,757 - google_maps_scraper - INFO - Starting Google Maps scraper
+2025-03-07 21:35:03,757 - google_maps_scraper - INFO - Target location: dubai
+2025-03-07 21:35:03,870 - google_maps_scraper - INFO - Search keyword: clinics
+2025-03-07 21:35:03,870 - google_maps_scraper - INFO - Non-allowed categories: ['pharmacy']
+2025-03-07 21:35:03,871 - google_maps_scraper - INFO - Generated 3 search URLs
+2025-03-07 21:35:03,872 - google_maps_scraper - DEBUG - Loaded selectors configuration
+2025-03-07 21:36:04,662 - google_maps_scraper - INFO - Starting Google Maps scraper
+2025-03-07 21:36:04,662 - google_maps_scraper - INFO - Target location: dubai
+2025-03-07 21:36:04,771 - google_maps_scraper - INFO - Search keyword: clinics
+2025-03-07 21:36:04,771 - google_maps_scraper - INFO - Non-allowed categories: ['pharmacy']
+2025-03-07 21:36:04,772 - google_maps_scraper - INFO - Generated 3 search URLs
+2025-03-07 21:36:04,773 - google_maps_scraper - DEBUG - Loaded selectors configuration
+2025-03-07 21:37:23,312 - google_maps_scraper - INFO - Starting Google Maps scraper
+2025-03-07 21:37:23,314 - google_maps_scraper - INFO - Target location: dubai
+2025-03-07 21:37:23,590 - google_maps_scraper - INFO - Search keyword: clinics
+2025-03-07 21:37:23,590 - google_maps_scraper - INFO - Non-allowed categories: ['pharmacy']
+2025-03-07 21:37:23,590 - google_maps_scraper - INFO - Generated 3 search URLs
+2025-03-07 21:37:23,592 - google_maps_scraper - DEBUG - Loaded selectors configuration
+2025-03-07 21:38:31,594 - google_maps_scraper - INFO - Starting Google Maps scraper
+2025-03-07 21:38:31,595 - google_maps_scraper - INFO - Target location: dubai
+2025-03-07 21:38:31,715 - google_maps_scraper - INFO - Search keyword: clinics
+2025-03-07 21:38:31,715 - google_maps_scraper - INFO - Non-allowed categories: ['pharmacy']
+2025-03-07 21:38:31,716 - google_maps_scraper - INFO - Generated 3 search URLs
+2025-03-07 21:38:31,717 - google_maps_scraper - DEBUG - Loaded selectors configuration
+2025-03-07 21:39:17,782 - google_maps_scraper - INFO - Starting Google Maps scraper
+2025-03-07 21:39:17,783 - google_maps_scraper - INFO - Target location: dubai
+2025-03-07 21:39:17,982 - google_maps_scraper - INFO - Search keyword: clinics
+2025-03-07 21:39:17,982 - google_maps_scraper - INFO - Non-allowed categories: ['pharmacy']
+2025-03-07 21:39:17,982 - google_maps_scraper - INFO - Generated 3 search URLs
+2025-03-07 21:39:17,983 - google_maps_scraper - DEBUG - Loaded selectors configuration
+2025-03-07 21:39:56,550 - google_maps_scraper - INFO - Starting Google Maps scraper
+2025-03-07 21:39:56,550 - google_maps_scraper - INFO - Target location: dubai
+2025-03-07 21:39:56,657 - google_maps_scraper - INFO - Search keyword: clinics
+2025-03-07 21:39:56,657 - google_maps_scraper - INFO - Non-allowed categories: ['pharmacy']
+2025-03-07 21:39:56,658 - google_maps_scraper - INFO - Generated 3 search URLs
+2025-03-07 21:39:56,659 - google_maps_scraper - DEBUG - Loaded selectors configuration
+2025-03-07 21:40:46,726 - google_maps_scraper - INFO - Initialized 4 web drivers
+2025-03-07 21:40:46,782 - google_maps_scraper - DEBUG - Submitted scraping task for URL with driver 1
+2025-03-07 21:40:46,820 - google_maps_scraper - DEBUG - Submitted scraping task for URL with driver 2
+2025-03-07 21:40:46,855 - google_maps_scraper - DEBUG - Submitted scraping task for URL with driver 3
+2025-03-07 21:40:46,855 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:40:47,856 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:40:48,857 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:40:49,858 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:40:50,859 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:40:51,860 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:40:52,862 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:40:53,871 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:40:54,873 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:40:55,874 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:40:56,875 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:40:57,512 - GoogleMaps - WARNING - Timeout waiting for selector: [style='position: relative;'][tabindex='-1'] [tabindex='-1']
+2025-03-07 21:40:57,516 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-07 21:40:57,517 - GoogleMaps - ERROR - Browser session error while scrap_data_from_search_url - url: https://www.google.com/maps/search/clinics/@25.2908331,55.4165929,16z/data=!3m1!4b1
+Traceback (most recent call last):
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/google_maps_scraper.py", line 250, in scrap_data_from_search_url
+    result = self.scroll_all_places_in_list()
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/google_maps_scraper.py", line 296, in scroll_all_places_in_list
+    raise (NoSuchWindowException)
+selenium.common.exceptions.NoSuchWindowException: Message: None
+
+2025-03-07 21:40:57,518 - GoogleMaps - ERROR - Browser session error while scrap_data_from_search_url - url: https://www.google.com/maps/search/clinics/@25.1450395,55.2436334,15z/data=!3m1!4b1
+Traceback (most recent call last):
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/urllib3/connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+        (self._dns_host, self.port),
+    ...<2 lines>...
+        socket_options=self.socket_options,
+    )
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/urllib3/util/connection.py", line 85, in create_connection
+    raise err
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/urllib3/util/connection.py", line 73, in create_connection
+    sock.connect(sa)
+    ~~~~~~~~~~~~^^^^
+ConnectionRefusedError: [Errno 61] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+        conn,
+    ...<10 lines>...
+        **response_kw,
+    )
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 493, in _make_request
+    conn.request(
+    ~~~~~~~~~~~~^
+        method,
+        ^^^^^^^
+    ...<6 lines>...
+        enforce_content_length=enforce_content_length,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/urllib3/connection.py", line 445, in request
+    self.endheaders()
+    ~~~~~~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py", line 1331, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py", line 1091, in _send_output
+    self.send(msg)
+    ~~~~~~~~~^^^^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py", line 1035, in send
+    self.connect()
+    ~~~~~~~~~~~~^^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/urllib3/connection.py", line 276, in connect
+    self.sock = self._new_conn()
+                ~~~~~~~~~~~~~~^^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/urllib3/connection.py", line 213, in _new_conn
+    raise NewConnectionError(
+        self, f"Failed to establish a new connection: {e}"
+    ) from e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x1127da030>: Failed to establish a new connection: [Errno 61] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/google_maps_scraper.py", line 316, in scroll_all_places_in_list
+    if WebDriverWait(self.driver, 0.1).until(
+       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        EC.presence_of_element_located(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+        )
+        ^
+    ):
+    ^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/selenium/webdriver/support/wait.py", line 137, in until
+    value = method(self._driver)
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/selenium/webdriver/support/expected_conditions.py", line 110, in _predicate
+    return driver.find_element(*locator)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/selenium/webdriver/remote/webdriver.py", line 898, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/selenium/webdriver/remote/webdriver.py", line 427, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/selenium/webdriver/remote/remote_connection.py", line 404, in execute
+    return self._request(command_info[0], url, body=data)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/selenium/webdriver/remote/remote_connection.py", line 428, in _request
+    response = self._conn.request(method, url, body=body, headers=headers, timeout=self._client_config.timeout)
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/urllib3/_request_methods.py", line 143, in request
+    return self.request_encode_body(
+           ~~~~~~~~~~~~~~~~~~~~~~~~^
+        method, url, fields=fields, headers=headers, **urlopen_kw
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/urllib3/_request_methods.py", line 278, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/urllib3/poolmanager.py", line 443, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 871, in urlopen
+    return self.urlopen(
+           ~~~~~~~~~~~~^
+        method,
+        ^^^^^^^
+    ...<13 lines>...
+        **response_kw,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 871, in urlopen
+    return self.urlopen(
+           ~~~~~~~~~~~~^
+        method,
+        ^^^^^^^
+    ...<13 lines>...
+        **response_kw,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 871, in urlopen
+    return self.urlopen(
+           ~~~~~~~~~~~~^
+        method,
+        ^^^^^^^
+    ...<13 lines>...
+        **response_kw,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+        method, url, error=new_e, _pool=self, _stacktrace=sys.exc_info()[2]
+    )
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/urllib3/util/retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='localhost', port=58715): Max retries exceeded with url: /session/3d713a0667a0740f92b58da732039e07/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1127da030>: Failed to establish a new connection: [Errno 61] Connection refused'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/urllib3/connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+        (self._dns_host, self.port),
+    ...<2 lines>...
+        socket_options=self.socket_options,
+    )
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/urllib3/util/connection.py", line 85, in create_connection
+    raise err
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/urllib3/util/connection.py", line 73, in create_connection
+    sock.connect(sa)
+    ~~~~~~~~~~~~^^^^
+ConnectionRefusedError: [Errno 61] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+        conn,
+    ...<10 lines>...
+        **response_kw,
+    )
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 493, in _make_request
+    conn.request(
+    ~~~~~~~~~~~~^
+        method,
+        ^^^^^^^
+    ...<6 lines>...
+        enforce_content_length=enforce_content_length,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/urllib3/connection.py", line 445, in request
+    self.endheaders()
+    ~~~~~~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py", line 1331, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py", line 1091, in _send_output
+    self.send(msg)
+    ~~~~~~~~~^^^^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py", line 1035, in send
+    self.connect()
+    ~~~~~~~~~~~~^^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/urllib3/connection.py", line 276, in connect
+    self.sock = self._new_conn()
+                ~~~~~~~~~~~~~~^^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/urllib3/connection.py", line 213, in _new_conn
+    raise NewConnectionError(
+        self, f"Failed to establish a new connection: {e}"
+    ) from e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x1127db460>: Failed to establish a new connection: [Errno 61] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/google_maps_scraper.py", line 250, in scrap_data_from_search_url
+    result = self.scroll_all_places_in_list()
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/google_maps_scraper.py", line 336, in scroll_all_places_in_list
+    current_height = self.driver.execute_script(
+        "return arguments[0].scrollHeight", places_list
+    )
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/selenium/webdriver/remote/webdriver.py", line 528, in execute_script
+    return self.execute(command, {"script": script, "args": converted_args})["value"]
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/selenium/webdriver/remote/webdriver.py", line 427, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/selenium/webdriver/remote/remote_connection.py", line 404, in execute
+    return self._request(command_info[0], url, body=data)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/selenium/webdriver/remote/remote_connection.py", line 428, in _request
+    response = self._conn.request(method, url, body=body, headers=headers, timeout=self._client_config.timeout)
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/urllib3/_request_methods.py", line 143, in request
+    return self.request_encode_body(
+           ~~~~~~~~~~~~~~~~~~~~~~~~^
+        method, url, fields=fields, headers=headers, **urlopen_kw
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/urllib3/_request_methods.py", line 278, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/urllib3/poolmanager.py", line 443, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 871, in urlopen
+    return self.urlopen(
+           ~~~~~~~~~~~~^
+        method,
+        ^^^^^^^
+    ...<13 lines>...
+        **response_kw,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 871, in urlopen
+    return self.urlopen(
+           ~~~~~~~~~~~~^
+        method,
+        ^^^^^^^
+    ...<13 lines>...
+        **response_kw,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 871, in urlopen
+    return self.urlopen(
+           ~~~~~~~~~~~~^
+        method,
+        ^^^^^^^
+    ...<13 lines>...
+        **response_kw,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+        method, url, error=new_e, _pool=self, _stacktrace=sys.exc_info()[2]
+    )
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/urllib3/util/retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='localhost', port=58715): Max retries exceeded with url: /session/3d713a0667a0740f92b58da732039e07/execute/sync (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1127db460>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-03-07 21:40:57,857 - GoogleMaps - ERROR - Browser session error while scrap_data_from_search_url - url: https://www.google.com/maps/search/clinics/@25.2908331,55.4165928,16z/data=!3m1!4b1
+Traceback (most recent call last):
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/urllib3/connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+        (self._dns_host, self.port),
+    ...<2 lines>...
+        socket_options=self.socket_options,
+    )
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/urllib3/util/connection.py", line 85, in create_connection
+    raise err
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/urllib3/util/connection.py", line 73, in create_connection
+    sock.connect(sa)
+    ~~~~~~~~~~~~^^^^
+ConnectionRefusedError: [Errno 61] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+        conn,
+    ...<10 lines>...
+        **response_kw,
+    )
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 493, in _make_request
+    conn.request(
+    ~~~~~~~~~~~~^
+        method,
+        ^^^^^^^
+    ...<6 lines>...
+        enforce_content_length=enforce_content_length,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/urllib3/connection.py", line 445, in request
+    self.endheaders()
+    ~~~~~~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py", line 1331, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py", line 1091, in _send_output
+    self.send(msg)
+    ~~~~~~~~~^^^^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py", line 1035, in send
+    self.connect()
+    ~~~~~~~~~~~~^^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/urllib3/connection.py", line 276, in connect
+    self.sock = self._new_conn()
+                ~~~~~~~~~~~~~~^^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/urllib3/connection.py", line 213, in _new_conn
+    raise NewConnectionError(
+        self, f"Failed to establish a new connection: {e}"
+    ) from e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x1127dbac0>: Failed to establish a new connection: [Errno 61] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/google_maps_scraper.py", line 316, in scroll_all_places_in_list
+    if WebDriverWait(self.driver, 0.1).until(
+       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        EC.presence_of_element_located(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+        )
+        ^
+    ):
+    ^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/selenium/webdriver/support/wait.py", line 137, in until
+    value = method(self._driver)
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/selenium/webdriver/support/expected_conditions.py", line 110, in _predicate
+    return driver.find_element(*locator)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/selenium/webdriver/remote/webdriver.py", line 898, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/selenium/webdriver/remote/webdriver.py", line 427, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/selenium/webdriver/remote/remote_connection.py", line 404, in execute
+    return self._request(command_info[0], url, body=data)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/selenium/webdriver/remote/remote_connection.py", line 428, in _request
+    response = self._conn.request(method, url, body=body, headers=headers, timeout=self._client_config.timeout)
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/urllib3/_request_methods.py", line 143, in request
+    return self.request_encode_body(
+           ~~~~~~~~~~~~~~~~~~~~~~~~^
+        method, url, fields=fields, headers=headers, **urlopen_kw
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/urllib3/_request_methods.py", line 278, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/urllib3/poolmanager.py", line 443, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 871, in urlopen
+    return self.urlopen(
+           ~~~~~~~~~~~~^
+        method,
+        ^^^^^^^
+    ...<13 lines>...
+        **response_kw,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 871, in urlopen
+    return self.urlopen(
+           ~~~~~~~~~~~~^
+        method,
+        ^^^^^^^
+    ...<13 lines>...
+        **response_kw,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 871, in urlopen
+    return self.urlopen(
+           ~~~~~~~~~~~~^
+        method,
+        ^^^^^^^
+    ...<13 lines>...
+        **response_kw,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+        method, url, error=new_e, _pool=self, _stacktrace=sys.exc_info()[2]
+    )
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/urllib3/util/retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='localhost', port=58977): Max retries exceeded with url: /session/30b8d57b90fa7b7517ed7ebeb0e83907/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1127dbac0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/urllib3/connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+        (self._dns_host, self.port),
+    ...<2 lines>...
+        socket_options=self.socket_options,
+    )
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/urllib3/util/connection.py", line 85, in create_connection
+    raise err
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/urllib3/util/connection.py", line 73, in create_connection
+    sock.connect(sa)
+    ~~~~~~~~~~~~^^^^
+ConnectionRefusedError: [Errno 61] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+        conn,
+    ...<10 lines>...
+        **response_kw,
+    )
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 493, in _make_request
+    conn.request(
+    ~~~~~~~~~~~~^
+        method,
+        ^^^^^^^
+    ...<6 lines>...
+        enforce_content_length=enforce_content_length,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/urllib3/connection.py", line 445, in request
+    self.endheaders()
+    ~~~~~~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py", line 1331, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py", line 1091, in _send_output
+    self.send(msg)
+    ~~~~~~~~~^^^^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py", line 1035, in send
+    self.connect()
+    ~~~~~~~~~~~~^^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/urllib3/connection.py", line 276, in connect
+    self.sock = self._new_conn()
+                ~~~~~~~~~~~~~~^^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/urllib3/connection.py", line 213, in _new_conn
+    raise NewConnectionError(
+        self, f"Failed to establish a new connection: {e}"
+    ) from e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x113ed8490>: Failed to establish a new connection: [Errno 61] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/google_maps_scraper.py", line 250, in scrap_data_from_search_url
+    result = self.scroll_all_places_in_list()
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/google_maps_scraper.py", line 336, in scroll_all_places_in_list
+    current_height = self.driver.execute_script(
+        "return arguments[0].scrollHeight", places_list
+    )
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/selenium/webdriver/remote/webdriver.py", line 528, in execute_script
+    return self.execute(command, {"script": script, "args": converted_args})["value"]
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/selenium/webdriver/remote/webdriver.py", line 427, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/selenium/webdriver/remote/remote_connection.py", line 404, in execute
+    return self._request(command_info[0], url, body=data)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/selenium/webdriver/remote/remote_connection.py", line 428, in _request
+    response = self._conn.request(method, url, body=body, headers=headers, timeout=self._client_config.timeout)
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/urllib3/_request_methods.py", line 143, in request
+    return self.request_encode_body(
+           ~~~~~~~~~~~~~~~~~~~~~~~~^
+        method, url, fields=fields, headers=headers, **urlopen_kw
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/urllib3/_request_methods.py", line 278, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/urllib3/poolmanager.py", line 443, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 871, in urlopen
+    return self.urlopen(
+           ~~~~~~~~~~~~^
+        method,
+        ^^^^^^^
+    ...<13 lines>...
+        **response_kw,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 871, in urlopen
+    return self.urlopen(
+           ~~~~~~~~~~~~^
+        method,
+        ^^^^^^^
+    ...<13 lines>...
+        **response_kw,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 871, in urlopen
+    return self.urlopen(
+           ~~~~~~~~~~~~^
+        method,
+        ^^^^^^^
+    ...<13 lines>...
+        **response_kw,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+        method, url, error=new_e, _pool=self, _stacktrace=sys.exc_info()[2]
+    )
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/urllib3/util/retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='localhost', port=58977): Max retries exceeded with url: /session/30b8d57b90fa7b7517ed7ebeb0e83907/execute/sync (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x113ed8490>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-03-07 21:41:04,742 - google_maps_scraper - INFO - Starting Google Maps scraper
+2025-03-07 21:41:04,742 - google_maps_scraper - INFO - Target location: dubai
+2025-03-07 21:41:04,791 - google_maps_scraper - INFO - Search keyword: clinics
+2025-03-07 21:41:04,791 - google_maps_scraper - INFO - Non-allowed categories: ['pharmacy']
+2025-03-07 21:41:04,792 - google_maps_scraper - INFO - Generated 3 search URLs
+2025-03-07 21:41:04,793 - google_maps_scraper - DEBUG - Loaded selectors configuration
+2025-03-07 21:41:51,853 - google_maps_scraper - INFO - Initialized 4 web drivers
+2025-03-07 21:41:51,928 - google_maps_scraper - DEBUG - Submitted scraping task for URL with driver 1
+2025-03-07 21:41:51,966 - google_maps_scraper - DEBUG - Submitted scraping task for URL with driver 2
+2025-03-07 21:41:52,002 - google_maps_scraper - DEBUG - Submitted scraping task for URL with driver 3
+2025-03-07 21:41:52,002 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:41:53,004 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:41:54,006 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:41:55,007 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:41:56,009 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:41:57,010 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:41:58,011 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:41:59,013 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:42:00,014 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:42:00,306 - GoogleMaps - ERROR - Browser session error while scrap_data_from_search_url - url: https://www.google.com/maps/search/clinics/@25.2908331,55.4165929,16z/data=!3m1!4b1
+Traceback (most recent call last):
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/google_maps_scraper.py", line 316, in scroll_all_places_in_list
+    if WebDriverWait(self.driver, 0.1).until(
+       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        EC.presence_of_element_located(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+        )
+        ^
+    ):
+    ^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/selenium/webdriver/support/wait.py", line 146, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+0   undetected_chromedriver             0x0000000104c43922 undetected_chromedriver + 5843234
+1   undetected_chromedriver             0x0000000104c3b5ea undetected_chromedriver + 5809642
+2   undetected_chromedriver             0x0000000104717dfe undetected_chromedriver + 421374
+3   undetected_chromedriver             0x000000010476bb69 undetected_chromedriver + 764777
+4   undetected_chromedriver             0x000000010476bf51 undetected_chromedriver + 765777
+5   undetected_chromedriver             0x00000001047bb664 undetected_chromedriver + 1091172
+6   undetected_chromedriver             0x0000000104792c0d undetected_chromedriver + 924685
+7   undetected_chromedriver             0x00000001047b863a undetected_chromedriver + 1078842
+8   undetected_chromedriver             0x00000001047929b3 undetected_chromedriver + 924083
+9   undetected_chromedriver             0x000000010475cec3 undetected_chromedriver + 704195
+10  undetected_chromedriver             0x000000010475dda1 undetected_chromedriver + 708001
+11  undetected_chromedriver             0x0000000104c0bd40 undetected_chromedriver + 5614912
+12  undetected_chromedriver             0x0000000104c0e773 undetected_chromedriver + 5625715
+13  undetected_chromedriver             0x0000000104c0e2eb undetected_chromedriver + 5624555
+14  undetected_chromedriver             0x0000000104c0ebd5 undetected_chromedriver + 5626837
+15  undetected_chromedriver             0x0000000104bf0cef undetected_chromedriver + 5504239
+16  undetected_chromedriver             0x0000000104c0eebc undetected_chromedriver + 5627580
+17  undetected_chromedriver             0x0000000104be18f4 undetected_chromedriver + 5441780
+18  undetected_chromedriver             0x0000000104c2b4f8 undetected_chromedriver + 5743864
+19  undetected_chromedriver             0x0000000104c2b6be undetected_chromedriver + 5744318
+20  undetected_chromedriver             0x0000000104c3b1b8 undetected_chromedriver + 5808568
+21  libsystem_pthread.dylib             0x00007ff813cb018b _pthread_start + 99
+22  libsystem_pthread.dylib             0x00007ff813cabae3 thread_start + 15
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/google_maps_scraper.py", line 250, in scrap_data_from_search_url
+    result = self.scroll_all_places_in_list()
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/google_maps_scraper.py", line 336, in scroll_all_places_in_list
+    current_height = self.driver.execute_script(
+        "return arguments[0].scrollHeight", places_list
+    )
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/selenium/webdriver/remote/webdriver.py", line 528, in execute_script
+    return self.execute(command, {"script": script, "args": converted_args})["value"]
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/selenium/webdriver/remote/webdriver.py", line 429, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/selenium/webdriver/remote/errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: stale element not found
+  (Session info: chrome=134.0.6998.45); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+0   undetected_chromedriver             0x0000000104c43922 undetected_chromedriver + 5843234
+1   undetected_chromedriver             0x0000000104c3b5ea undetected_chromedriver + 5809642
+2   undetected_chromedriver             0x0000000104717dfe undetected_chromedriver + 421374
+3   undetected_chromedriver             0x000000010472c0ef undetected_chromedriver + 504047
+4   undetected_chromedriver             0x000000010472ae19 undetected_chromedriver + 499225
+5   undetected_chromedriver             0x000000010471fb2c undetected_chromedriver + 453420
+6   undetected_chromedriver             0x000000010471fc5c undetected_chromedriver + 453724
+7   undetected_chromedriver             0x000000010471dc49 undetected_chromedriver + 445513
+8   undetected_chromedriver             0x0000000104721d4c undetected_chromedriver + 462156
+9   undetected_chromedriver             0x00000001047b9775 undetected_chromedriver + 1083253
+10  undetected_chromedriver             0x0000000104792be2 undetected_chromedriver + 924642
+11  undetected_chromedriver             0x00000001047b863a undetected_chromedriver + 1078842
+12  undetected_chromedriver             0x00000001047929b3 undetected_chromedriver + 924083
+13  undetected_chromedriver             0x000000010475cec3 undetected_chromedriver + 704195
+14  undetected_chromedriver             0x000000010475dda1 undetected_chromedriver + 708001
+15  undetected_chromedriver             0x0000000104c0bd40 undetected_chromedriver + 5614912
+16  undetected_chromedriver             0x0000000104c0e773 undetected_chromedriver + 5625715
+17  undetected_chromedriver             0x0000000104c0e2eb undetected_chromedriver + 5624555
+18  undetected_chromedriver             0x0000000104c0ebd5 undetected_chromedriver + 5626837
+19  undetected_chromedriver             0x0000000104bf0cef undetected_chromedriver + 5504239
+20  undetected_chromedriver             0x0000000104c0eebc undetected_chromedriver + 5627580
+21  undetected_chromedriver             0x0000000104be18f4 undetected_chromedriver + 5441780
+22  undetected_chromedriver             0x0000000104c2b4f8 undetected_chromedriver + 5743864
+23  undetected_chromedriver             0x0000000104c2b6be undetected_chromedriver + 5744318
+24  undetected_chromedriver             0x0000000104c3b1b8 undetected_chromedriver + 5808568
+25  libsystem_pthread.dylib             0x00007ff813cb018b _pthread_start + 99
+26  libsystem_pthread.dylib             0x00007ff813cabae3 thread_start + 15
+
+2025-03-07 21:42:01,015 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:42:02,017 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:42:03,018 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:42:04,020 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:42:05,022 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:42:06,023 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:42:07,025 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:42:08,026 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:42:09,027 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:42:10,028 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:42:11,030 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:42:12,031 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:42:13,032 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:42:14,033 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:42:15,034 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:42:16,036 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:42:17,038 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:42:18,039 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:42:19,040 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:42:20,041 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:42:21,042 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:42:22,044 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:42:23,045 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:42:24,047 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:42:25,049 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:42:26,050 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:42:27,052 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:42:28,053 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:42:29,054 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:42:30,055 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:42:31,056 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:42:32,058 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:42:33,059 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:42:34,060 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:42:35,061 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:42:36,062 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:42:36,347 - GoogleMaps - INFO - All places divs: 122
+2025-03-07 21:42:36,348 - GoogleMaps - INFO - URLS:[0/3]-LIST:[1/122]-DONE:[0]
+2025-03-07 21:42:36,476 - GoogleMaps - INFO - Processing place - Title: Royal Phoenix Clinic Wasl Village, Address: wasl village Retail Center - url: https://www.google.com/maps/search/clinics/@25.2908331,55.4165928,16z/data=!3m1!4b1 - data: {'title': 'Royal Phoenix Clinic Wasl Village', 'address': 'wasl village Retail Center'}
+2025-03-07 21:42:37,063 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:42:38,064 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:42:39,065 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:42:39,208 - GoogleMaps - INFO - Skipping duplicate place - Title: Royal Phoenix Clinic Wasl Village, Address: wasl village Retail Center - url: https://www.google.com/maps/search/clinics/@25.2908331,55.4165928,16z/data=!3m1!4b1 - data: {'title': 'Royal Phoenix Clinic Wasl Village', 'address': 'wasl village Retail Center'}
+2025-03-07 21:42:39,261 - GoogleMaps - INFO - URLS:[0/3]-LIST:[2/122]-DONE:[0]
+2025-03-07 21:42:39,291 - GoogleMaps - INFO - Processing place - Title: Best Health Medical Center (Poly Clinic), Address: 42nd St - url: https://www.google.com/maps/search/clinics/@25.2908331,55.4165928,16z/data=!3m1!4b1 - data: {'title': 'Best Health Medical Center (Poly Clinic)', 'address': '42nd St'}
+2025-03-07 21:42:40,066 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:42:40,139 - GoogleMaps - INFO - All places divs: 122
+2025-03-07 21:42:40,139 - GoogleMaps - INFO - URLS:[0/3]-LIST:[1/122]-DONE:[0]
+2025-03-07 21:42:40,220 - GoogleMaps - INFO - Processing place - Title: Aster Clinic, Al Quoz - Al Khail Mall, Address: Al Khail Mall - First Floor - url: https://www.google.com/maps/search/clinics/@25.1450395,55.2436334,15z/data=!3m1!4b1 - data: {'title': 'Aster Clinic, Al Quoz - Al Khail Mall', 'address': 'Al Khail Mall - First Floor'}
+2025-03-07 21:42:41,067 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:42:41,169 - GoogleMaps - INFO - Fetching 8566 reviews
+2025-03-07 21:42:41,174 - GoogleMaps - WARNING - Retrying to click reviews tab for the 0 time
+2025-03-07 21:42:42,027 - GoogleMaps - INFO - Skipping duplicate place - Title: Best Health Medical Center (Poly Clinic), Address: 42nd St - url: https://www.google.com/maps/search/clinics/@25.2908331,55.4165928,16z/data=!3m1!4b1 - data: {'title': 'Best Health Medical Center (Poly Clinic)', 'address': '42nd St'}
+2025-03-07 21:42:42,069 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:42:42,082 - GoogleMaps - INFO - URLS:[0/3]-LIST:[3/122]-DONE:[0]
+2025-03-07 21:42:42,107 - GoogleMaps - INFO - Processing place - Title: ARIN CARE Clinic & Pharmacy, Address: Shop # 5 Talal Plaza Mall - url: https://www.google.com/maps/search/clinics/@25.2908331,55.4165928,16z/data=!3m1!4b1 - data: {'title': 'ARIN CARE Clinic & Pharmacy', 'address': 'Shop # 5 Talal Plaza Mall'}
+2025-03-07 21:42:43,070 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:42:43,711 - GoogleMaps - INFO - Fetching 166 reviews
+2025-03-07 21:42:43,716 - GoogleMaps - WARNING - Retrying to click reviews tab for the 0 time
+2025-03-07 21:42:44,071 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:42:44,230 - GoogleMaps - WARNING - Retrying to click reviews tab for the 1 time
+2025-03-07 21:42:44,746 - GoogleMaps - WARNING - Retrying to click reviews tab for the 2 time
+2025-03-07 21:42:45,073 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:42:46,074 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:42:47,075 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:42:48,077 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:42:48,939 - GoogleMaps - WARNING - Browser session error while get_data_from_place for the 0 time - url: https://www.google.com/maps/search/clinics/@25.2908331,55.4165928,16z/data=!3m1!4b1
+2025-03-07 21:42:48,940 - GoogleMaps - ERROR - Browser session error while scrap_data_from_search_url - url: https://www.google.com/maps/search/clinics/@25.2908331,55.4165928,16z/data=!3m1!4b1
+Traceback (most recent call last):
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/google_maps_scraper.py", line 1030, in get_data_from_place
+    reviews = self.get_place_reviews(number_of_reviews)
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/google_maps_scraper.py", line 870, in get_place_reviews
+    self.sort_reviews_by_time()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/google_maps_scraper.py", line 713, in sort_reviews_by_time
+    reviews_newest_sort_option = self.driver.find_element(
+        by=By.CSS_SELECTOR, value=reviews_newest_sort_option_css_selector
+    )
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/selenium/webdriver/remote/webdriver.py", line 898, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/selenium/webdriver/remote/webdriver.py", line 429, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/selenium/webdriver/remote/errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[role='menuitemradio'][data-index='1']"}
+  (Session info: chrome=134.0.6998.45); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   undetected_chromedriver             0x000000010269c922 undetected_chromedriver + 5843234
+1   undetected_chromedriver             0x00000001026945ea undetected_chromedriver + 5809642
+2   undetected_chromedriver             0x0000000102170dfe undetected_chromedriver + 421374
+3   undetected_chromedriver             0x00000001021c4b69 undetected_chromedriver + 764777
+4   undetected_chromedriver             0x00000001021c4f51 undetected_chromedriver + 765777
+5   undetected_chromedriver             0x0000000102214664 undetected_chromedriver + 1091172
+6   undetected_chromedriver             0x00000001021ebc0d undetected_chromedriver + 924685
+7   undetected_chromedriver             0x000000010221163a undetected_chromedriver + 1078842
+8   undetected_chromedriver             0x00000001021eb9b3 undetected_chromedriver + 924083
+9   undetected_chromedriver             0x00000001021b5ec3 undetected_chromedriver + 704195
+10  undetected_chromedriver             0x00000001021b6da1 undetected_chromedriver + 708001
+11  undetected_chromedriver             0x0000000102664d40 undetected_chromedriver + 5614912
+12  undetected_chromedriver             0x0000000102667773 undetected_chromedriver + 5625715
+13  undetected_chromedriver             0x00000001026672eb undetected_chromedriver + 5624555
+14  undetected_chromedriver             0x0000000102667bd5 undetected_chromedriver + 5626837
+15  undetected_chromedriver             0x0000000102649cef undetected_chromedriver + 5504239
+16  undetected_chromedriver             0x0000000102667ebc undetected_chromedriver + 5627580
+17  undetected_chromedriver             0x000000010263a8f4 undetected_chromedriver + 5441780
+18  undetected_chromedriver             0x00000001026844f8 undetected_chromedriver + 5743864
+19  undetected_chromedriver             0x00000001026846be undetected_chromedriver + 5744318
+20  undetected_chromedriver             0x00000001026941b8 undetected_chromedriver + 5808568
+21  libsystem_pthread.dylib             0x00007ff813cb018b _pthread_start + 99
+22  libsystem_pthread.dylib             0x00007ff813cabae3 thread_start + 15
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/google_maps_scraper.py", line 261, in scrap_data_from_search_url
+    self.get_data_from_place(place_div=place_div)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/google_maps_scraper.py", line 1064, in get_data_from_place
+    raise InvalidSessionIdException
+selenium.common.exceptions.InvalidSessionIdException: Message: None
+
+2025-03-07 21:42:49,077 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:42:50,078 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:42:51,079 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:42:52,080 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:42:53,081 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:42:54,083 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:42:55,084 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:42:56,085 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:42:56,844 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] div[data-review-id][jsaction*='review.in']
+2025-03-07 21:42:57,086 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:42:58,089 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:42:59,091 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:43:00,092 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:43:01,093 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:43:02,094 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:43:03,096 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:43:04,097 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:43:05,099 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:43:05,719 - GoogleMaps - INFO - Successfully fetched 3 reviews
+2025-03-07 21:43:05,833 - GoogleMaps - INFO - Successfully scraped place data - url: https://www.google.com/maps/place/Aster+Clinic,+Al+Quoz+-+Al+Khail+Mall/@25.1450388,55.2436334,15z/data=!4m10!1m2!2m1!1sclinics!3m6!1s0x3e5f695bfbadf613:0xb5b4454e33e87312!8m2!3d25.1491849!4d55.2462495!15sCgdjbGluaWNzWgkiB2NsaW5pY3OSAQ5tZWRpY2FsX2NlbnRlcuABAA!16s%2Fg%2F11byp83rwz?entry=ttu&g_ep=EgoyMDI1MDMwNC4wIKXMDSoASAFQAw%3D%3D - data: {'title': 'Aster Clinic, Al Quoz - Al Khail Mall', 'category': 'Medical Center'}
+2025-03-07 21:43:05,833 - GoogleMaps - INFO - URLS:[0/3]-LIST:[2/122]-DONE:[1]
+2025-03-07 21:43:05,919 - GoogleMaps - INFO - Processing place - Title: Syed Sadiq Clinic, Address: Latifa Bint Hamdan St - url: https://www.google.com/maps/search/clinics/@25.1450395,55.2436334,15z/data=!3m1!4b1 - data: {'title': 'Syed Sadiq Clinic', 'address': 'Latifa Bint Hamdan St'}
+2025-03-07 21:43:06,100 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:43:06,815 - GoogleMaps - INFO - Fetching 54 reviews
+2025-03-07 21:43:06,819 - GoogleMaps - WARNING - Retrying to click reviews tab for the 0 time
+2025-03-07 21:43:07,101 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:43:07,333 - GoogleMaps - WARNING - Retrying to click reviews tab for the 1 time
+2025-03-07 21:43:07,845 - GoogleMaps - WARNING - Retrying to click reviews tab for the 2 time
+2025-03-07 21:43:08,102 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:43:08,373 - GoogleMaps - WARNING - Retrying to click reviews tab for the 3 time
+2025-03-07 21:43:09,103 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:43:10,105 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:43:11,011 - GoogleMaps - WARNING - Browser session error while get_data_from_place for the 0 time - url: https://www.google.com/maps/search/clinics/@25.1450395,55.2436334,15z/data=!3m1!4b1
+2025-03-07 21:43:11,012 - GoogleMaps - ERROR - Browser session error while scrap_data_from_search_url - url: https://www.google.com/maps/search/clinics/@25.1450395,55.2436334,15z/data=!3m1!4b1
+Traceback (most recent call last):
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/google_maps_scraper.py", line 1030, in get_data_from_place
+    reviews = self.get_place_reviews(number_of_reviews)
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/google_maps_scraper.py", line 870, in get_place_reviews
+    self.sort_reviews_by_time()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/google_maps_scraper.py", line 699, in sort_reviews_by_time
+    reviews_sort_button = self.driver.find_element(
+        by=By.CSS_SELECTOR, value=reviews_sort_button_css_selector
+    )
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/selenium/webdriver/remote/webdriver.py", line 898, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/selenium/webdriver/remote/webdriver.py", line 429, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/selenium/webdriver/remote/errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[tabindex='-1'] [role='main'][aria-label] [data-value='Sort']"}
+  (Session info: chrome=134.0.6998.45); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   undetected_chromedriver             0x000000010340d922 undetected_chromedriver + 5843234
+1   undetected_chromedriver             0x00000001034055ea undetected_chromedriver + 5809642
+2   undetected_chromedriver             0x0000000102ee1dfe undetected_chromedriver + 421374
+3   undetected_chromedriver             0x0000000102f35b69 undetected_chromedriver + 764777
+4   undetected_chromedriver             0x0000000102f35f51 undetected_chromedriver + 765777
+5   undetected_chromedriver             0x0000000102f85664 undetected_chromedriver + 1091172
+6   undetected_chromedriver             0x0000000102f5cc0d undetected_chromedriver + 924685
+7   undetected_chromedriver             0x0000000102f8263a undetected_chromedriver + 1078842
+8   undetected_chromedriver             0x0000000102f5c9b3 undetected_chromedriver + 924083
+9   undetected_chromedriver             0x0000000102f26ec3 undetected_chromedriver + 704195
+10  undetected_chromedriver             0x0000000102f27da1 undetected_chromedriver + 708001
+11  undetected_chromedriver             0x00000001033d5d40 undetected_chromedriver + 5614912
+12  undetected_chromedriver             0x00000001033d8773 undetected_chromedriver + 5625715
+13  undetected_chromedriver             0x00000001033d82eb undetected_chromedriver + 5624555
+14  undetected_chromedriver             0x00000001033d8bd5 undetected_chromedriver + 5626837
+15  undetected_chromedriver             0x00000001033bacef undetected_chromedriver + 5504239
+16  undetected_chromedriver             0x00000001033d8ebc undetected_chromedriver + 5627580
+17  undetected_chromedriver             0x00000001033ab8f4 undetected_chromedriver + 5441780
+18  undetected_chromedriver             0x00000001033f54f8 undetected_chromedriver + 5743864
+19  undetected_chromedriver             0x00000001033f56be undetected_chromedriver + 5744318
+20  undetected_chromedriver             0x00000001034051b8 undetected_chromedriver + 5808568
+21  libsystem_pthread.dylib             0x00007ff813cb018b _pthread_start + 99
+22  libsystem_pthread.dylib             0x00007ff813cabae3 thread_start + 15
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/google_maps_scraper.py", line 261, in scrap_data_from_search_url
+    self.get_data_from_place(place_div=place_div)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/google_maps_scraper.py", line 1064, in get_data_from_place
+    raise InvalidSessionIdException
+selenium.common.exceptions.InvalidSessionIdException: Message: None
+
+2025-03-07 21:43:11,105 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:43:12,106 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:43:13,108 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:43:14,110 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:43:15,111 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:43:16,113 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:43:17,113 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:43:18,115 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:43:19,116 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:43:20,119 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:43:21,121 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:43:22,122 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:43:23,124 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:43:24,125 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:43:25,127 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:43:26,129 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:43:27,130 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:43:28,131 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:43:29,132 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:43:30,134 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:43:31,136 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:43:32,137 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:43:33,138 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:43:34,140 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:43:35,142 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:43:36,143 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:43:37,144 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:43:38,145 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:43:39,147 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:43:40,149 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:43:40,349 - google_maps_scraper - ERROR - Browser window error for driver 1 - url: https://www.google.com/maps/search/clinics/@25.2908331,55.4165929,16z/data=!3m1!4b1
+Traceback (most recent call last):
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/google_maps_scraper.py", line 316, in scroll_all_places_in_list
+    if WebDriverWait(self.driver, 0.1).until(
+       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        EC.presence_of_element_located(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+        )
+        ^
+    ):
+    ^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/selenium/webdriver/support/wait.py", line 146, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+0   undetected_chromedriver             0x0000000104c43922 undetected_chromedriver + 5843234
+1   undetected_chromedriver             0x0000000104c3b5ea undetected_chromedriver + 5809642
+2   undetected_chromedriver             0x0000000104717dfe undetected_chromedriver + 421374
+3   undetected_chromedriver             0x000000010476bb69 undetected_chromedriver + 764777
+4   undetected_chromedriver             0x000000010476bf51 undetected_chromedriver + 765777
+5   undetected_chromedriver             0x00000001047bb664 undetected_chromedriver + 1091172
+6   undetected_chromedriver             0x0000000104792c0d undetected_chromedriver + 924685
+7   undetected_chromedriver             0x00000001047b863a undetected_chromedriver + 1078842
+8   undetected_chromedriver             0x00000001047929b3 undetected_chromedriver + 924083
+9   undetected_chromedriver             0x000000010475cec3 undetected_chromedriver + 704195
+10  undetected_chromedriver             0x000000010475dda1 undetected_chromedriver + 708001
+11  undetected_chromedriver             0x0000000104c0bd40 undetected_chromedriver + 5614912
+12  undetected_chromedriver             0x0000000104c0e773 undetected_chromedriver + 5625715
+13  undetected_chromedriver             0x0000000104c0e2eb undetected_chromedriver + 5624555
+14  undetected_chromedriver             0x0000000104c0ebd5 undetected_chromedriver + 5626837
+15  undetected_chromedriver             0x0000000104bf0cef undetected_chromedriver + 5504239
+16  undetected_chromedriver             0x0000000104c0eebc undetected_chromedriver + 5627580
+17  undetected_chromedriver             0x0000000104be18f4 undetected_chromedriver + 5441780
+18  undetected_chromedriver             0x0000000104c2b4f8 undetected_chromedriver + 5743864
+19  undetected_chromedriver             0x0000000104c2b6be undetected_chromedriver + 5744318
+20  undetected_chromedriver             0x0000000104c3b1b8 undetected_chromedriver + 5808568
+21  libsystem_pthread.dylib             0x00007ff813cb018b _pthread_start + 99
+22  libsystem_pthread.dylib             0x00007ff813cabae3 thread_start + 15
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/google_maps_scraper.py", line 250, in scrap_data_from_search_url
+    result = self.scroll_all_places_in_list()
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/google_maps_scraper.py", line 336, in scroll_all_places_in_list
+    current_height = self.driver.execute_script(
+        "return arguments[0].scrollHeight", places_list
+    )
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/selenium/webdriver/remote/webdriver.py", line 528, in execute_script
+    return self.execute(command, {"script": script, "args": converted_args})["value"]
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/selenium/webdriver/remote/webdriver.py", line 429, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/selenium/webdriver/remote/errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: stale element not found
+  (Session info: chrome=134.0.6998.45); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+0   undetected_chromedriver             0x0000000104c43922 undetected_chromedriver + 5843234
+1   undetected_chromedriver             0x0000000104c3b5ea undetected_chromedriver + 5809642
+2   undetected_chromedriver             0x0000000104717dfe undetected_chromedriver + 421374
+3   undetected_chromedriver             0x000000010472c0ef undetected_chromedriver + 504047
+4   undetected_chromedriver             0x000000010472ae19 undetected_chromedriver + 499225
+5   undetected_chromedriver             0x000000010471fb2c undetected_chromedriver + 453420
+6   undetected_chromedriver             0x000000010471fc5c undetected_chromedriver + 453724
+7   undetected_chromedriver             0x000000010471dc49 undetected_chromedriver + 445513
+8   undetected_chromedriver             0x0000000104721d4c undetected_chromedriver + 462156
+9   undetected_chromedriver             0x00000001047b9775 undetected_chromedriver + 1083253
+10  undetected_chromedriver             0x0000000104792be2 undetected_chromedriver + 924642
+11  undetected_chromedriver             0x00000001047b863a undetected_chromedriver + 1078842
+12  undetected_chromedriver             0x00000001047929b3 undetected_chromedriver + 924083
+13  undetected_chromedriver             0x000000010475cec3 undetected_chromedriver + 704195
+14  undetected_chromedriver             0x000000010475dda1 undetected_chromedriver + 708001
+15  undetected_chromedriver             0x0000000104c0bd40 undetected_chromedriver + 5614912
+16  undetected_chromedriver             0x0000000104c0e773 undetected_chromedriver + 5625715
+17  undetected_chromedriver             0x0000000104c0e2eb undetected_chromedriver + 5624555
+18  undetected_chromedriver             0x0000000104c0ebd5 undetected_chromedriver + 5626837
+19  undetected_chromedriver             0x0000000104bf0cef undetected_chromedriver + 5504239
+20  undetected_chromedriver             0x0000000104c0eebc undetected_chromedriver + 5627580
+21  undetected_chromedriver             0x0000000104be18f4 undetected_chromedriver + 5441780
+22  undetected_chromedriver             0x0000000104c2b4f8 undetected_chromedriver + 5743864
+23  undetected_chromedriver             0x0000000104c2b6be undetected_chromedriver + 5744318
+24  undetected_chromedriver             0x0000000104c3b1b8 undetected_chromedriver + 5808568
+25  libsystem_pthread.dylib             0x00007ff813cb018b _pthread_start + 99
+26  libsystem_pthread.dylib             0x00007ff813cabae3 thread_start + 15
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/google_maps_scraper.py", line 1176, in task_complete
+    future.result()  # This will re-raise any exception that occurred during the task execution.
+    ~~~~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ~~~~~~~~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/concurrent/futures/thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/google_maps_scraper.py", line 271, in scrap_data_from_search_url
+    raise NoSuchWindowException
+selenium.common.exceptions.NoSuchWindowException: Message: None
+
+2025-03-07 21:43:41,150 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:43:42,151 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:43:43,151 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:43:44,153 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:43:45,154 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:43:46,155 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:43:47,156 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:43:48,158 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:43:49,159 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:43:50,160 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:43:51,161 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:43:52,161 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:43:53,163 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:43:54,164 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:43:55,165 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:43:56,167 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:43:57,170 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:43:58,171 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:43:59,172 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:44:00,173 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:44:01,174 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:44:02,175 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:44:03,177 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:44:04,179 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:44:05,181 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:44:06,184 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:44:07,185 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:44:08,186 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:44:09,188 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:44:10,189 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:44:11,189 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:44:12,190 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:44:13,192 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:44:14,193 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:44:15,194 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:44:16,195 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:44:17,196 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:44:18,197 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:44:19,198 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:44:20,199 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:44:21,200 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:44:22,202 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:44:23,203 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:44:24,205 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:44:25,205 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:44:26,207 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:44:27,208 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:44:28,209 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:44:28,947 - google_maps_scraper - ERROR - Browser window error for driver 3 - url: https://www.google.com/maps/search/clinics/@25.2908331,55.4165928,16z/data=!3m1!4b1
+Traceback (most recent call last):
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/google_maps_scraper.py", line 1030, in get_data_from_place
+    reviews = self.get_place_reviews(number_of_reviews)
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/google_maps_scraper.py", line 870, in get_place_reviews
+    self.sort_reviews_by_time()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/google_maps_scraper.py", line 713, in sort_reviews_by_time
+    reviews_newest_sort_option = self.driver.find_element(
+        by=By.CSS_SELECTOR, value=reviews_newest_sort_option_css_selector
+    )
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/selenium/webdriver/remote/webdriver.py", line 898, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/selenium/webdriver/remote/webdriver.py", line 429, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/selenium/webdriver/remote/errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[role='menuitemradio'][data-index='1']"}
+  (Session info: chrome=134.0.6998.45); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   undetected_chromedriver             0x000000010269c922 undetected_chromedriver + 5843234
+1   undetected_chromedriver             0x00000001026945ea undetected_chromedriver + 5809642
+2   undetected_chromedriver             0x0000000102170dfe undetected_chromedriver + 421374
+3   undetected_chromedriver             0x00000001021c4b69 undetected_chromedriver + 764777
+4   undetected_chromedriver             0x00000001021c4f51 undetected_chromedriver + 765777
+5   undetected_chromedriver             0x0000000102214664 undetected_chromedriver + 1091172
+6   undetected_chromedriver             0x00000001021ebc0d undetected_chromedriver + 924685
+7   undetected_chromedriver             0x000000010221163a undetected_chromedriver + 1078842
+8   undetected_chromedriver             0x00000001021eb9b3 undetected_chromedriver + 924083
+9   undetected_chromedriver             0x00000001021b5ec3 undetected_chromedriver + 704195
+10  undetected_chromedriver             0x00000001021b6da1 undetected_chromedriver + 708001
+11  undetected_chromedriver             0x0000000102664d40 undetected_chromedriver + 5614912
+12  undetected_chromedriver             0x0000000102667773 undetected_chromedriver + 5625715
+13  undetected_chromedriver             0x00000001026672eb undetected_chromedriver + 5624555
+14  undetected_chromedriver             0x0000000102667bd5 undetected_chromedriver + 5626837
+15  undetected_chromedriver             0x0000000102649cef undetected_chromedriver + 5504239
+16  undetected_chromedriver             0x0000000102667ebc undetected_chromedriver + 5627580
+17  undetected_chromedriver             0x000000010263a8f4 undetected_chromedriver + 5441780
+18  undetected_chromedriver             0x00000001026844f8 undetected_chromedriver + 5743864
+19  undetected_chromedriver             0x00000001026846be undetected_chromedriver + 5744318
+20  undetected_chromedriver             0x00000001026941b8 undetected_chromedriver + 5808568
+21  libsystem_pthread.dylib             0x00007ff813cb018b _pthread_start + 99
+22  libsystem_pthread.dylib             0x00007ff813cabae3 thread_start + 15
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/google_maps_scraper.py", line 261, in scrap_data_from_search_url
+    self.get_data_from_place(place_div=place_div)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/google_maps_scraper.py", line 1064, in get_data_from_place
+    raise InvalidSessionIdException
+selenium.common.exceptions.InvalidSessionIdException: Message: None
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/google_maps_scraper.py", line 1176, in task_complete
+    future.result()  # This will re-raise any exception that occurred during the task execution.
+    ~~~~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ~~~~~~~~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/concurrent/futures/thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/google_maps_scraper.py", line 271, in scrap_data_from_search_url
+    raise NoSuchWindowException
+selenium.common.exceptions.NoSuchWindowException: Message: None
+
+2025-03-07 21:44:29,211 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:44:30,212 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:44:31,213 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:44:32,214 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:44:33,215 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:44:34,216 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:44:35,217 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:44:36,218 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:44:37,220 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:44:38,222 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:44:39,223 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:44:40,225 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:44:41,225 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:44:41,575 - GoogleMaps - INFO - All places divs: 122
+2025-03-07 21:44:41,575 - GoogleMaps - INFO - URLS:[0/3]-LIST:[1/122]-DONE:[1]
+2025-03-07 21:44:41,677 - GoogleMaps - INFO - Skipping duplicate place - Title: Royal Phoenix Clinic Wasl Village, Address: wasl village Retail Center - url: https://www.google.com/maps/search/clinics/@25.2908331,55.4165929,16z/data=!3m1!4b1 - data: {'title': 'Royal Phoenix Clinic Wasl Village', 'address': 'wasl village Retail Center'}
+2025-03-07 21:44:41,732 - GoogleMaps - INFO - URLS:[0/3]-LIST:[2/122]-DONE:[1]
+2025-03-07 21:44:41,754 - GoogleMaps - INFO - Skipping duplicate place - Title: Best Health Medical Center (Poly Clinic), Address: 42nd St - url: https://www.google.com/maps/search/clinics/@25.2908331,55.4165929,16z/data=!3m1!4b1 - data: {'title': 'Best Health Medical Center (Poly Clinic)', 'address': '42nd St'}
+2025-03-07 21:44:41,808 - GoogleMaps - INFO - URLS:[0/3]-LIST:[3/122]-DONE:[1]
+2025-03-07 21:44:41,832 - GoogleMaps - INFO - Processing place - Title: ARIN CARE Clinic & Pharmacy, Address: Shop # 5 Talal Plaza Mall - url: https://www.google.com/maps/search/clinics/@25.2908331,55.4165929,16z/data=!3m1!4b1 - data: {'title': 'ARIN CARE Clinic & Pharmacy', 'address': 'Shop # 5 Talal Plaza Mall'}
+2025-03-07 21:44:42,226 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:44:43,227 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:44:43,416 - GoogleMaps - INFO - Fetching 166 reviews
+2025-03-07 21:44:44,229 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:44:45,230 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:44:46,232 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:44:47,233 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:44:48,234 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:44:49,235 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:44:50,236 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:44:51,018 - google_maps_scraper - ERROR - Browser window error for driver 2 - url: https://www.google.com/maps/search/clinics/@25.1450395,55.2436334,15z/data=!3m1!4b1
+Traceback (most recent call last):
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/google_maps_scraper.py", line 1030, in get_data_from_place
+    reviews = self.get_place_reviews(number_of_reviews)
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/google_maps_scraper.py", line 870, in get_place_reviews
+    self.sort_reviews_by_time()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/google_maps_scraper.py", line 699, in sort_reviews_by_time
+    reviews_sort_button = self.driver.find_element(
+        by=By.CSS_SELECTOR, value=reviews_sort_button_css_selector
+    )
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/selenium/webdriver/remote/webdriver.py", line 898, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/selenium/webdriver/remote/webdriver.py", line 429, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/selenium/webdriver/remote/errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[tabindex='-1'] [role='main'][aria-label] [data-value='Sort']"}
+  (Session info: chrome=134.0.6998.45); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   undetected_chromedriver             0x000000010340d922 undetected_chromedriver + 5843234
+1   undetected_chromedriver             0x00000001034055ea undetected_chromedriver + 5809642
+2   undetected_chromedriver             0x0000000102ee1dfe undetected_chromedriver + 421374
+3   undetected_chromedriver             0x0000000102f35b69 undetected_chromedriver + 764777
+4   undetected_chromedriver             0x0000000102f35f51 undetected_chromedriver + 765777
+5   undetected_chromedriver             0x0000000102f85664 undetected_chromedriver + 1091172
+6   undetected_chromedriver             0x0000000102f5cc0d undetected_chromedriver + 924685
+7   undetected_chromedriver             0x0000000102f8263a undetected_chromedriver + 1078842
+8   undetected_chromedriver             0x0000000102f5c9b3 undetected_chromedriver + 924083
+9   undetected_chromedriver             0x0000000102f26ec3 undetected_chromedriver + 704195
+10  undetected_chromedriver             0x0000000102f27da1 undetected_chromedriver + 708001
+11  undetected_chromedriver             0x00000001033d5d40 undetected_chromedriver + 5614912
+12  undetected_chromedriver             0x00000001033d8773 undetected_chromedriver + 5625715
+13  undetected_chromedriver             0x00000001033d82eb undetected_chromedriver + 5624555
+14  undetected_chromedriver             0x00000001033d8bd5 undetected_chromedriver + 5626837
+15  undetected_chromedriver             0x00000001033bacef undetected_chromedriver + 5504239
+16  undetected_chromedriver             0x00000001033d8ebc undetected_chromedriver + 5627580
+17  undetected_chromedriver             0x00000001033ab8f4 undetected_chromedriver + 5441780
+18  undetected_chromedriver             0x00000001033f54f8 undetected_chromedriver + 5743864
+19  undetected_chromedriver             0x00000001033f56be undetected_chromedriver + 5744318
+20  undetected_chromedriver             0x00000001034051b8 undetected_chromedriver + 5808568
+21  libsystem_pthread.dylib             0x00007ff813cb018b _pthread_start + 99
+22  libsystem_pthread.dylib             0x00007ff813cabae3 thread_start + 15
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/google_maps_scraper.py", line 261, in scrap_data_from_search_url
+    self.get_data_from_place(place_div=place_div)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/google_maps_scraper.py", line 1064, in get_data_from_place
+    raise InvalidSessionIdException
+selenium.common.exceptions.InvalidSessionIdException: Message: None
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/google_maps_scraper.py", line 1176, in task_complete
+    future.result()  # This will re-raise any exception that occurred during the task execution.
+    ~~~~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ~~~~~~~~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/concurrent/futures/thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/google_maps_scraper.py", line 271, in scrap_data_from_search_url
+    raise NoSuchWindowException
+selenium.common.exceptions.NoSuchWindowException: Message: None
+
+2025-03-07 21:44:51,237 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:44:52,238 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:44:53,239 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:44:54,240 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:44:55,241 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:44:56,243 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:44:57,244 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:44:57,570 - google_maps_scraper - ERROR - Error while restarting driver 2: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')) - url: https://www.google.com/maps/search/clinics/@25.1450395,55.2436334,15z/data=!3m1!4b1
+Traceback (most recent call last):
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/google_maps_scraper.py", line 1030, in get_data_from_place
+    reviews = self.get_place_reviews(number_of_reviews)
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/google_maps_scraper.py", line 870, in get_place_reviews
+    self.sort_reviews_by_time()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/google_maps_scraper.py", line 699, in sort_reviews_by_time
+    reviews_sort_button = self.driver.find_element(
+        by=By.CSS_SELECTOR, value=reviews_sort_button_css_selector
+    )
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/selenium/webdriver/remote/webdriver.py", line 898, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/selenium/webdriver/remote/webdriver.py", line 429, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/selenium/webdriver/remote/errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[tabindex='-1'] [role='main'][aria-label] [data-value='Sort']"}
+  (Session info: chrome=134.0.6998.45); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   undetected_chromedriver             0x000000010340d922 undetected_chromedriver + 5843234
+1   undetected_chromedriver             0x00000001034055ea undetected_chromedriver + 5809642
+2   undetected_chromedriver             0x0000000102ee1dfe undetected_chromedriver + 421374
+3   undetected_chromedriver             0x0000000102f35b69 undetected_chromedriver + 764777
+4   undetected_chromedriver             0x0000000102f35f51 undetected_chromedriver + 765777
+5   undetected_chromedriver             0x0000000102f85664 undetected_chromedriver + 1091172
+6   undetected_chromedriver             0x0000000102f5cc0d undetected_chromedriver + 924685
+7   undetected_chromedriver             0x0000000102f8263a undetected_chromedriver + 1078842
+8   undetected_chromedriver             0x0000000102f5c9b3 undetected_chromedriver + 924083
+9   undetected_chromedriver             0x0000000102f26ec3 undetected_chromedriver + 704195
+10  undetected_chromedriver             0x0000000102f27da1 undetected_chromedriver + 708001
+11  undetected_chromedriver             0x00000001033d5d40 undetected_chromedriver + 5614912
+12  undetected_chromedriver             0x00000001033d8773 undetected_chromedriver + 5625715
+13  undetected_chromedriver             0x00000001033d82eb undetected_chromedriver + 5624555
+14  undetected_chromedriver             0x00000001033d8bd5 undetected_chromedriver + 5626837
+15  undetected_chromedriver             0x00000001033bacef undetected_chromedriver + 5504239
+16  undetected_chromedriver             0x00000001033d8ebc undetected_chromedriver + 5627580
+17  undetected_chromedriver             0x00000001033ab8f4 undetected_chromedriver + 5441780
+18  undetected_chromedriver             0x00000001033f54f8 undetected_chromedriver + 5743864
+19  undetected_chromedriver             0x00000001033f56be undetected_chromedriver + 5744318
+20  undetected_chromedriver             0x00000001034051b8 undetected_chromedriver + 5808568
+21  libsystem_pthread.dylib             0x00007ff813cb018b _pthread_start + 99
+22  libsystem_pthread.dylib             0x00007ff813cabae3 thread_start + 15
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/google_maps_scraper.py", line 261, in scrap_data_from_search_url
+    self.get_data_from_place(place_div=place_div)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/google_maps_scraper.py", line 1064, in get_data_from_place
+    raise InvalidSessionIdException
+selenium.common.exceptions.InvalidSessionIdException: Message: None
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/google_maps_scraper.py", line 1176, in task_complete
+    future.result()  # This will re-raise any exception that occurred during the task execution.
+    ~~~~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ~~~~~~~~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/concurrent/futures/thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/google_maps_scraper.py", line 271, in scrap_data_from_search_url
+    raise NoSuchWindowException
+selenium.common.exceptions.NoSuchWindowException: Message: None
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+        conn,
+    ...<10 lines>...
+        **response_kw,
+    )
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 534, in _make_request
+    response = conn.getresponse()
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/urllib3/connection.py", line 516, in getresponse
+    httplib_response = super().getresponse()
+  File "/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py", line 1428, in getresponse
+    response.begin()
+    ~~~~~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py", line 331, in begin
+    version, status, reason = self._read_status()
+                              ~~~~~~~~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py", line 300, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+                             " response")
+http.client.RemoteDisconnected: Remote end closed connection without response
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/google_maps_scraper.py", line 1188, in task_complete
+    driver = web_driver.get_driver(driver_id)
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/utils/web_driver.py", line 33, in get_driver
+    driver.set_window_size(window_width, window_height)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/selenium/webdriver/remote/webdriver.py", line 1031, in set_window_size
+    self.set_window_rect(width=int(width), height=int(height))
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/selenium/webdriver/remote/webdriver.py", line 1111, in set_window_rect
+    return self.execute(Command.SET_WINDOW_RECT, {"x": x, "y": y, "width": width, "height": height})["value"]
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/selenium/webdriver/remote/webdriver.py", line 427, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/selenium/webdriver/remote/remote_connection.py", line 404, in execute
+    return self._request(command_info[0], url, body=data)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/selenium/webdriver/remote/remote_connection.py", line 428, in _request
+    response = self._conn.request(method, url, body=body, headers=headers, timeout=self._client_config.timeout)
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/urllib3/_request_methods.py", line 143, in request
+    return self.request_encode_body(
+           ~~~~~~~~~~~~~~~~~~~~~~~~^
+        method, url, fields=fields, headers=headers, **urlopen_kw
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/urllib3/_request_methods.py", line 278, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/urllib3/poolmanager.py", line 443, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+        method, url, error=new_e, _pool=self, _stacktrace=sys.exc_info()[2]
+    )
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/urllib3/util/retry.py", line 474, in increment
+    raise reraise(type(error), error, _stacktrace)
+          ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/urllib3/util/util.py", line 38, in reraise
+    raise value.with_traceback(tb)
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+        conn,
+    ...<10 lines>...
+        **response_kw,
+    )
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 534, in _make_request
+    response = conn.getresponse()
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/urllib3/connection.py", line 516, in getresponse
+    httplib_response = super().getresponse()
+  File "/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py", line 1428, in getresponse
+    response.begin()
+    ~~~~~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py", line 331, in begin
+    version, status, reason = self._read_status()
+                              ~~~~~~~~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py", line 300, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+                             " response")
+urllib3.exceptions.ProtocolError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-03-07 21:44:57,907 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] div[data-review-id][jsaction*='review.in']
+2025-03-07 21:44:57,909 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] [tabindex='-1'][jslog*='mutable:true']
+2025-03-07 21:44:57,912 - GoogleMaps - ERROR - Error processing place: HTTPConnectionPool(host='localhost', port=60533): Max retries exceeded with url: /session/289d053b22a3b421da3102d9ad4d4dc9/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x111cec6b0>: Failed to establish a new connection: [Errno 61] Connection refused')) - url: https://www.google.com/maps/search/clinics/@25.2908331,55.4165929,16z/data=!3m1!4b1
+Traceback (most recent call last):
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/urllib3/connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+        (self._dns_host, self.port),
+    ...<2 lines>...
+        socket_options=self.socket_options,
+    )
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/urllib3/util/connection.py", line 85, in create_connection
+    raise err
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/urllib3/util/connection.py", line 73, in create_connection
+    sock.connect(sa)
+    ~~~~~~~~~~~~^^^^
+ConnectionRefusedError: [Errno 61] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+        conn,
+    ...<10 lines>...
+        **response_kw,
+    )
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 493, in _make_request
+    conn.request(
+    ~~~~~~~~~~~~^
+        method,
+        ^^^^^^^
+    ...<6 lines>...
+        enforce_content_length=enforce_content_length,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/urllib3/connection.py", line 445, in request
+    self.endheaders()
+    ~~~~~~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py", line 1331, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py", line 1091, in _send_output
+    self.send(msg)
+    ~~~~~~~~~^^^^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py", line 1035, in send
+    self.connect()
+    ~~~~~~~~~~~~^^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/urllib3/connection.py", line 276, in connect
+    self.sock = self._new_conn()
+                ~~~~~~~~~~~~~~^^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/urllib3/connection.py", line 213, in _new_conn
+    raise NewConnectionError(
+        self, f"Failed to establish a new connection: {e}"
+    ) from e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x111cec6b0>: Failed to establish a new connection: [Errno 61] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/google_maps_scraper.py", line 1030, in get_data_from_place
+    reviews = self.get_place_reviews(number_of_reviews)
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/google_maps_scraper.py", line 871, in get_place_reviews
+    self.scroll_all_reviews(number_of_reviews)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/google_maps_scraper.py", line 794, in scroll_all_reviews
+    reviews_list = self.driver.find_element(
+        by=By.CSS_SELECTOR, value=all_reviews_css_selector
+    )
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/selenium/webdriver/remote/webdriver.py", line 898, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/selenium/webdriver/remote/webdriver.py", line 427, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/selenium/webdriver/remote/remote_connection.py", line 404, in execute
+    return self._request(command_info[0], url, body=data)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/selenium/webdriver/remote/remote_connection.py", line 428, in _request
+    response = self._conn.request(method, url, body=body, headers=headers, timeout=self._client_config.timeout)
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/urllib3/_request_methods.py", line 143, in request
+    return self.request_encode_body(
+           ~~~~~~~~~~~~~~~~~~~~~~~~^
+        method, url, fields=fields, headers=headers, **urlopen_kw
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/urllib3/_request_methods.py", line 278, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/urllib3/poolmanager.py", line 443, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 871, in urlopen
+    return self.urlopen(
+           ~~~~~~~~~~~~^
+        method,
+        ^^^^^^^
+    ...<13 lines>...
+        **response_kw,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 871, in urlopen
+    return self.urlopen(
+           ~~~~~~~~~~~~^
+        method,
+        ^^^^^^^
+    ...<13 lines>...
+        **response_kw,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 871, in urlopen
+    return self.urlopen(
+           ~~~~~~~~~~~~^
+        method,
+        ^^^^^^^
+    ...<13 lines>...
+        **response_kw,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+        method, url, error=new_e, _pool=self, _stacktrace=sys.exc_info()[2]
+    )
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/urllib3/util/retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='localhost', port=60533): Max retries exceeded with url: /session/289d053b22a3b421da3102d9ad4d4dc9/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x111cec6b0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-03-07 21:44:57,965 - GoogleMaps - ERROR - Browser session error while scrap_data_from_search_url - url: https://www.google.com/maps/search/clinics/@25.2908331,55.4165928,16z/data=!3m1!4b1
+Traceback (most recent call last):
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/urllib3/connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+        (self._dns_host, self.port),
+    ...<2 lines>...
+        socket_options=self.socket_options,
+    )
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/urllib3/util/connection.py", line 85, in create_connection
+    raise err
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/urllib3/util/connection.py", line 73, in create_connection
+    sock.connect(sa)
+    ~~~~~~~~~~~~^^^^
+ConnectionRefusedError: [Errno 61] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+        conn,
+    ...<10 lines>...
+        **response_kw,
+    )
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 493, in _make_request
+    conn.request(
+    ~~~~~~~~~~~~^
+        method,
+        ^^^^^^^
+    ...<6 lines>...
+        enforce_content_length=enforce_content_length,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/urllib3/connection.py", line 445, in request
+    self.endheaders()
+    ~~~~~~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py", line 1331, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py", line 1091, in _send_output
+    self.send(msg)
+    ~~~~~~~~~^^^^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py", line 1035, in send
+    self.connect()
+    ~~~~~~~~~~~~^^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/urllib3/connection.py", line 276, in connect
+    self.sock = self._new_conn()
+                ~~~~~~~~~~~~~~^^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/urllib3/connection.py", line 213, in _new_conn
+    raise NewConnectionError(
+        self, f"Failed to establish a new connection: {e}"
+    ) from e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x111cecf30>: Failed to establish a new connection: [Errno 61] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/google_maps_scraper.py", line 316, in scroll_all_places_in_list
+    if WebDriverWait(self.driver, 0.1).until(
+       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        EC.presence_of_element_located(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+        )
+        ^
+    ):
+    ^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/selenium/webdriver/support/wait.py", line 137, in until
+    value = method(self._driver)
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/selenium/webdriver/support/expected_conditions.py", line 110, in _predicate
+    return driver.find_element(*locator)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/selenium/webdriver/remote/webdriver.py", line 898, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/selenium/webdriver/remote/webdriver.py", line 427, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/selenium/webdriver/remote/remote_connection.py", line 404, in execute
+    return self._request(command_info[0], url, body=data)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/selenium/webdriver/remote/remote_connection.py", line 428, in _request
+    response = self._conn.request(method, url, body=body, headers=headers, timeout=self._client_config.timeout)
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/urllib3/_request_methods.py", line 143, in request
+    return self.request_encode_body(
+           ~~~~~~~~~~~~~~~~~~~~~~~~^
+        method, url, fields=fields, headers=headers, **urlopen_kw
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/urllib3/_request_methods.py", line 278, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/urllib3/poolmanager.py", line 443, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 871, in urlopen
+    return self.urlopen(
+           ~~~~~~~~~~~~^
+        method,
+        ^^^^^^^
+    ...<13 lines>...
+        **response_kw,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 871, in urlopen
+    return self.urlopen(
+           ~~~~~~~~~~~~^
+        method,
+        ^^^^^^^
+    ...<13 lines>...
+        **response_kw,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 871, in urlopen
+    return self.urlopen(
+           ~~~~~~~~~~~~^
+        method,
+        ^^^^^^^
+    ...<13 lines>...
+        **response_kw,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+        method, url, error=new_e, _pool=self, _stacktrace=sys.exc_info()[2]
+    )
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/urllib3/util/retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='localhost', port=60851): Max retries exceeded with url: /session/98fd8a87bdd2c8f5ac31ba9398d2b619/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x111cecf30>: Failed to establish a new connection: [Errno 61] Connection refused'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/urllib3/connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+        (self._dns_host, self.port),
+    ...<2 lines>...
+        socket_options=self.socket_options,
+    )
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/urllib3/util/connection.py", line 85, in create_connection
+    raise err
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/urllib3/util/connection.py", line 73, in create_connection
+    sock.connect(sa)
+    ~~~~~~~~~~~~^^^^
+ConnectionRefusedError: [Errno 61] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+        conn,
+    ...<10 lines>...
+        **response_kw,
+    )
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 493, in _make_request
+    conn.request(
+    ~~~~~~~~~~~~^
+        method,
+        ^^^^^^^
+    ...<6 lines>...
+        enforce_content_length=enforce_content_length,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/urllib3/connection.py", line 445, in request
+    self.endheaders()
+    ~~~~~~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py", line 1331, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py", line 1091, in _send_output
+    self.send(msg)
+    ~~~~~~~~~^^^^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py", line 1035, in send
+    self.connect()
+    ~~~~~~~~~~~~^^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/urllib3/connection.py", line 276, in connect
+    self.sock = self._new_conn()
+                ~~~~~~~~~~~~~~^^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/urllib3/connection.py", line 213, in _new_conn
+    raise NewConnectionError(
+        self, f"Failed to establish a new connection: {e}"
+    ) from e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x1105839b0>: Failed to establish a new connection: [Errno 61] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/google_maps_scraper.py", line 250, in scrap_data_from_search_url
+    result = self.scroll_all_places_in_list()
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/google_maps_scraper.py", line 336, in scroll_all_places_in_list
+    current_height = self.driver.execute_script(
+        "return arguments[0].scrollHeight", places_list
+    )
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/selenium/webdriver/remote/webdriver.py", line 528, in execute_script
+    return self.execute(command, {"script": script, "args": converted_args})["value"]
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/selenium/webdriver/remote/webdriver.py", line 427, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/selenium/webdriver/remote/remote_connection.py", line 404, in execute
+    return self._request(command_info[0], url, body=data)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/selenium/webdriver/remote/remote_connection.py", line 428, in _request
+    response = self._conn.request(method, url, body=body, headers=headers, timeout=self._client_config.timeout)
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/urllib3/_request_methods.py", line 143, in request
+    return self.request_encode_body(
+           ~~~~~~~~~~~~~~~~~~~~~~~~^
+        method, url, fields=fields, headers=headers, **urlopen_kw
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/urllib3/_request_methods.py", line 278, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/urllib3/poolmanager.py", line 443, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 871, in urlopen
+    return self.urlopen(
+           ~~~~~~~~~~~~^
+        method,
+        ^^^^^^^
+    ...<13 lines>...
+        **response_kw,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 871, in urlopen
+    return self.urlopen(
+           ~~~~~~~~~~~~^
+        method,
+        ^^^^^^^
+    ...<13 lines>...
+        **response_kw,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 871, in urlopen
+    return self.urlopen(
+           ~~~~~~~~~~~~^
+        method,
+        ^^^^^^^
+    ...<13 lines>...
+        **response_kw,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+        method, url, error=new_e, _pool=self, _stacktrace=sys.exc_info()[2]
+    )
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/urllib3/util/retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='localhost', port=60851): Max retries exceeded with url: /session/98fd8a87bdd2c8f5ac31ba9398d2b619/execute/sync (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1105839b0>: Failed to establish a new connection: [Errno 61] Connection refused'))

@@ -7,11 +7,11 @@ monitor = get_monitors()[0]
 def get_driver(position, screen_width=1920, screen_height=1080):
     options = uc.ChromeOptions()
 
-    if not (os.path.exists("./chrome_profile")):
-        os.mkdir("./chrome_profile")
-        Path("./chrome_profile/First Run").touch()
+    # if not (os.path.exists("./utils/chrome_profile")):
+    #     os.mkdir("./utils/chrome_profile")
+    #     Path("./utils/chrome_profile/First Run").touch()
 
-    options.add_argument("--user-data-dir=./chrome_profile/")
+    # options.add_argument("--user-data-dir=./utils/chrome_profile/")
     
     # Disable automation detection
     options.add_argument("--disable-blink-features=AutomationControlled")
