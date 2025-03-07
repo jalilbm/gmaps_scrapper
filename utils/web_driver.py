@@ -40,9 +40,6 @@ def get_driver(position, screen_width=1920, screen_height=1080):
         "profile.default_content_setting_values.geolocation": 1  # Allow geolocation
     })
     
-    # Exclude automation switches
-    options.add_experimental_option("excludeSwitches", ["enable-automation", "enable-logging"])
-    
     driver = uc.Chrome(options=options)
 
     # Calculate window dimensions - each window should be half the screen

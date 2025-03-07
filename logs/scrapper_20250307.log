@@ -24442,3 +24442,283 @@ selenium.common.exceptions.NoSuchWindowException: Message: None
 2025-03-08 01:23:55,593 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
 2025-03-08 01:23:56,594 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
 2025-03-08 01:23:57,595 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:23:58,596 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:23:59,597 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:24:00,599 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:24:01,600 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:24:02,601 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:24:03,602 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:24:04,603 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:24:05,605 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:24:06,606 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:24:07,607 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:24:08,608 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:24:09,609 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:24:10,610 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:24:11,611 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:24:12,612 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:24:13,613 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:24:14,620 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:24:15,624 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:24:16,628 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:24:17,629 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:24:18,630 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:24:19,631 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:24:20,632 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:24:21,634 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:24:22,635 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:24:23,635 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:24:24,636 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:24:25,637 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:24:26,638 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:24:27,640 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:24:28,642 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:24:29,643 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:24:30,643 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:24:31,645 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:24:32,646 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:24:33,648 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:24:34,648 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:24:35,649 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:24:36,650 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:24:37,651 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:24:38,652 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:24:39,653 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:24:40,655 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:24:41,655 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:24:42,656 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:24:43,657 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:24:44,658 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:24:45,659 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:24:46,660 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:24:47,661 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:24:48,663 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:24:49,664 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:24:50,665 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:24:51,667 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:24:52,668 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:24:53,669 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:24:54,670 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:24:55,671 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:24:56,673 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:24:57,674 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:24:58,675 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:24:59,676 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:25:00,677 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:25:01,679 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:25:02,680 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:25:03,681 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:25:04,682 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:25:05,683 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:25:06,685 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:25:07,686 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:25:08,687 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:25:09,689 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:25:10,691 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:25:11,692 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:25:12,693 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:25:13,695 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:25:14,696 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:25:15,697 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:25:16,698 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:25:17,699 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:25:18,701 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:25:19,702 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:25:20,703 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:25:21,704 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:25:22,706 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:25:23,707 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:25:24,708 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:25:25,709 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:25:26,710 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:25:27,711 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:25:28,712 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:25:29,715 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:25:30,716 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:25:31,717 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:25:32,722 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:25:33,757 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:25:34,762 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:25:35,765 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:25:36,766 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:25:37,767 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:25:38,768 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:25:39,769 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:25:40,770 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:25:41,771 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:25:42,772 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:25:43,774 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:25:44,776 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:25:45,777 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:25:46,015 - google_maps_scraper - ERROR - Browser window error for driver 3 - url: https://www.google.com/maps/search/clinics/@25.2908331,55.4165929,16z/data=!3m1!4b1
+Traceback (most recent call last):
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/google_maps_scraper.py", line 1036, in get_data_from_place
+    "category": category,
+      ^^^^^^^^^^^^^^^^^^^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/google_maps_scraper.py", line 876, in get_place_reviews
+    return None
+            ^^^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/google_maps_scraper.py", line 719, in sort_reviews_by_time
+    try:
+    
+        self.wait_for_css_selector_to_disappear(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+            reviews_newest_sort_option_css_selector, timeout=2
+    
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/selenium/webdriver/remote/webdriver.py", line 898, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/selenium/webdriver/remote/webdriver.py", line 429, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/selenium/webdriver/remote/errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[role='menuitemradio'][data-index='1']"}
+  (Session info: chrome=134.0.6998.45); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   undetected_chromedriver             0x0000000104621922 undetected_chromedriver + 5843234
+1   undetected_chromedriver             0x00000001046195ea undetected_chromedriver + 5809642
+2   undetected_chromedriver             0x00000001040f5dfe undetected_chromedriver + 421374
+3   undetected_chromedriver             0x0000000104149b69 undetected_chromedriver + 764777
+4   undetected_chromedriver             0x0000000104149f51 undetected_chromedriver + 765777
+5   undetected_chromedriver             0x0000000104199664 undetected_chromedriver + 1091172
+6   undetected_chromedriver             0x0000000104170c0d undetected_chromedriver + 924685
+7   undetected_chromedriver             0x000000010419663a undetected_chromedriver + 1078842
+8   undetected_chromedriver             0x00000001041709b3 undetected_chromedriver + 924083
+9   undetected_chromedriver             0x000000010413aec3 undetected_chromedriver + 704195
+10  undetected_chromedriver             0x000000010413bda1 undetected_chromedriver + 708001
+11  undetected_chromedriver             0x00000001045e9d40 undetected_chromedriver + 5614912
+12  undetected_chromedriver             0x00000001045ec773 undetected_chromedriver + 5625715
+13  undetected_chromedriver             0x00000001045ec2eb undetected_chromedriver + 5624555
+14  undetected_chromedriver             0x00000001045ecbd5 undetected_chromedriver + 5626837
+15  undetected_chromedriver             0x00000001045cecef undetected_chromedriver + 5504239
+16  undetected_chromedriver             0x00000001045ecebc undetected_chromedriver + 5627580
+17  undetected_chromedriver             0x00000001045bf8f4 undetected_chromedriver + 5441780
+18  undetected_chromedriver             0x00000001046094f8 undetected_chromedriver + 5743864
+19  undetected_chromedriver             0x00000001046096be undetected_chromedriver + 5744318
+20  undetected_chromedriver             0x00000001046191b8 undetected_chromedriver + 5808568
+21  libsystem_pthread.dylib             0x00007ff813cb018b _pthread_start + 99
+22  libsystem_pthread.dylib             0x00007ff813cabae3 thread_start + 15
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/google_maps_scraper.py", line 267, in scrap_data_from_search_url
+    WebDriverException,
+        ^^^^^^^^^^^^^^^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/google_maps_scraper.py", line 1070, in get_data_from_place
+    time.sleep(0.5)
+    ~~~~~~~~~~^^^^^
+selenium.common.exceptions.InvalidSessionIdException: Message: None
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/google_maps_scraper.py", line 1182, in task_complete
+    if not executor_shutdown:  # only retry if the executor has not been shutdown
+    ^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ~~~~~~~~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/concurrent/futures/thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/google_maps_scraper.py", line 277, in scrap_data_from_search_url
+    def scroll_all_places_in_list(self):
+                ^^^^^^^^^^^^^^^^^^^^^^^^
+selenium.common.exceptions.NoSuchWindowException: Message: None
+
+2025-03-08 01:25:46,778 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:25:47,779 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:25:48,780 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:25:49,782 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:25:50,782 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:25:51,782 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:25:52,784 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:25:53,784 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:25:54,787 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:25:55,788 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:25:56,790 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:25:57,791 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:25:58,792 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:25:59,793 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:26:00,793 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:26:01,794 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:26:02,795 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:26:03,796 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:26:04,797 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:26:05,799 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:26:06,800 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:26:07,801 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:26:08,801 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:26:09,802 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:26:10,803 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:26:11,805 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:26:12,806 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:26:13,807 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:26:14,809 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:26:15,810 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:26:16,811 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:26:17,813 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:26:18,814 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:26:19,815 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:26:20,816 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:26:21,817 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:26:22,819 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:26:23,819 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:26:24,820 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:26:25,821 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:26:26,823 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:26:27,824 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:26:28,825 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:26:29,826 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:26:30,827 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:26:31,828 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:26:32,830 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:26:33,833 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:26:34,834 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:26:35,835 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:26:36,836 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:26:37,837 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:26:38,838 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:26:39,839 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:26:40,841 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:26:41,842 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:26:42,843 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:26:43,843 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:26:44,844 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:26:45,845 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:26:46,846 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:26:47,848 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:26:48,849 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:26:49,850 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:26:50,851 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:26:51,853 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:26:52,854 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:26:53,855 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:26:54,856 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:26:55,858 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:26:56,859 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:26:57,860 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:26:58,862 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:26:59,863 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:27:00,864 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:27:01,866 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:27:02,867 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:27:03,869 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:27:04,870 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:27:05,870 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:27:07,072 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:27:08,084 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:27:09,085 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:27:10,087 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:27:11,087 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:27:12,089 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:27:13,090 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:27:14,091 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:27:15,092 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:27:16,094 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-08 01:27:17,095 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete

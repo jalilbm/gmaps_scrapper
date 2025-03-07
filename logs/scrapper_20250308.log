@@ -1982,3 +1982,311 @@ AttributeError: 'NoneType' object has no attribute 'group'
 2025-03-08 01:23:52,441 - GoogleMaps - INFO - URLS:[0/3]-LIST:[68/122]-DONE:[130]
 2025-03-08 01:23:52,763 - GoogleMaps - INFO - Processing place - Title: Anubhar Medical Centre, Address: Al Owais Building - Al Rigga Road Opposite IBIS Hotel / Above Al Yemen Mandi Restaurant E-202 - url: https://www.google.com/maps/search/clinics/@25.2908331,55.4165928,16z/data=!3m1!4b1 - data: {'title': 'Anubhar Medical Centre', 'address': 'Al Owais Building - Al Rigga Road Opposite IBIS Hotel / Above Al Yemen Mandi Restaurant E-202'}
 2025-03-08 01:23:56,137 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:23:59,300 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:24:02,425 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:24:04,999 - GoogleMaps - WARNING - Timeout waiting for selector: [role='menuitemradio'][data-index='1']
+2025-03-08 01:24:05,529 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:24:06,008 - GoogleMaps - WARNING - Browser session error while get_data_from_place for the 0 time - url: https://www.google.com/maps/search/clinics/@25.2908331,55.4165929,16z/data=!3m1!4b1
+2025-03-08 01:24:06,009 - GoogleMaps - ERROR - Browser session error while scrap_data_from_search_url - url: https://www.google.com/maps/search/clinics/@25.2908331,55.4165929,16z/data=!3m1!4b1
+Traceback (most recent call last):
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/google_maps_scraper.py", line 1036, in get_data_from_place
+    "category": category,
+      ^^^^^^^^^^^^^^^^^^^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/google_maps_scraper.py", line 876, in get_place_reviews
+    return None
+            ^^^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/google_maps_scraper.py", line 719, in sort_reviews_by_time
+    try:
+    
+        self.wait_for_css_selector_to_disappear(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+            reviews_newest_sort_option_css_selector, timeout=2
+    
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/selenium/webdriver/remote/webdriver.py", line 898, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/selenium/webdriver/remote/webdriver.py", line 429, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/selenium/webdriver/remote/errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[role='menuitemradio'][data-index='1']"}
+  (Session info: chrome=134.0.6998.45); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   undetected_chromedriver             0x0000000104621922 undetected_chromedriver + 5843234
+1   undetected_chromedriver             0x00000001046195ea undetected_chromedriver + 5809642
+2   undetected_chromedriver             0x00000001040f5dfe undetected_chromedriver + 421374
+3   undetected_chromedriver             0x0000000104149b69 undetected_chromedriver + 764777
+4   undetected_chromedriver             0x0000000104149f51 undetected_chromedriver + 765777
+5   undetected_chromedriver             0x0000000104199664 undetected_chromedriver + 1091172
+6   undetected_chromedriver             0x0000000104170c0d undetected_chromedriver + 924685
+7   undetected_chromedriver             0x000000010419663a undetected_chromedriver + 1078842
+8   undetected_chromedriver             0x00000001041709b3 undetected_chromedriver + 924083
+9   undetected_chromedriver             0x000000010413aec3 undetected_chromedriver + 704195
+10  undetected_chromedriver             0x000000010413bda1 undetected_chromedriver + 708001
+11  undetected_chromedriver             0x00000001045e9d40 undetected_chromedriver + 5614912
+12  undetected_chromedriver             0x00000001045ec773 undetected_chromedriver + 5625715
+13  undetected_chromedriver             0x00000001045ec2eb undetected_chromedriver + 5624555
+14  undetected_chromedriver             0x00000001045ecbd5 undetected_chromedriver + 5626837
+15  undetected_chromedriver             0x00000001045cecef undetected_chromedriver + 5504239
+16  undetected_chromedriver             0x00000001045ecebc undetected_chromedriver + 5627580
+17  undetected_chromedriver             0x00000001045bf8f4 undetected_chromedriver + 5441780
+18  undetected_chromedriver             0x00000001046094f8 undetected_chromedriver + 5743864
+19  undetected_chromedriver             0x00000001046096be undetected_chromedriver + 5744318
+20  undetected_chromedriver             0x00000001046191b8 undetected_chromedriver + 5808568
+21  libsystem_pthread.dylib             0x00007ff813cb018b _pthread_start + 99
+22  libsystem_pthread.dylib             0x00007ff813cabae3 thread_start + 15
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/google_maps_scraper.py", line 267, in scrap_data_from_search_url
+    WebDriverException,
+        ^^^^^^^^^^^^^^^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/google_maps_scraper.py", line 1070, in get_data_from_place
+    time.sleep(0.5)
+    ~~~~~~~~~~^^^^^
+selenium.common.exceptions.InvalidSessionIdException: Message: None
+
+2025-03-08 01:24:06,425 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] div[data-review-id][jsaction*='review.in']
+2025-03-08 01:24:08,622 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:24:11,741 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:24:14,901 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:24:19,347 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:24:22,548 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:24:24,165 - GoogleMaps - INFO - Fetching 10 reviews
+2025-03-08 01:24:39,234 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] div[data-review-id][jsaction*='review.in']
+2025-03-08 01:24:46,536 - GoogleMaps - INFO - Successfully fetched 10 reviews
+2025-03-08 01:24:46,666 - GoogleMaps - INFO - Successfully scraped place data - url: https://www.google.com/maps/place/Anubhar+Medical+Centre/@25.266168,55.2835018,14z/data=!4m10!1m2!2m1!1sclinics!3m6!1s0x3e5f5cce97f1b6ff:0x7889f0b342893199!8m2!3d25.2645766!4d55.3209671!15sCgdjbGluaWNzWgkiB2NsaW5pY3OSAQ5tZWRpY2FsX2NsaW5pY5oBI0NoWkRTVWhOTUc5blMwVkpRMEZuU1VOSGEyRjJPRk5uRUFF4AEA-gEECAAQLg!16s%2Fg%2F11bbwn58y_?entry=ttu&g_ep=EgoyMDI1MDMwNC4wIKXMDSoASAFQAw%3D%3D - data: {'title': 'Anubhar Medical Centre', 'category': 'Medical clinic'}
+2025-03-08 01:24:46,667 - GoogleMaps - INFO - URLS:[0/3]-LIST:[69/122]-DONE:[131]
+2025-03-08 01:24:46,789 - GoogleMaps - WARNING - Place outside location bounds - Coordinates: 25.3238841,55.3823188, Title: Emirates Hospital Clinic - Sharjah, Address: Al Fardan Center, Al Fardan Centre Sharjah - url: https://www.google.com/maps/search/clinics/@25.2908331,55.4165928,16z/data=!3m1!4b1 - data: {'coordinates': '25.3238841,55.3823188', 'title': 'Emirates Hospital Clinic - Sharjah', 'address': 'Al Fardan Center, Al Fardan Centre Sharjah'}
+2025-03-08 01:24:46,789 - GoogleMaps - INFO - URLS:[0/3]-LIST:[70/122]-DONE:[131]
+2025-03-08 01:24:46,871 - GoogleMaps - INFO - Processing place - Title: Hor Al Anz Medical Clinic, Address: Hor Al Anz Medical Clinic - 46 16th St - url: https://www.google.com/maps/search/clinics/@25.2908331,55.4165928,16z/data=!3m1!4b1 - data: {'title': 'Hor Al Anz Medical Clinic', 'address': 'Hor Al Anz Medical Clinic - 46 16th St'}
+2025-03-08 01:24:48,058 - GoogleMaps - INFO - Successfully fetched 0 reviews
+2025-03-08 01:24:49,392 - GoogleMaps - INFO - Successfully scraped place data - url: https://www.google.com/maps/place/Hor+Al+Anz+Medical+Clinic/@25.266168,55.2835018,14z/data=!4m10!1m2!2m1!1sclinics!3m6!1s0x3e5f5c8e7a155555:0xbecfcd7b2c8dcde6!8m2!3d25.2842582!4d55.3496939!15sCgdjbGluaWNzkgEObWVkaWNhbF9jbGluaWPgAQA!16s%2Fg%2F11sscsdkkn?entry=ttu&g_ep=EgoyMDI1MDMwNC4wIKXMDSoASAFQAw%3D%3D - data: {'title': 'Hor Al Anz Medical Clinic', 'category': 'Medical clinic'}
+2025-03-08 01:24:49,398 - GoogleMaps - INFO - URLS:[0/3]-LIST:[71/122]-DONE:[132]
+2025-03-08 01:24:49,541 - GoogleMaps - INFO - Processing place - Title: Clover Medical Centre(Dental Clinic)-Al Nahda 2-Dubai, Address: Al Ahli house - 304 - 1 Amman St - url: https://www.google.com/maps/search/clinics/@25.2908331,55.4165928,16z/data=!3m1!4b1 - data: {'title': 'Clover Medical Centre(Dental Clinic)-Al Nahda 2-Dubai', 'address': 'Al Ahli house - 304 - 1 Amman St'}
+2025-03-08 01:24:51,209 - GoogleMaps - INFO - Fetching 121 reviews
+2025-03-08 01:25:06,273 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] div[data-review-id][jsaction*='review.in']
+2025-03-08 01:25:50,735 - GoogleMaps - INFO - Successfully fetched 121 reviews
+2025-03-08 01:25:51,013 - GoogleMaps - INFO - Successfully scraped place data - url: https://www.google.com/maps/place/Clover+Medical+Centre(Dental+Clinic)-Al+Nahda+2-Dubai/@25.2842582,55.313645,14z/data=!4m10!1m2!2m1!1sclinics!3m6!1s0x3e5f5c12845997ad:0x9d3f00a98f859fc8!8m2!3d25.2974125!4d55.3827241!15sCgdjbGluaWNzWgkiB2NsaW5pY3OSAQ1kZW50YWxfY2xpbmljmgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5TVVJJYkhCeVVHbDNSUkFC4AEA-gEFCLQBEDw!16s%2Fg%2F11c3x8b_qw?entry=ttu&g_ep=EgoyMDI1MDMwNC4wIKXMDSoASAFQAw%3D%3D - data: {'title': 'Clover Medical Centre(Dental Clinic)-Al Nahda 2-Dubai', 'category': 'Dental clinic'}
+2025-03-08 01:25:51,013 - GoogleMaps - INFO - URLS:[0/3]-LIST:[72/122]-DONE:[133]
+2025-03-08 01:25:51,108 - GoogleMaps - WARNING - Place outside location bounds - Coordinates: 25.293979,55.4428877, Title: BAB AL MUWAILAH DENTAL CLINIC, Address: No outside address - url: https://www.google.com/maps/search/clinics/@25.2908331,55.4165928,16z/data=!3m1!4b1 - data: {'coordinates': '25.293979,55.4428877', 'title': 'BAB AL MUWAILAH DENTAL CLINIC', 'address': 'No outside address'}
+2025-03-08 01:25:51,108 - GoogleMaps - INFO - URLS:[0/3]-LIST:[73/122]-DONE:[133]
+2025-03-08 01:25:51,295 - GoogleMaps - INFO - Processing place - Title: Mamzar Polyclinic, Address: Mezzanine 02, Dar Al Wuheida Bldg، Al Doha Street - url: https://www.google.com/maps/search/clinics/@25.2908331,55.4165928,16z/data=!3m1!4b1 - data: {'title': 'Mamzar Polyclinic', 'address': 'Mezzanine 02, Dar Al Wuheida Bldg، Al Doha Street'}
+2025-03-08 01:25:52,247 - GoogleMaps - INFO - Fetching 5 reviews
+2025-03-08 01:25:52,257 - GoogleMaps - WARNING - Retrying to click reviews tab for the 0 time
+2025-03-08 01:25:52,817 - GoogleMaps - WARNING - Retrying to click reviews tab for the 1 time
+2025-03-08 01:26:07,975 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] div[data-review-id][jsaction*='review.in']
+2025-03-08 01:26:09,650 - GoogleMaps - INFO - Successfully fetched 5 reviews
+2025-03-08 01:26:10,064 - GoogleMaps - INFO - Successfully scraped place data - url: https://www.google.com/maps/place/Mamzar+Polyclinic/@25.2974125,55.3466752,14z/data=!4m10!1m2!2m1!1sclinics!3m6!1s0x3e5f5c8b7906afbd:0x7d4051b2900ce829!8m2!3d25.2818949!4d55.3537441!15sCgdjbGluaWNzkgEObWVkaWNhbF9jbGluaWPgAQA!16s%2Fg%2F1ptxk3926?entry=ttu&g_ep=EgoyMDI1MDMwNC4wIKXMDSoASAFQAw%3D%3D - data: {'title': 'Mamzar Polyclinic', 'category': 'Medical clinic'}
+2025-03-08 01:26:10,065 - GoogleMaps - INFO - URLS:[0/3]-LIST:[74/122]-DONE:[134]
+2025-03-08 01:26:10,127 - GoogleMaps - INFO - Processing place - Title: Yasmin Shifa Dental Clinic, Address: 601 6th Floor, Al Qusais Plaza - Damascus Street - url: https://www.google.com/maps/search/clinics/@25.2908331,55.4165928,16z/data=!3m1!4b1 - data: {'title': 'Yasmin Shifa Dental Clinic', 'address': '601 6th Floor, Al Qusais Plaza - Damascus Street'}
+2025-03-08 01:26:10,995 - GoogleMaps - INFO - Fetching 125 reviews
+2025-03-08 01:26:10,998 - GoogleMaps - WARNING - Retrying to click reviews tab for the 0 time
+2025-03-08 01:26:11,511 - GoogleMaps - WARNING - Retrying to click reviews tab for the 1 time
+2025-03-08 01:26:26,624 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] div[data-review-id][jsaction*='review.in']
+2025-03-08 01:26:41,020 - GoogleMaps - INFO - All places divs: 122
+2025-03-08 01:26:41,021 - GoogleMaps - INFO - URLS:[0/3]-LIST:[1/122]-DONE:[134]
+2025-03-08 01:26:41,133 - GoogleMaps - INFO - Skipping duplicate place - Title: Royal Phoenix Clinic Wasl Village, Address: wasl village Retail Center - url: https://www.google.com/maps/search/clinics/@25.2908331,55.4165929,16z/data=!3m1!4b1 - data: {'title': 'Royal Phoenix Clinic Wasl Village', 'address': 'wasl village Retail Center'}
+2025-03-08 01:26:41,188 - GoogleMaps - INFO - URLS:[0/3]-LIST:[2/122]-DONE:[134]
+2025-03-08 01:26:41,212 - GoogleMaps - INFO - Skipping duplicate place - Title: Best Health Medical Center (Poly Clinic), Address: 42nd St - url: https://www.google.com/maps/search/clinics/@25.2908331,55.4165929,16z/data=!3m1!4b1 - data: {'title': 'Best Health Medical Center (Poly Clinic)', 'address': '42nd St'}
+2025-03-08 01:26:41,268 - GoogleMaps - INFO - URLS:[0/3]-LIST:[3/122]-DONE:[134]
+2025-03-08 01:26:41,288 - GoogleMaps - INFO - Skipping duplicate place - Title: Najmat Alsaqr Clinic LLC, Address: No outside address - url: https://www.google.com/maps/search/clinics/@25.2908331,55.4165929,16z/data=!3m1!4b1 - data: {'title': 'Najmat Alsaqr Clinic LLC', 'address': 'No outside address'}
+2025-03-08 01:26:41,343 - GoogleMaps - INFO - URLS:[0/3]-LIST:[4/122]-DONE:[134]
+2025-03-08 01:26:41,368 - GoogleMaps - INFO - Skipping duplicate place - Title: DOCIB Clinic, Address: Lulu Village - Amman St - url: https://www.google.com/maps/search/clinics/@25.2908331,55.4165929,16z/data=!3m1!4b1 - data: {'title': 'DOCIB Clinic', 'address': 'Lulu Village - Amman St'}
+2025-03-08 01:26:41,423 - GoogleMaps - INFO - URLS:[0/3]-LIST:[5/122]-DONE:[134]
+2025-03-08 01:26:41,449 - GoogleMaps - INFO - Skipping duplicate place - Title: ARIN CARE Clinic & Pharmacy, Address: Shop # 5 Talal Plaza Mall - url: https://www.google.com/maps/search/clinics/@25.2908331,55.4165929,16z/data=!3m1!4b1 - data: {'title': 'ARIN CARE Clinic & Pharmacy', 'address': 'Shop # 5 Talal Plaza Mall'}
+2025-03-08 01:26:41,504 - GoogleMaps - INFO - URLS:[0/3]-LIST:[6/122]-DONE:[134]
+2025-03-08 01:26:41,526 - GoogleMaps - WARNING - Place outside location bounds - Coordinates: 25.2934846,55.4141474, Title: Parisa Medical Center, Address: No outside address - url: https://www.google.com/maps/search/clinics/@25.2908331,55.4165929,16z/data=!3m1!4b1 - data: {'coordinates': '25.2934846,55.4141474', 'title': 'Parisa Medical Center', 'address': 'No outside address'}
+2025-03-08 01:26:41,526 - GoogleMaps - INFO - URLS:[0/3]-LIST:[7/122]-DONE:[134]
+2025-03-08 01:26:41,549 - GoogleMaps - INFO - Skipping duplicate place - Title: Aster Clinic, Muhaisnah 4, Address: Zara Residence 1, Behind St Mary School - url: https://www.google.com/maps/search/clinics/@25.2908331,55.4165929,16z/data=!3m1!4b1 - data: {'title': 'Aster Clinic, Muhaisnah 4', 'address': 'Zara Residence 1, Behind St Mary School'}
+2025-03-08 01:26:41,603 - GoogleMaps - INFO - URLS:[0/3]-LIST:[8/122]-DONE:[134]
+2025-03-08 01:26:41,626 - GoogleMaps - INFO - Skipping duplicate place - Title: Right Health New Sanaiya Clinic LLC (Sonapur branch), Address: Sonapur - near Azhar Al Madina supermarket - url: https://www.google.com/maps/search/clinics/@25.2908331,55.4165929,16z/data=!3m1!4b1 - data: {'title': 'Right Health New Sanaiya Clinic LLC (Sonapur branch)', 'address': 'Sonapur - near Azhar Al Madina supermarket'}
+2025-03-08 01:26:41,677 - GoogleMaps - INFO - URLS:[0/3]-LIST:[9/122]-DONE:[134]
+2025-03-08 01:26:41,702 - GoogleMaps - INFO - Skipping duplicate place - Title: Cornish Arabian Aesthetic Clinic, Address: 79MX+28R madina mall - url: https://www.google.com/maps/search/clinics/@25.2908331,55.4165929,16z/data=!3m1!4b1 - data: {'title': 'Cornish Arabian Aesthetic Clinic', 'address': '79MX+28R madina mall'}
+2025-03-08 01:26:41,758 - GoogleMaps - INFO - URLS:[0/3]-LIST:[10/122]-DONE:[134]
+2025-03-08 01:26:41,783 - GoogleMaps - INFO - Skipping duplicate place - Title: Mediclinic Al Qusais, Address: Dubai Residential Oasis - 4, Ground Floor - Damascus Street - url: https://www.google.com/maps/search/clinics/@25.2908331,55.4165929,16z/data=!3m1!4b1 - data: {'title': 'Mediclinic Al Qusais', 'address': 'Dubai Residential Oasis - 4, Ground Floor - Damascus Street'}
+2025-03-08 01:26:41,838 - GoogleMaps - INFO - URLS:[0/3]-LIST:[11/122]-DONE:[134]
+2025-03-08 01:26:41,865 - GoogleMaps - INFO - Skipping duplicate place - Title: LIFE GP Clinic - Al Qusais, Address: Al Huraiz Building - Damascus Street - url: https://www.google.com/maps/search/clinics/@25.2908331,55.4165929,16z/data=!3m1!4b1 - data: {'title': 'LIFE GP Clinic - Al Qusais', 'address': 'Al Huraiz Building - Damascus Street'}
+2025-03-08 01:26:41,920 - GoogleMaps - INFO - URLS:[0/3]-LIST:[12/122]-DONE:[134]
+2025-03-08 01:26:41,945 - GoogleMaps - WARNING - Place outside location bounds - Coordinates: 25.2958875,55.4231961, Title: Al Furqan Medical Centre LLC, Address: No outside address - url: https://www.google.com/maps/search/clinics/@25.2908331,55.4165929,16z/data=!3m1!4b1 - data: {'coordinates': '25.2958875,55.4231961', 'title': 'Al Furqan Medical Centre LLC', 'address': 'No outside address'}
+2025-03-08 01:26:41,945 - GoogleMaps - INFO - URLS:[0/3]-LIST:[13/122]-DONE:[134]
+2025-03-08 01:26:41,968 - GoogleMaps - INFO - Skipping duplicate place - Title: Start Poly Clinic, Address: 79MQ+PJR - url: https://www.google.com/maps/search/clinics/@25.2908331,55.4165929,16z/data=!3m1!4b1 - data: {'title': 'Start Poly Clinic', 'address': '79MQ+PJR'}
+2025-03-08 01:26:42,024 - GoogleMaps - INFO - URLS:[0/3]-LIST:[14/122]-DONE:[134]
+2025-03-08 01:26:42,055 - GoogleMaps - INFO - Skipping duplicate place - Title: Josephs Qusais polyclinic/ Amber Clinic Qusais, Address: 1 32 B St - url: https://www.google.com/maps/search/clinics/@25.2908331,55.4165929,16z/data=!3m1!4b1 - data: {'title': 'Josephs Qusais polyclinic/ Amber Clinic Qusais', 'address': '1 32 B St'}
+2025-03-08 01:26:42,110 - GoogleMaps - INFO - URLS:[0/3]-LIST:[15/122]-DONE:[134]
+2025-03-08 01:26:42,136 - GoogleMaps - INFO - Skipping duplicate place - Title: Vida Clinics Branch, Address: Shop No. 8, 9, 10, Al Madina Mall - url: https://www.google.com/maps/search/clinics/@25.2908331,55.4165929,16z/data=!3m1!4b1 - data: {'title': 'Vida Clinics Branch', 'address': 'Shop No. 8, 9, 10, Al Madina Mall'}
+2025-03-08 01:26:42,191 - GoogleMaps - INFO - URLS:[0/3]-LIST:[16/122]-DONE:[134]
+2025-03-08 01:26:42,217 - GoogleMaps - INFO - Skipping duplicate place - Title: HealthHub Clinic and Pharmacy | 𝐀𝐥 𝐐𝐮𝐬𝐚𝐢𝐬, Address: Manazel Deira - 8th Street - url: https://www.google.com/maps/search/clinics/@25.2908331,55.4165929,16z/data=!3m1!4b1 - data: {'title': 'HealthHub Clinic and Pharmacy | 𝐀𝐥 𝐐𝐮𝐬𝐚𝐢𝐬', 'address': 'Manazel Deira - 8th Street'}
+2025-03-08 01:26:42,272 - GoogleMaps - INFO - URLS:[0/3]-LIST:[17/122]-DONE:[134]
+2025-03-08 01:26:42,296 - GoogleMaps - INFO - Skipping duplicate place - Title: Al Qusais Star Polyclinic, Address: 79MQ+WJ2 - Damascus Road - url: https://www.google.com/maps/search/clinics/@25.2908331,55.4165929,16z/data=!3m1!4b1 - data: {'title': 'Al Qusais Star Polyclinic', 'address': '79MQ+WJ2 - Damascus Road'}
+2025-03-08 01:26:42,351 - GoogleMaps - INFO - URLS:[0/3]-LIST:[18/122]-DONE:[134]
+2025-03-08 01:26:42,374 - GoogleMaps - WARNING - Place outside location bounds - Coordinates: 25.2985988,55.4107666, Title: Al Burj Al Thahbi Medical Center, Address: No outside address - url: https://www.google.com/maps/search/clinics/@25.2908331,55.4165929,16z/data=!3m1!4b1 - data: {'coordinates': '25.2985988,55.4107666', 'title': 'Al Burj Al Thahbi Medical Center', 'address': 'No outside address'}
+2025-03-08 01:26:42,374 - GoogleMaps - INFO - URLS:[0/3]-LIST:[19/122]-DONE:[134]
+2025-03-08 01:26:42,396 - GoogleMaps - WARNING - Place outside location bounds - Coordinates: 25.3217557,55.403292, Title: Dr. Salman clinic, Address: No outside address - url: https://www.google.com/maps/search/clinics/@25.2908331,55.4165929,16z/data=!3m1!4b1 - data: {'coordinates': '25.3217557,55.403292', 'title': 'Dr. Salman clinic', 'address': 'No outside address'}
+2025-03-08 01:26:42,396 - GoogleMaps - INFO - URLS:[0/3]-LIST:[20/122]-DONE:[134]
+2025-03-08 01:26:42,421 - GoogleMaps - INFO - Skipping duplicate place - Title: Life Medical Centre – Al Qusais, Address: Bin Dhaahi Bldg - 225 Damascus Street - url: https://www.google.com/maps/search/clinics/@25.2908331,55.4165929,16z/data=!3m1!4b1 - data: {'title': 'Life Medical Centre – Al Qusais', 'address': 'Bin Dhaahi Bldg - 225 Damascus Street'}
+2025-03-08 01:26:42,472 - GoogleMaps - INFO - URLS:[0/3]-LIST:[21/122]-DONE:[134]
+2025-03-08 01:26:42,499 - GoogleMaps - INFO - Skipping duplicate place - Title: Good Health Polyclinic, Address: Flat No. 101 & 102, Bin Dhahi Building, 1st Floor - Damascus Street - url: https://www.google.com/maps/search/clinics/@25.2908331,55.4165929,16z/data=!3m1!4b1 - data: {'title': 'Good Health Polyclinic', 'address': 'Flat No. 101 & 102, Bin Dhahi Building, 1st Floor - Damascus Street'}
+2025-03-08 01:26:42,554 - GoogleMaps - INFO - URLS:[0/3]-LIST:[22/122]-DONE:[134]
+2025-03-08 01:26:42,577 - GoogleMaps - INFO - Skipping duplicate place - Title: Steps Clinic, Address: No outside address - url: https://www.google.com/maps/search/clinics/@25.2908331,55.4165929,16z/data=!3m1!4b1 - data: {'title': 'Steps Clinic', 'address': 'No outside address'}
+2025-03-08 01:26:42,632 - GoogleMaps - INFO - URLS:[0/3]-LIST:[23/122]-DONE:[134]
+2025-03-08 01:26:42,656 - GoogleMaps - INFO - Skipping duplicate place - Title: Aster Clinic, Al Qusais(Damascus St.), Address: Ground Floor, Shop no. A 10 & 11, Al Fattan Building، Damascus Street,Opposite to Nehal Complex - url: https://www.google.com/maps/search/clinics/@25.2908331,55.4165929,16z/data=!3m1!4b1 - data: {'title': 'Aster Clinic, Al Qusais(Damascus St.)', 'address': 'Ground Floor, Shop no. A 10 & 11, Al Fattan Building، Damascus Street,Opposite to Nehal Complex'}
+2025-03-08 01:26:42,709 - GoogleMaps - INFO - URLS:[0/3]-LIST:[24/122]-DONE:[134]
+2025-03-08 01:26:42,732 - GoogleMaps - INFO - Skipping duplicate place - Title: Abro Clinics, Address: Ahli House C - Office 502 - url: https://www.google.com/maps/search/clinics/@25.2908331,55.4165929,16z/data=!3m1!4b1 - data: {'title': 'Abro Clinics', 'address': 'Ahli House C - Office 502'}
+2025-03-08 01:26:42,786 - GoogleMaps - INFO - URLS:[0/3]-LIST:[25/122]-DONE:[134]
+2025-03-08 01:26:42,837 - GoogleMaps - INFO - Skipping duplicate place - Title: JUPITER AL QUSAIS POLYCLINIC, Address: No. 207 Second Floor, Al Mazoon Bldg, Damascus Road, Al Qusais - url: https://www.google.com/maps/search/clinics/@25.2908331,55.4165929,16z/data=!3m1!4b1 - data: {'title': 'JUPITER AL QUSAIS POLYCLINIC', 'address': 'No. 207 Second Floor, Al Mazoon Bldg, Damascus Road, Al Qusais'}
+2025-03-08 01:26:42,892 - GoogleMaps - INFO - URLS:[0/3]-LIST:[26/122]-DONE:[134]
+2025-03-08 01:26:42,919 - GoogleMaps - WARNING - Place outside location bounds - Coordinates: 25.310503,55.4509954, Title: Aster Clinic, Muwaileh, Address: 8F62+V55 - Bin Tharyem - 8, Muwaileh - BH Street, Mohamed Bin Zayed Road, Muwaileh Near Masjid,New Muwaileh - url: https://www.google.com/maps/search/clinics/@25.2908331,55.4165929,16z/data=!3m1!4b1 - data: {'coordinates': '25.310503,55.4509954', 'title': 'Aster Clinic, Muwaileh', 'address': '8F62+V55 - Bin Tharyem - 8, Muwaileh - BH Street, Mohamed Bin Zayed Road, Muwaileh Near Masjid,New Muwaileh'}
+2025-03-08 01:26:42,919 - GoogleMaps - INFO - URLS:[0/3]-LIST:[27/122]-DONE:[134]
+2025-03-08 01:26:42,946 - GoogleMaps - WARNING - Place outside location bounds - Coordinates: 25.2928513,55.4421564, Title: New Central Poly Clinic, Address: 7CVR+4VV - url: https://www.google.com/maps/search/clinics/@25.2908331,55.4165929,16z/data=!3m1!4b1 - data: {'coordinates': '25.2928513,55.4421564', 'title': 'New Central Poly Clinic', 'address': '7CVR+4VV'}
+2025-03-08 01:26:42,946 - GoogleMaps - INFO - URLS:[0/3]-LIST:[28/122]-DONE:[134]
+2025-03-08 01:26:42,967 - GoogleMaps - WARNING - Place outside location bounds - Coordinates: 25.318422,55.3855137, Title: Indulekha Medical Clinic, Address: No outside address - url: https://www.google.com/maps/search/clinics/@25.2908331,55.4165929,16z/data=!3m1!4b1 - data: {'coordinates': '25.318422,55.3855137', 'title': 'Indulekha Medical Clinic', 'address': 'No outside address'}
+2025-03-08 01:26:42,967 - GoogleMaps - INFO - URLS:[0/3]-LIST:[29/122]-DONE:[134]
+2025-03-08 01:26:42,993 - GoogleMaps - INFO - Skipping duplicate place - Title: Lifenity International Advanced Poly Clinic, Address: Shop No. 2, JMS Building - 19A St - url: https://www.google.com/maps/search/clinics/@25.2908331,55.4165929,16z/data=!3m1!4b1 - data: {'title': 'Lifenity International Advanced Poly Clinic', 'address': 'Shop No. 2, JMS Building - 19A St'}
+2025-03-08 01:26:43,044 - GoogleMaps - INFO - URLS:[0/3]-LIST:[30/122]-DONE:[134]
+2025-03-08 01:26:43,074 - GoogleMaps - INFO - Skipping duplicate place - Title: MED7 NASSER CLINIC L.L.C - عيادة ناصر ذ.م.م, Address: Damascus Street - near Mashreq Pharmacy - url: https://www.google.com/maps/search/clinics/@25.2908331,55.4165929,16z/data=!3m1!4b1 - data: {'title': 'MED7 NASSER CLINIC L.L.C - عيادة ناصر ذ.م.م', 'address': 'Damascus Street - near Mashreq Pharmacy'}
+2025-03-08 01:26:43,128 - GoogleMaps - INFO - URLS:[0/3]-LIST:[31/122]-DONE:[134]
+2025-03-08 01:26:43,157 - GoogleMaps - INFO - Skipping duplicate place - Title: Rals Clinic, Al Qusais, Address: Bin Shabib Mall - Baghdad Street - url: https://www.google.com/maps/search/clinics/@25.2908331,55.4165929,16z/data=!3m1!4b1 - data: {'title': 'Rals Clinic, Al Qusais', 'address': 'Bin Shabib Mall - Baghdad Street'}
+2025-03-08 01:26:43,209 - GoogleMaps - INFO - URLS:[0/3]-LIST:[32/122]-DONE:[134]
+2025-03-08 01:26:43,306 - GoogleMaps - WARNING - Place outside location bounds - Coordinates: 25.3224653,55.404154, Title: Al Barakah Clinic, Address: No outside address - url: https://www.google.com/maps/search/clinics/@25.2908331,55.4165929,16z/data=!3m1!4b1 - data: {'coordinates': '25.3224653,55.404154', 'title': 'Al Barakah Clinic', 'address': 'No outside address'}
+2025-03-08 01:26:43,307 - GoogleMaps - INFO - URLS:[0/3]-LIST:[33/122]-DONE:[134]
+2025-03-08 01:26:43,452 - GoogleMaps - INFO - Skipping duplicate place - Title: Right Health Al Sanaiya Medical Clinic (Sonapur branch), Address: 7th St - near Dubai Municipality camp - url: https://www.google.com/maps/search/clinics/@25.2908331,55.4165929,16z/data=!3m1!4b1 - data: {'title': 'Right Health Al Sanaiya Medical Clinic (Sonapur branch)', 'address': '7th St - near Dubai Municipality camp'}
+2025-03-08 01:26:43,509 - GoogleMaps - INFO - URLS:[0/3]-LIST:[34/122]-DONE:[134]
+2025-03-08 01:26:43,569 - GoogleMaps - INFO - Skipping duplicate place - Title: Abeer Al Noor Polyclinic Qusais, Address: Bu Hussain Building Beside Hayat Al Madina Supermarket, Doha Road Near Ministry of Labour - url: https://www.google.com/maps/search/clinics/@25.2908331,55.4165929,16z/data=!3m1!4b1 - data: {'title': 'Abeer Al Noor Polyclinic Qusais', 'address': 'Bu Hussain Building Beside Hayat Al Madina Supermarket, Doha Road Near Ministry of Labour'}
+2025-03-08 01:26:43,625 - GoogleMaps - INFO - URLS:[0/3]-LIST:[35/122]-DONE:[134]
+2025-03-08 01:26:43,856 - GoogleMaps - INFO - Skipping duplicate place - Title: Doctors For You - Doctor on Call & Doctor at Home and Hotel | Polyclinic in Dubai, Address: Ibis One Central WTC - 1st Floor - Sheikh Zayed Rd - url: https://www.google.com/maps/search/clinics/@25.2908331,55.4165929,16z/data=!3m1!4b1 - data: {'title': 'Doctors For You - Doctor on Call & Doctor at Home and Hotel | Polyclinic in Dubai', 'address': 'Ibis One Central WTC - 1st Floor - Sheikh Zayed Rd'}
+2025-03-08 01:26:43,908 - GoogleMaps - INFO - URLS:[0/3]-LIST:[36/122]-DONE:[134]
+2025-03-08 01:26:44,020 - GoogleMaps - INFO - Skipping duplicate place - Title: Aster Clinic, Al Qusais, Address: AQU Building, Al Nahda Street, Al Qusais-2, Near DAFZA Metro Stn - D93 - url: https://www.google.com/maps/search/clinics/@25.2908331,55.4165929,16z/data=!3m1!4b1 - data: {'title': 'Aster Clinic, Al Qusais', 'address': 'AQU Building, Al Nahda Street, Al Qusais-2, Near DAFZA Metro Stn - D93'}
+2025-03-08 01:26:44,076 - GoogleMaps - INFO - URLS:[0/3]-LIST:[37/122]-DONE:[134]
+2025-03-08 01:26:44,141 - GoogleMaps - WARNING - Place outside location bounds - Coordinates: 25.3082941,55.3770648, Title: Aster Clinic- Al Nahda Sharjah, Address: Golden Sands Tower - Al Ittihad St - url: https://www.google.com/maps/search/clinics/@25.2908331,55.4165929,16z/data=!3m1!4b1 - data: {'coordinates': '25.3082941,55.3770648', 'title': 'Aster Clinic- Al Nahda Sharjah', 'address': 'Golden Sands Tower - Al Ittihad St'}
+2025-03-08 01:26:44,141 - GoogleMaps - INFO - URLS:[0/3]-LIST:[38/122]-DONE:[134]
+2025-03-08 01:26:44,186 - GoogleMaps - INFO - Skipping duplicate place - Title: Al Sanaiya Clinic 2 Sonapour, Address: 7C76+WWR - 7th St - url: https://www.google.com/maps/search/clinics/@25.2908331,55.4165929,16z/data=!3m1!4b1 - data: {'title': 'Al Sanaiya Clinic 2 Sonapour', 'address': '7C76+WWR - 7th St'}
+2025-03-08 01:26:44,241 - GoogleMaps - INFO - URLS:[0/3]-LIST:[39/122]-DONE:[134]
+2025-03-08 01:26:44,275 - GoogleMaps - WARNING - Place outside location bounds - Coordinates: 25.3339895,55.3922253, Title: Modern clinic ( Al Maher Medical Center), Address: modern clinic building - King Faisal St - url: https://www.google.com/maps/search/clinics/@25.2908331,55.4165929,16z/data=!3m1!4b1 - data: {'coordinates': '25.3339895,55.3922253', 'title': 'Modern clinic ( Al Maher Medical Center)', 'address': 'modern clinic building - King Faisal St'}
+2025-03-08 01:26:44,275 - GoogleMaps - INFO - URLS:[0/3]-LIST:[40/122]-DONE:[134]
+2025-03-08 01:26:44,304 - GoogleMaps - WARNING - Place outside location bounds - Coordinates: 25.3078075,55.4644598, Title: Access Clinic Muwailah, Address: University Road - url: https://www.google.com/maps/search/clinics/@25.2908331,55.4165929,16z/data=!3m1!4b1 - data: {'coordinates': '25.3078075,55.4644598', 'title': 'Access Clinic Muwailah', 'address': 'University Road'}
+2025-03-08 01:26:44,305 - GoogleMaps - INFO - URLS:[0/3]-LIST:[41/122]-DONE:[134]
+2025-03-08 01:26:44,344 - GoogleMaps - INFO - Skipping duplicate place - Title: Access Clinic 1 Sonapur Near Gift City General Trading LLC (Branch), Address: No outside address - url: https://www.google.com/maps/search/clinics/@25.2908331,55.4165929,16z/data=!3m1!4b1 - data: {'title': 'Access Clinic 1 Sonapur Near Gift City General Trading LLC (Branch)', 'address': 'No outside address'}
+2025-03-08 01:26:44,399 - GoogleMaps - INFO - URLS:[0/3]-LIST:[42/122]-DONE:[134]
+2025-03-08 01:26:44,438 - GoogleMaps - WARNING - Place outside location bounds - Coordinates: 25.3012625,55.3730629, Title: Aster Clinic, Nahda Sharjah 1, Address: Al Shaiba - Ground Floor - Al Nahda St - opposite Carrefour Express - url: https://www.google.com/maps/search/clinics/@25.2908331,55.4165929,16z/data=!3m1!4b1 - data: {'coordinates': '25.3012625,55.3730629', 'title': 'Aster Clinic, Nahda Sharjah 1', 'address': 'Al Shaiba - Ground Floor - Al Nahda St - opposite Carrefour Express'}
+2025-03-08 01:26:44,438 - GoogleMaps - INFO - URLS:[0/3]-LIST:[43/122]-DONE:[134]
+2025-03-08 01:26:44,487 - GoogleMaps - WARNING - Place outside location bounds - Coordinates: 25.2927953,55.4421806, Title: AL TAWHEED DENTAL CLINIC, Address: Muwaeilah D Building - Link Rd - url: https://www.google.com/maps/search/clinics/@25.2908331,55.4165929,16z/data=!3m1!4b1 - data: {'coordinates': '25.2927953,55.4421806', 'title': 'AL TAWHEED DENTAL CLINIC', 'address': 'Muwaeilah D Building - Link Rd'}
+2025-03-08 01:26:44,487 - GoogleMaps - INFO - URLS:[0/3]-LIST:[44/122]-DONE:[134]
+2025-03-08 01:26:44,518 - GoogleMaps - INFO - Skipping duplicate place - Title: AL QUSAIS STAR POLY CLINIC BRANCH, Address: No outside address - url: https://www.google.com/maps/search/clinics/@25.2908331,55.4165929,16z/data=!3m1!4b1 - data: {'title': 'AL QUSAIS STAR POLY CLINIC BRANCH', 'address': 'No outside address'}
+2025-03-08 01:26:44,569 - GoogleMaps - INFO - URLS:[0/3]-LIST:[45/122]-DONE:[134]
+2025-03-08 01:26:44,599 - GoogleMaps - WARNING - Place outside location bounds - Coordinates: 25.3460554,55.3920471, Title: Al Afdal Medical Center, Address: King Abdul Aziz - Road - url: https://www.google.com/maps/search/clinics/@25.2908331,55.4165929,16z/data=!3m1!4b1 - data: {'coordinates': '25.3460554,55.3920471', 'title': 'Al Afdal Medical Center', 'address': 'King Abdul Aziz - Road'}
+2025-03-08 01:26:44,599 - GoogleMaps - INFO - URLS:[0/3]-LIST:[46/122]-DONE:[134]
+2025-03-08 01:26:44,645 - GoogleMaps - INFO - Skipping duplicate place - Title: Aster Speciality Clinic Ortho, Address: Al Ahbabi Building - Damascus Road - url: https://www.google.com/maps/search/clinics/@25.2908331,55.4165929,16z/data=!3m1!4b1 - data: {'title': 'Aster Speciality Clinic Ortho', 'address': 'Al Ahbabi Building - Damascus Road'}
+2025-03-08 01:26:44,700 - GoogleMaps - INFO - URLS:[0/3]-LIST:[47/122]-DONE:[134]
+2025-03-08 01:26:44,742 - GoogleMaps - WARNING - Place outside location bounds - Coordinates: 25.294546,55.4421813, Title: Prestige Dental Care Clinic, Address: Muwaileh - Flat 208, 2nd Floor, Fire Station Road, Abudhabi building - url: https://www.google.com/maps/search/clinics/@25.2908331,55.4165929,16z/data=!3m1!4b1 - data: {'coordinates': '25.294546,55.4421813', 'title': 'Prestige Dental Care Clinic', 'address': 'Muwaileh - Flat 208, 2nd Floor, Fire Station Road, Abudhabi building'}
+2025-03-08 01:26:44,742 - GoogleMaps - INFO - URLS:[0/3]-LIST:[48/122]-DONE:[134]
+2025-03-08 01:26:44,781 - GoogleMaps - INFO - Skipping duplicate place - Title: Cosmo Health Medical Center | Dental & Skin Care Clinic| Mirdif, Address: Avenue mall - 2nd floor - url: https://www.google.com/maps/search/clinics/@25.2908331,55.4165929,16z/data=!3m1!4b1 - data: {'title': 'Cosmo Health Medical Center | Dental & Skin Care Clinic| Mirdif', 'address': 'Avenue mall - 2nd floor'}
+2025-03-08 01:26:44,832 - GoogleMaps - INFO - URLS:[0/3]-LIST:[49/122]-DONE:[134]
+2025-03-08 01:26:44,867 - GoogleMaps - INFO - Skipping duplicate place - Title: Clinicare Dr. John Clinic, Address: Al Qusais Al Mozna Building Near Al Nahda Metro Station - url: https://www.google.com/maps/search/clinics/@25.2908331,55.4165929,16z/data=!3m1!4b1 - data: {'title': 'Clinicare Dr. John Clinic', 'address': 'Al Qusais Al Mozna Building Near Al Nahda Metro Station'}
+2025-03-08 01:26:44,918 - GoogleMaps - INFO - URLS:[0/3]-LIST:[50/122]-DONE:[134]
+2025-03-08 01:26:44,945 - GoogleMaps - WARNING - Place outside location bounds - Coordinates: 25.3089643,55.4675242, Title: Modern Clinics - Al Mamsha, Sharjah, Address: SW2 Building - Al Mamsha Souks Community, Muwailah - Unit 004 - 005 - url: https://www.google.com/maps/search/clinics/@25.2908331,55.4165929,16z/data=!3m1!4b1 - data: {'coordinates': '25.3089643,55.4675242', 'title': 'Modern Clinics - Al Mamsha, Sharjah', 'address': 'SW2 Building - Al Mamsha Souks Community, Muwailah - Unit 004 - 005'}
+2025-03-08 01:26:44,945 - GoogleMaps - INFO - URLS:[0/3]-LIST:[51/122]-DONE:[134]
+2025-03-08 01:26:44,966 - GoogleMaps - INFO - Skipping duplicate place - Title: iCare Blue Clinic (An Emirates Healthcare Company), Address: 79J3+RH6 - Al Mamzar Centre - M floor , Dar Al Wuheida building Back Enterance, Near building parking side. Wuheida Street ,Behind - Al Doha St - url: https://www.google.com/maps/search/clinics/@25.2908331,55.4165929,16z/data=!3m1!4b1 - data: {'title': 'iCare Blue Clinic (An Emirates Healthcare Company)', 'address': '79J3+RH6 - Al Mamzar Centre - M floor , Dar Al Wuheida building Back Enterance, Near building parking side. Wuheida Street ,Behind - Al Doha St'}
+2025-03-08 01:26:45,019 - GoogleMaps - INFO - URLS:[0/3]-LIST:[52/122]-DONE:[134]
+2025-03-08 01:26:45,044 - GoogleMaps - INFO - Skipping duplicate place - Title: Mediclinic City Hospital, Address: Bldg 37 - 26th St - url: https://www.google.com/maps/search/clinics/@25.2908331,55.4165929,16z/data=!3m1!4b1 - data: {'title': 'Mediclinic City Hospital', 'address': 'Bldg 37 - 26th St'}
+2025-03-08 01:26:45,095 - GoogleMaps - INFO - URLS:[0/3]-LIST:[53/122]-DONE:[134]
+2025-03-08 01:26:45,121 - GoogleMaps - INFO - Skipping duplicate place - Title: Malabar Dental Clinic | Dubai, Address: UAE Exchange Building - Damascus Street - url: https://www.google.com/maps/search/clinics/@25.2908331,55.4165929,16z/data=!3m1!4b1 - data: {'title': 'Malabar Dental Clinic | Dubai', 'address': 'UAE Exchange Building - Damascus Street'}
+2025-03-08 01:26:45,173 - GoogleMaps - INFO - URLS:[0/3]-LIST:[54/122]-DONE:[134]
+2025-03-08 01:26:45,203 - GoogleMaps - INFO - Skipping duplicate place - Title: Islamabad Medical Clinic LLC, Address: Abu Baker Al Siddique St - url: https://www.google.com/maps/search/clinics/@25.2908331,55.4165929,16z/data=!3m1!4b1 - data: {'title': 'Islamabad Medical Clinic LLC', 'address': 'Abu Baker Al Siddique St'}
+2025-03-08 01:26:45,259 - GoogleMaps - INFO - URLS:[0/3]-LIST:[55/122]-DONE:[134]
+2025-03-08 01:26:45,281 - GoogleMaps - WARNING - Place outside location bounds - Coordinates: 25.3342698,55.3890742, Title: Alamassa Albydaa Clinics, Address: Al Batha Tower - 283 - 10th floor - unit 1002 Corniche St - url: https://www.google.com/maps/search/clinics/@25.2908331,55.4165929,16z/data=!3m1!4b1 - data: {'coordinates': '25.3342698,55.3890742', 'title': 'Alamassa Albydaa Clinics', 'address': 'Al Batha Tower - 283 - 10th floor - unit 1002 Corniche St'}
+2025-03-08 01:26:45,281 - GoogleMaps - INFO - URLS:[0/3]-LIST:[56/122]-DONE:[134]
+2025-03-08 01:26:45,300 - GoogleMaps - INFO - Skipping duplicate place - Title: New Medical Centre for Trading, Address: 78HX+2HX - Street # 24 - url: https://www.google.com/maps/search/clinics/@25.2908331,55.4165929,16z/data=!3m1!4b1 - data: {'title': 'New Medical Centre for Trading', 'address': '78HX+2HX - Street # 24'}
+2025-03-08 01:26:45,355 - GoogleMaps - INFO - URLS:[0/3]-LIST:[57/122]-DONE:[134]
+2025-03-08 01:26:45,379 - GoogleMaps - INFO - Skipping duplicate place - Title: Valiant Clinic and 𝐇𝐨𝐬𝐩𝐢𝐭𝐚𝐥 | 𝟐𝟒/𝟕 𝐔𝐫𝐠𝐞𝐧𝐭 𝐂𝐚𝐫𝐞 𝐃𝐮𝐛𝐚𝐢 𝟐𝟒 𝐇𝐫𝐬 𝐖𝐚𝐥𝐤-𝐢𝐧 𝐜𝐥𝐢𝐧𝐢𝐜 𝐃𝐮𝐛𝐚𝐢, Address: City Walk 13th Street BOX 414296 - url: https://www.google.com/maps/search/clinics/@25.2908331,55.4165929,16z/data=!3m1!4b1 - data: {'title': 'Valiant Clinic and 𝐇𝐨𝐬𝐩𝐢𝐭𝐚𝐥 | 𝟐𝟒/𝟕 𝐔𝐫𝐠𝐞𝐧𝐭 𝐂𝐚𝐫𝐞 𝐃𝐮𝐛𝐚𝐢 𝟐𝟒 𝐇𝐫𝐬 𝐖𝐚𝐥𝐤-𝐢𝐧 𝐜𝐥𝐢𝐧𝐢𝐜 𝐃𝐮𝐛𝐚𝐢', 'address': 'City Walk 13th Street BOX 414296'}
+2025-03-08 01:26:45,431 - GoogleMaps - INFO - URLS:[0/3]-LIST:[58/122]-DONE:[134]
+2025-03-08 01:26:45,454 - GoogleMaps - INFO - Skipping duplicate place - Title: MED7 MEDZE CLINIC L.L.C, Address: ABUBAKR - Abu Baker Al Siddique St - opposite UNITED HYPERMARKET - url: https://www.google.com/maps/search/clinics/@25.2908331,55.4165929,16z/data=!3m1!4b1 - data: {'title': 'MED7 MEDZE CLINIC L.L.C', 'address': 'ABUBAKR - Abu Baker Al Siddique St - opposite UNITED HYPERMARKET'}
+2025-03-08 01:26:45,509 - GoogleMaps - INFO - URLS:[0/3]-LIST:[59/122]-DONE:[134]
+2025-03-08 01:26:45,536 - GoogleMaps - INFO - Skipping duplicate place - Title: Amber Clinics, Al Rigga, Address: 2nd Floor, Rigga Business Centre, Besides IBIS Hotel - Al Rigga Rd - url: https://www.google.com/maps/search/clinics/@25.2908331,55.4165929,16z/data=!3m1!4b1 - data: {'title': 'Amber Clinics, Al Rigga', 'address': '2nd Floor, Rigga Business Centre, Besides IBIS Hotel - Al Rigga Rd'}
+2025-03-08 01:26:45,586 - GoogleMaps - INFO - URLS:[0/3]-LIST:[60/122]-DONE:[134]
+2025-03-08 01:26:45,609 - GoogleMaps - INFO - Skipping duplicate place - Title: NMC Specialty Hospital Al Nahda, Address: NMC Specialty Hospital 7 A St, Al Qusais, Al Nahda 2, Next to Bait AL Khair Building - url: https://www.google.com/maps/search/clinics/@25.2908331,55.4165929,16z/data=!3m1!4b1 - data: {'title': 'NMC Specialty Hospital Al Nahda', 'address': 'NMC Specialty Hospital 7 A St, Al Qusais, Al Nahda 2, Next to Bait AL Khair Building'}
+2025-03-08 01:26:45,660 - GoogleMaps - INFO - URLS:[0/3]-LIST:[61/122]-DONE:[134]
+2025-03-08 01:26:45,683 - GoogleMaps - INFO - Skipping duplicate place - Title: Best health medical center, Address: 169 Naif Rd - url: https://www.google.com/maps/search/clinics/@25.2908331,55.4165929,16z/data=!3m1!4b1 - data: {'title': 'Best health medical center', 'address': '169 Naif Rd'}
+2025-03-08 01:26:45,739 - GoogleMaps - INFO - URLS:[0/3]-LIST:[62/122]-DONE:[134]
+2025-03-08 01:26:45,762 - GoogleMaps - INFO - Skipping duplicate place - Title: Dr Safeenas wellness world | Best Aesthetic Clinic in Dubai, Address: Building No. 3739896789 Damascus Street - near Daily Restaurant Dr Safeenas Women Wellness World LLC - url: https://www.google.com/maps/search/clinics/@25.2908331,55.4165929,16z/data=!3m1!4b1 - data: {'title': 'Dr Safeenas wellness world | Best Aesthetic Clinic in Dubai', 'address': 'Building No. 3739896789 Damascus Street - near Daily Restaurant Dr Safeenas Women Wellness World LLC'}
+2025-03-08 01:26:45,818 - GoogleMaps - INFO - URLS:[0/3]-LIST:[63/122]-DONE:[134]
+2025-03-08 01:26:45,840 - GoogleMaps - INFO - Skipping duplicate place - Title: The Doctors’ Hub, Address: Office no:108, Green Corner Building - 28 - 124 Al Jazeira St - url: https://www.google.com/maps/search/clinics/@25.2908331,55.4165929,16z/data=!3m1!4b1 - data: {'title': 'The Doctors’ Hub', 'address': 'Office no:108, Green Corner Building - 28 - 124 Al Jazeira St'}
+2025-03-08 01:26:45,892 - GoogleMaps - INFO - URLS:[0/3]-LIST:[64/122]-DONE:[134]
+2025-03-08 01:26:45,915 - GoogleMaps - INFO - Skipping duplicate place - Title: Al Hikma Clinic, Address: 787H+FXC - Abu Baker Al Siddique St - url: https://www.google.com/maps/search/clinics/@25.2908331,55.4165929,16z/data=!3m1!4b1 - data: {'title': 'Al Hikma Clinic', 'address': '787H+FXC - Abu Baker Al Siddique St'}
+2025-03-08 01:26:45,970 - GoogleMaps - INFO - URLS:[0/3]-LIST:[65/122]-DONE:[134]
+2025-03-08 01:26:45,991 - GoogleMaps - INFO - Processing place - Title: Mueller Medical Clinic FZ LLC, Address: Al Razi Medical Complex 64 Block E Ground floor Unit 7-2R - url: https://www.google.com/maps/search/clinics/@25.2908331,55.4165929,16z/data=!3m1!4b1 - data: {'title': 'Mueller Medical Clinic FZ LLC', 'address': 'Al Razi Medical Complex 64 Block E Ground floor Unit 7-2R'}
+2025-03-08 01:26:47,312 - GoogleMaps - INFO - Fetching 79 reviews
+2025-03-08 01:26:49,436 - GoogleMaps - INFO - Successfully fetched 125 reviews
+2025-03-08 01:27:00,234 - GoogleMaps - WARNING - Timeout waiting for selector: [role='menuitemradio'][data-index='1']
+2025-03-08 01:27:01,246 - GoogleMaps - WARNING - Browser session error while get_data_from_place for the 0 time - url: https://www.google.com/maps/search/clinics/@25.2908331,55.4165929,16z/data=!3m1!4b1
+2025-03-08 01:27:01,247 - GoogleMaps - ERROR - Browser session error while scrap_data_from_search_url - url: https://www.google.com/maps/search/clinics/@25.2908331,55.4165929,16z/data=!3m1!4b1
+Traceback (most recent call last):
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/google_maps_scraper.py", line 1036, in get_data_from_place
+    "category": category,
+      ^^^^^^^^^^^^^^^^^^^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/google_maps_scraper.py", line 876, in get_place_reviews
+    return None
+            ^^^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/google_maps_scraper.py", line 719, in sort_reviews_by_time
+    try:
+    
+        self.wait_for_css_selector_to_disappear(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+            reviews_newest_sort_option_css_selector, timeout=2
+    
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/selenium/webdriver/remote/webdriver.py", line 898, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/selenium/webdriver/remote/webdriver.py", line 429, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/selenium/webdriver/remote/errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[role='menuitemradio'][data-index='1']"}
+  (Session info: chrome=134.0.6998.45); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   undetected_chromedriver             0x0000000104eb1922 undetected_chromedriver + 5843234
+1   undetected_chromedriver             0x0000000104ea95ea undetected_chromedriver + 5809642
+2   undetected_chromedriver             0x0000000104985dfe undetected_chromedriver + 421374
+3   undetected_chromedriver             0x00000001049d9b69 undetected_chromedriver + 764777
+4   undetected_chromedriver             0x00000001049d9f51 undetected_chromedriver + 765777
+5   undetected_chromedriver             0x0000000104a29664 undetected_chromedriver + 1091172
+6   undetected_chromedriver             0x0000000104a00c0d undetected_chromedriver + 924685
+7   undetected_chromedriver             0x0000000104a2663a undetected_chromedriver + 1078842
+8   undetected_chromedriver             0x0000000104a009b3 undetected_chromedriver + 924083
+9   undetected_chromedriver             0x00000001049caec3 undetected_chromedriver + 704195
+10  undetected_chromedriver             0x00000001049cbda1 undetected_chromedriver + 708001
+11  undetected_chromedriver             0x0000000104e79d40 undetected_chromedriver + 5614912
+12  undetected_chromedriver             0x0000000104e7c773 undetected_chromedriver + 5625715
+13  undetected_chromedriver             0x0000000104e7c2eb undetected_chromedriver + 5624555
+14  undetected_chromedriver             0x0000000104e7cbd5 undetected_chromedriver + 5626837
+15  undetected_chromedriver             0x0000000104e5ecef undetected_chromedriver + 5504239
+16  undetected_chromedriver             0x0000000104e7cebc undetected_chromedriver + 5627580
+17  undetected_chromedriver             0x0000000104e4f8f4 undetected_chromedriver + 5441780
+18  undetected_chromedriver             0x0000000104e994f8 undetected_chromedriver + 5743864
+19  undetected_chromedriver             0x0000000104e996be undetected_chromedriver + 5744318
+20  undetected_chromedriver             0x0000000104ea91b8 undetected_chromedriver + 5808568
+21  libsystem_pthread.dylib             0x00007ff813cb018b _pthread_start + 99
+22  libsystem_pthread.dylib             0x00007ff813cabae3 thread_start + 15
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/google_maps_scraper.py", line 267, in scrap_data_from_search_url
+    WebDriverException,
+        ^^^^^^^^^^^^^^^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/google_maps_scraper.py", line 1070, in get_data_from_place
+    time.sleep(0.5)
+    ~~~~~~~~~~^^^^^
+selenium.common.exceptions.InvalidSessionIdException: Message: None
+
+2025-03-08 01:27:05,856 - GoogleMaps - INFO - Successfully scraped place data - url: https://www.google.com/maps/place/Yasmin+Shifa+Dental+Clinic/@25.2818949,55.3176952,14z/data=!4m10!1m2!2m1!1sclinics!3m6!1s0x3e5f5d4638ca59e3:0x8d874c78381cc429!8m2!3d25.2813604!4d55.3881871!15sCgdjbGluaWNzWgkiB2NsaW5pY3OSAQ1kZW50YWxfY2xpbmljmgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5TVVJ3TTJFemJIWjNSUkFC4AEA-gEFCJ0BEEU!16s%2Fg%2F11g1hkdgp2?entry=ttu&g_ep=EgoyMDI1MDMwNC4wIKXMDSoASAFQAw%3D%3D - data: {'title': 'Yasmin Shifa Dental Clinic', 'category': 'Dental clinic'}
+2025-03-08 01:27:05,858 - GoogleMaps - INFO - URLS:[0/3]-LIST:[75/122]-DONE:[135]
+2025-03-08 01:27:08,255 - GoogleMaps - INFO - Processing place - Title: LIFE GP Clinic - Deira, MURAQABAT, Address: Al Muraqqabat, Building:R471 Unit no:S01A - near masjid - url: https://www.google.com/maps/search/clinics/@25.2908331,55.4165928,16z/data=!3m1!4b1 - data: {'title': 'LIFE GP Clinic - Deira, MURAQABAT', 'address': 'Al Muraqqabat, Building:R471 Unit no:S01A - near masjid'}
+2025-03-08 01:27:09,216 - GoogleMaps - INFO - Fetching 202 reviews
+2025-03-08 01:27:09,220 - GoogleMaps - WARNING - Retrying to click reviews tab for the 0 time
+2025-03-08 01:27:09,729 - GoogleMaps - WARNING - Retrying to click reviews tab for the 1 time
