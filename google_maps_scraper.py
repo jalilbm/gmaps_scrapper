@@ -27,6 +27,7 @@ from threading import Semaphore
 from urllib3.exceptions import MaxRetryError
 from threading import Thread
 from logger.logger import CustomLogger
+import os
 
 # Initialize logger
 logger = CustomLogger("google_maps_scraper").get_logger()
@@ -60,9 +61,58 @@ class GoogleMaps:
     def __init__(self, search_url, driver, selectors):
         self.driver = driver
         self.search_url = search_url
-        selectors = selectors
-        self.retrying_times = 0
-        self.logger = CustomLogger("GoogleMaps").get_logger()
+        self.selectors = selectors  # Store selectors as an instance variable
+        self.logger = logger
+        self.retrying_times = 0  # Initialize retrying_times
+        
+        # Don't load the URL here - we'll do it in get_url method
+        # This prevents timeouts during initialization
+        
+    def handle_cookie_consent(self):
+        """
+        Handle cookie consent banners at the beginning of the scraping process
+        """
+        try:
+            # First try the selector from selectors.json
+            accept_cookies_css_selector = selectors["accept_cookies"]["css_selector"]
+            if self.wait_for_css_selector(accept_cookies_css_selector, timeout=5):
+                self.logger.info("Found cookie consent banner, clicking accept button")
+                self.driver.find_element(
+                    by=By.CSS_SELECTOR, value=accept_cookies_css_selector
+                ).click()
+                time.sleep(1)  # Wait for the banner to disappear
+                return True
+                
+            # Try additional common cookie consent buttons
+            common_cookie_selectors = [
+                "button[aria-label='Accept all']",
+                "button[aria-label='Agree']",
+                "button[aria-label='Accept']",
+                "button[aria-label='I agree']",
+                "button.fc-button-accept",
+                "button.fc-button-primary",
+                ".cookie-consent-accept",
+                "#accept-cookies",
+                "button#onetrust-accept-btn-handler",
+                "button.fc-cta-consent",
+                ".accept-cookies-button",
+                "button[data-testid='cookie-policy-manage-dialog-accept-button']"
+            ]
+            
+            for selector in common_cookie_selectors:
+                try:
+                    if self.wait_for_css_selector(selector, timeout=1):
+                        self.logger.info(f"Found cookie consent button with selector: {selector}")
+                        self.driver.find_element(by=By.CSS_SELECTOR, value=selector).click()
+                        time.sleep(0.5)
+                        return True
+                except Exception:
+                    continue
+                    
+            return False
+        except Exception as e:
+            self.logger.warning(f"Error handling cookie consent: {str(e)}")
+            return False
 
     def wait_for_css_selector(self, css_selector, timeout=10):
         """
@@ -225,7 +275,8 @@ class GoogleMaps:
                     raise TimeoutException
         except TimeoutException:
             return False
-        except Exception:
+        except Exception as e:
+            self.logger.error(f"Error loading URL: {str(e)}")
             return False
         return True
 
@@ -246,7 +297,12 @@ class GoogleMaps:
 
                 # check if the thread is still alive (i.e., it didn't finish within 12 seconds)
                 if get_url.is_alive() or not get_url:
-                    raise WebDriverException("Failed to get url")
+                    raise WebDriverException("Failed to get URL within timeout")
+                
+                # Handle cookies again just to be sure
+                self.handle_cookie_consent()
+                
+                # Scroll through all places in the list
                 result = self.scroll_all_places_in_list()
                 if result == "No list":
                     self.get_data_from_place(one_item=True)
