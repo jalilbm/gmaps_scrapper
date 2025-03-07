@@ -1,0 +1,128 @@
+{
+	"coordinates": {
+		"css_selector": "div[role='menuitemradio'][data-index='0']"
+	},
+	"search_div": {
+		"css_selector": "[id='omnibox-container']"
+	},
+	"map_footer": {
+		"css_selector": "[class*='scene-footer-container']"
+	},
+	"places_list": {
+		"css_selector": "[style='position: relative;'][tabindex='-1'] [tabindex='-1']",
+		"inner_elements": {
+			"stop_paragraph": {
+				"css_selector": "[style='position: relative;'][tabindex='-1'] [tabindex='-1'] [class='fontBodyMedium '] span > span"
+			},
+			"places_divs": {
+				"css_selector": "[style='position: relative;'][tabindex='-1'] [tabindex='-1'][role='feed'] div[jsaction*='mouseover:pane.']",
+				"inner_elements": {
+					"place_details": {
+						"address_from_list": {
+							"css_selector": "div > div > div > div > div > div.fontBodyMedium > div:nth-child(4) > div:nth-child(1) > span:nth-child(3) > span:nth-child(2)"
+						},
+						"coordinate_from_list": {
+							"css_selector": "a[href*='!3d'][href*='!4d']"
+						},
+						"category_from_list": {
+							"css_selector": "div > div > div > div > div > div.fontBodyMedium > div:nth-child(4) > div:nth-child(1) > span:nth-child(1) > span:nth-child(1)"
+						},
+						"title_from_list": {
+							"css_selector": "a:not([data-value])[jsaction]"
+						},
+						"title": {
+							"css_selector": "[tabindex='-1'] [role='main'][aria-label] h1"
+						},
+						"category": {
+							"css_selector": "[tabindex='-1'] [role='main'][aria-label] [jsaction*='category']"
+						},
+						"number_of_reviews": {
+							"css_selector": "[tabindex='-1'] [role='main'][aria-label] [jslog*='mutable:true;'] [aria-label*='review']"
+						},
+						"average_reviews": {
+							"css_selector": "[tabindex='-1'] [role='main'][aria-label] [jslog*='mutable:true;'] span[aria-hidden='true']"
+						},
+						"share_button": {
+							"css_selector": "[tabindex='-1'] [role='main'][aria-label] button[data-value='Share']"
+						},
+						"share_url": {
+							"css_selector": "input[readonly][jsaction*='clickInput']"
+						},
+						"close_share_modal": {
+							"css_selector": "[jsaction='modal.backgroundClick'] [jsaction='modal.close']"
+						},
+						"address": {
+							"css_selector": "[tabindex='-1'] [role='main'][aria-label] [role='region'] [data-tooltip='Copy address'] [class*='fontBodyMedium']"
+						},
+						"phone_number": {
+							"css_selector": "[tabindex='-1'] [role='main'][aria-label] [role='region'] [data-tooltip='Copy phone number'] [class*='fontBodyMedium']"
+						},
+						"website": {
+							"css_selector": "[tabindex='-1'] [role='main'][aria-label] [role='region'] [data-tooltip='Open website'] [class*='fontBodyMedium']"
+						},
+						"plus_code": {
+							"css_selector": "[tabindex='-1'] [role='main'][aria-label] [role='region'] [data-tooltip='Copy plus code'] [class*='fontBodyMedium']"
+						},
+						"working_hours_table": {
+							"css_selector": "[tabindex='-1'] [role='main'][aria-label] [role='region'] [class*='fontBodyMedium'] table"
+						},
+						"more_reviews_button": {
+							"css_selector": "[tabindex='-1'] [role='main'][aria-label] [role='tab'][aria-label*='Reviews for']"
+						},
+						"review_tab_selected": {
+							"css_selector": "[tabindex='-1'] [role='main'][aria-label] [aria-selected='true'][aria-label*='Reviews for']"
+						},
+						"all_reviews": {
+							"css_selector": "[tabindex='-1'] [role='main'][aria-label] [tabindex='-1'][jslog*='mutable:true']"
+						},
+						"reviews_sort_button": {
+							"css_selector": "[tabindex='-1'] [role='main'][aria-label] [data-value='Sort']"
+						},
+						"reviews_newest_sort_option": {
+							"css_selector": "[role='menuitemradio'][data-index='1']"
+						},
+						"end_of_reviews": {
+							"css_selector": "[tabindex='-1'] [role='main'][aria-label] [tabindex='-1'][jslog*='mutable:true'] > div:not([class]) > div"
+						},
+						"review": {
+							"css_selector": "[tabindex='-1'] [role='main'][aria-label] div[data-review-id][jsaction*='review.in']",
+							"inner_elements": {
+								"reviewer": {
+									"inner_elements": {
+										"name": {
+											"css_selector": "[tabindex='-1'] [role='main'][aria-label] div[data-review-id][jsaction*='review.in'] [data-href*='https://www.google.com/maps/contrib/'] div:first-child"
+										},
+										"number_of_reviews": {
+											"css_selector": "[tabindex='-1'] [role='main'][aria-label] div[data-review-id][jsaction*='review.in'] [data-href*='https://www.google.com/maps/contrib/'] div:nth-child(2)"
+										}
+									}
+								},
+								"see_more_button": {
+									"css_selector": "[tabindex='-1'] [role='main'][aria-label] div[data-review-id][jsaction*='review.in'] [aria-label='See more']"
+								},
+								"review_text": {
+									"css_selector": "[tabindex='-1'] [role='main'][aria-label] div[data-review-id][jsaction*='review.in'] [class='MyEned']"
+								},
+								"review_rating": {
+									"css_selector": "[tabindex='-1'] [role='main'][aria-label] div[data-review-id][jsaction*='review.in'] span[aria-label*='star'][role='img']"
+								},
+								"review_time": {
+									"css_selector": "[tabindex='-1'] [role='main'][aria-label] div[data-review-id][jsaction*='review.in'] div[class] > span:nth-child(2)"
+								},
+								"review_number_of_likes": {
+									"css_selector": "[tabindex='-1'] [role='main'][aria-label] div[data-review-id][jsaction*='review.in'] div[class] > span:nth-child(3)"
+								}
+							}
+						},
+						"previous_left_arrows": {
+							"css_selector": "[tabindex='-1'] [role='main'][aria-label] button[aria-label='Back']"
+						},
+						"close": {
+							"css_selector": "[tabindex='-1'] [role='main'][aria-label] button[aria-label='Close']"
+						}
+					}
+				}
+			}
+		}
+	}
+}
