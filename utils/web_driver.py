@@ -1,20 +1,23 @@
 import undetected_chromedriver as uc
 from screeninfo import get_monitors
 import os
-from pathlib import Path
-monitor = get_monitors()[0]
+import time
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+
+try:
+    monitor = get_monitors()[0]
+except Exception:
+    # Default values for headless environments like EC2
+    pass
 
 def get_driver(position, screen_width=1920, screen_height=1080):
     options = uc.ChromeOptions()
-
-    # if not (os.path.exists("./utils/chrome_profile")):
-    #     os.mkdir("./utils/chrome_profile")
-    #     Path("./utils/chrome_profile/First Run").touch()
-
-    # options.add_argument("--user-data-dir=./utils/chrome_profile/")
     
-    # Enable incognito mode
-    options.add_argument("--incognito")
+    # Set a US location to avoid consent pages (may help in some cases)
+    options.add_argument("--lang=en-US")
+    options.add_argument("--country=US")
     
     # Disable automation detection
     options.add_argument("--disable-blink-features=AutomationControlled")
@@ -25,20 +28,6 @@ def get_driver(position, screen_width=1920, screen_height=1080):
     # Prevent pop-ups and infobars
     options.add_argument("--disable-popup-blocking")
     options.add_argument("--disable-infobars")
-    options.add_argument("--disable-notifications")
-    
-    # Additional options to minimize prompts
-    options.add_argument("--no-first-run")
-    options.add_argument("--no-default-browser-check")
-    
-    # Set preferences to block cookie prompts
-    options.add_experimental_option("prefs", {
-        "profile.default_content_setting_values.cookies": 1,  # Allow cookies
-        "profile.default_content_setting_values.notifications": 2,  # Block notifications
-        "profile.default_content_setting_values.popups": 2,  # Block popups
-        "profile.managed_default_content_settings.images": 1,  # Load images
-        "profile.default_content_setting_values.geolocation": 1  # Allow geolocation
-    })
     
     driver = uc.Chrome(options=options)
 
@@ -59,9 +48,12 @@ def get_driver(position, screen_width=1920, screen_height=1080):
     elif position == 4:
         driver.set_window_position(window_width, window_height)  # bottom right
 
-    # Force Google to English
-    driver.get("https://www.google.com/ncr")
-    driver.get("https://www.google.com/?hl=en&gl=us")
+    # Force Google to English and US region
+    driver.get("https://www.google.com/ncr")  # No Country Redirect
+    
+    
+    # Set Google to US region
+    driver.get("https://www.google.com/?gl=us&hl=en")
 
     driver.id = position
     return driver

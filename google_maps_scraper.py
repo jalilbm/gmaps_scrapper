@@ -27,7 +27,6 @@ from threading import Semaphore
 from urllib3.exceptions import MaxRetryError
 from threading import Thread
 from logger.logger import CustomLogger
-import os
 
 # Initialize logger
 logger = CustomLogger("google_maps_scraper").get_logger()
@@ -61,58 +60,9 @@ class GoogleMaps:
     def __init__(self, search_url, driver, selectors):
         self.driver = driver
         self.search_url = search_url
-        self.selectors = selectors  # Store selectors as an instance variable
-        self.logger = logger
-        self.retrying_times = 0  # Initialize retrying_times
-        
-        # Don't load the URL here - we'll do it in get_url method
-        # This prevents timeouts during initialization
-        
-    def handle_cookie_consent(self):
-        """
-        Handle cookie consent banners at the beginning of the scraping process
-        """
-        try:
-            # First try the selector from selectors.json
-            accept_cookies_css_selector = selectors["accept_cookies"]["css_selector"]
-            if self.wait_for_css_selector(accept_cookies_css_selector, timeout=5):
-                self.logger.info("Found cookie consent banner, clicking accept button")
-                self.driver.find_element(
-                    by=By.CSS_SELECTOR, value=accept_cookies_css_selector
-                ).click()
-                time.sleep(1)  # Wait for the banner to disappear
-                return True
-                
-            # Try additional common cookie consent buttons
-            common_cookie_selectors = [
-                "button[aria-label='Accept all']",
-                "button[aria-label='Agree']",
-                "button[aria-label='Accept']",
-                "button[aria-label='I agree']",
-                "button.fc-button-accept",
-                "button.fc-button-primary",
-                ".cookie-consent-accept",
-                "#accept-cookies",
-                "button#onetrust-accept-btn-handler",
-                "button.fc-cta-consent",
-                ".accept-cookies-button",
-                "button[data-testid='cookie-policy-manage-dialog-accept-button']"
-            ]
-            
-            for selector in common_cookie_selectors:
-                try:
-                    if self.wait_for_css_selector(selector, timeout=1):
-                        self.logger.info(f"Found cookie consent button with selector: {selector}")
-                        self.driver.find_element(by=By.CSS_SELECTOR, value=selector).click()
-                        time.sleep(0.5)
-                        return True
-                except Exception:
-                    continue
-                    
-            return False
-        except Exception as e:
-            self.logger.warning(f"Error handling cookie consent: {str(e)}")
-            return False
+        selectors = selectors
+        self.retrying_times = 0
+        self.logger = CustomLogger("GoogleMaps").get_logger()
 
     def wait_for_css_selector(self, css_selector, timeout=10):
         """
@@ -275,8 +225,7 @@ class GoogleMaps:
                     raise TimeoutException
         except TimeoutException:
             return False
-        except Exception as e:
-            self.logger.error(f"Error loading URL: {str(e)}")
+        except Exception:
             return False
         return True
 
@@ -297,12 +246,7 @@ class GoogleMaps:
 
                 # check if the thread is still alive (i.e., it didn't finish within 12 seconds)
                 if get_url.is_alive() or not get_url:
-                    raise WebDriverException("Failed to get URL within timeout")
-                
-                # Handle cookies again just to be sure
-                self.handle_cookie_consent()
-                
-                # Scroll through all places in the list
+                    raise WebDriverException("Failed to get url")
                 result = self.scroll_all_places_in_list()
                 if result == "No list":
                     self.get_data_from_place(one_item=True)
@@ -1172,18 +1116,19 @@ def generate_search_urls(config):
     points = config["points"]
     keyword = config["keyword"]
     
+    # Add US region and English language parameters to avoid consent pages
     urls = [
-        f"https://www.google.com/maps/search/{keyword.replace(' ', '+')}/@{point['lat']},{point['lon']},16z"
+        f"https://www.google.com/maps/search/{keyword.replace(' ', '+')}/@{point['lat']},{point['lon']},16z?gl=US&hl=en"
         for point in points
     ]
     # Override with specific test URLs if needed
     urls = [
-        "https://www.google.com/maps/search/clinics/@25.2908331,55.4165928,16z/data=!3m1!4b1",
-        "https://www.google.com/maps/search/clinics/@25.2908331,55.4165929,16z/data=!3m1!4b1",
-        "https://www.google.com/maps/search/clinics/@25.1450395,55.2436334,15z/data=!3m1!4b1",
+        "https://www.google.com/maps/search/clinics/@25.2908331,55.4165928,16z/data=!3m1!4b1?gl=US&hl=en",
+        "https://www.google.com/maps/search/clinics/@25.2908331,55.4165929,16z/data=!3m1!4b1?gl=US&hl=en",
+        "https://www.google.com/maps/search/clinics/@25.1450395,55.2436334,15z/data=!3m1!4b1?gl=US&hl=en",
     ]
     shuffle(urls)
-    logger.info(f"Generated {len(urls)} search URLs")
+    logger.info(f"Generated {len(urls)} search URLs with US region")
     return urls
 
 def initialize_drivers(num_drivers=4):
@@ -1242,7 +1187,13 @@ def run_scraper_with_thread_pool(urls, drivers, max_drivers, selectors):
                         web_driver.quit_driver_and_reap_children(driver)
                         # Recreate the driver and the GoogleMaps instance.
                         driver = web_driver.get_driver(driver_id)
-                        google_maps_instance = GoogleMaps(url, driver, selectors)
+                        # Modify the URL to use US region to avoid consent page
+                        modified_url = url
+                        if 'gl=' in modified_url:
+                            modified_url = modified_url.replace('gl=SE', 'gl=US')
+                        else:
+                            modified_url += '&gl=US&hl=en'
+                        google_maps_instance = GoogleMaps(modified_url, driver, selectors)
                         # Retry with the same URL.
                         retry_future = executor.submit(
                             google_maps_instance.scrap_data_from_search_url

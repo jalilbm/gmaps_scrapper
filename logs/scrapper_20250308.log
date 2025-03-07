@@ -4021,3 +4021,609 @@ Exception
 2025-03-08 01:41:38,263 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
 2025-03-08 01:41:39,605 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
 2025-03-08 01:41:41,397 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:41:42,729 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:41:44,502 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:41:46,232 - GoogleMaps - INFO - Successfully fetched 0 reviews
+2025-03-08 01:41:46,413 - GoogleMaps - INFO - Successfully scraped place data - url: https://www.google.com/maps/place/Gp+clinic/@25.2720103,55.2702437,14z/data=!4m10!1m2!2m1!1sclinics!3m6!1s0x3e5f5da0687c7661:0x69ee5ae4f57420e1!8m2!3d25.2625281!4d55.3273173!15sCgdjbGluaWNzWgkiB2NsaW5pY3OSAQ5tZWRpY2FsX2NsaW5pY5oBI0NoWkRTVWhOTUc5blMwVkpRMEZuU1VSV05FcGlhVkpuRUFF4AEA-gEECAAQJg!16s%2Fg%2F11vjtr7r85?entry=ttu&g_ep=EgoyMDI1MDMwNC4wIKXMDSoASAFQAw%3D%3D - data: {'title': 'Gp clinic', 'category': 'Medical clinic'}
+2025-03-08 01:41:46,413 - GoogleMaps - INFO - URLS:[0/3]-LIST:[80/122]-DONE:[144]
+2025-03-08 01:41:46,518 - GoogleMaps - INFO - Skipping duplicate place - Title: Gravity Dental Poly Clinic LLC, Address: Ghazal restaurant building, Al- Murjan Tower - 403 Amman St - url: https://www.google.com/maps/search/clinics/@25.2908331,55.4165929,16z/data=!3m1!4b1 - data: {'title': 'Gravity Dental Poly Clinic LLC', 'address': 'Ghazal restaurant building, Al- Murjan Tower - 403 Amman St'}
+2025-03-08 01:41:46,572 - GoogleMaps - INFO - URLS:[0/3]-LIST:[81/122]-DONE:[144]
+2025-03-08 01:41:46,667 - GoogleMaps - INFO - Processing place - Title: Abu Hail Clinic, Address: 48 36B St - url: https://www.google.com/maps/search/clinics/@25.2908331,55.4165929,16z/data=!3m1!4b1 - data: {'title': 'Abu Hail Clinic', 'address': '48 36B St'}
+2025-03-08 01:41:47,672 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:41:50,057 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:41:50,929 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:41:51,599 - GoogleMaps - INFO - Fetching 200 reviews
+2025-03-08 01:41:51,604 - GoogleMaps - WARNING - Retrying to click reviews tab for the 0 time
+2025-03-08 01:41:52,111 - GoogleMaps - WARNING - Retrying to click reviews tab for the 1 time
+2025-03-08 01:41:52,631 - GoogleMaps - WARNING - Retrying to click reviews tab for the 2 time
+2025-03-08 01:41:53,177 - GoogleMaps - WARNING - Retrying to click reviews tab for the 3 time
+2025-03-08 01:41:53,215 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:41:53,969 - GoogleMaps - INFO - Fetching 8 reviews
+2025-03-08 01:41:53,976 - GoogleMaps - WARNING - Retrying to click reviews tab for the 0 time
+2025-03-08 01:41:54,498 - GoogleMaps - WARNING - Retrying to click reviews tab for the 1 time
+2025-03-08 01:42:08,740 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] div[data-review-id][jsaction*='review.in']
+2025-03-08 01:42:10,585 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] div[data-review-id][jsaction*='review.in']
+2025-03-08 01:42:18,438 - GoogleMaps - WARNING - No change in scroll places list height after 20 attempts - url: https://www.google.com/maps/search/clinics/@25.1450395,55.2436334,15z/data=!3m1!4b1
+2025-03-08 01:42:18,449 - GoogleMaps - DEBUG - Current place count: 35
+2025-03-08 01:42:18,449 - GoogleMaps - WARNING - Places loading error, attempt 1
+2025-03-08 01:42:18,449 - GoogleMaps - ERROR - Browser session error while scrap_data_from_search_url - url: https://www.google.com/maps/search/clinics/@25.1450395,55.2436334,15z/data=!3m1!4b1
+Traceback (most recent call last):
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/google_maps_scraper.py", line 322, in scroll_all_places_in_list
+            NoSuchWindowException,
+               ^^^^^^^^^^^^^^^^^^^
+    ...<8 lines>...
+    return
+    ^^^^^^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/selenium/webdriver/support/wait.py", line 146, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+0   undetected_chromedriver             0x00000001006a8922 undetected_chromedriver + 5843234
+1   undetected_chromedriver             0x00000001006a05ea undetected_chromedriver + 5809642
+2   undetected_chromedriver             0x000000010017cdfe undetected_chromedriver + 421374
+3   undetected_chromedriver             0x00000001001d0b69 undetected_chromedriver + 764777
+4   undetected_chromedriver             0x00000001001d0f51 undetected_chromedriver + 765777
+5   undetected_chromedriver             0x0000000100220664 undetected_chromedriver + 1091172
+6   undetected_chromedriver             0x00000001001f7c0d undetected_chromedriver + 924685
+7   undetected_chromedriver             0x000000010021d63a undetected_chromedriver + 1078842
+8   undetected_chromedriver             0x00000001001f79b3 undetected_chromedriver + 924083
+9   undetected_chromedriver             0x00000001001c1ec3 undetected_chromedriver + 704195
+10  undetected_chromedriver             0x00000001001c2da1 undetected_chromedriver + 708001
+11  undetected_chromedriver             0x0000000100670d40 undetected_chromedriver + 5614912
+12  undetected_chromedriver             0x0000000100673773 undetected_chromedriver + 5625715
+13  undetected_chromedriver             0x00000001006732eb undetected_chromedriver + 5624555
+14  undetected_chromedriver             0x0000000100673bd5 undetected_chromedriver + 5626837
+15  undetected_chromedriver             0x0000000100655cef undetected_chromedriver + 5504239
+16  undetected_chromedriver             0x0000000100673ebc undetected_chromedriver + 5627580
+17  undetected_chromedriver             0x00000001006468f4 undetected_chromedriver + 5441780
+18  undetected_chromedriver             0x00000001006904f8 undetected_chromedriver + 5743864
+19  undetected_chromedriver             0x00000001006906be undetected_chromedriver + 5744318
+20  undetected_chromedriver             0x00000001006a01b8 undetected_chromedriver + 5808568
+21  libsystem_pthread.dylib             0x00007ff813cb018b _pthread_start + 99
+22  libsystem_pthread.dylib             0x00007ff813cabae3 thread_start + 15
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/google_maps_scraper.py", line 256, in scrap_data_from_search_url
+    while True:
+    
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/google_maps_scraper.py", line 366, in scroll_all_places_in_list
+    self.driver.execute_script(
+            ^^^^^^^^^^^^^^^^^^^
+selenium.common.exceptions.NoSuchWindowException: Message: None
+
+2025-03-08 01:42:35,764 - GoogleMaps - DEBUG - Current review count: 0
+2025-03-08 01:42:35,764 - GoogleMaps - WARNING - Reviews loading error, attempt 1
+2025-03-08 01:42:35,764 - GoogleMaps - ERROR - Error processing place: Stuck while waiting for more reviews to load - url: https://www.google.com/maps/search/clinics/@25.2908331,55.4165928,16z/data=!3m1!4b1
+Traceback (most recent call last):
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/google_maps_scraper.py", line 816, in scroll_all_reviews
+            "inner_elements"
+            ^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    break
+    ^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/selenium/webdriver/support/wait.py", line 146, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/google_maps_scraper.py", line 1036, in get_data_from_place
+    break
+    
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/google_maps_scraper.py", line 877, in get_place_reviews
+    self.logger.error("Browser session error while scrolling reviews", exc_info=True)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/google_maps_scraper.py", line 854, in scroll_all_reviews
+    initial_height = self.driver.execute_script(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        "return arguments[0].scrollHeight", reviews_list
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+Exception: Stuck while waiting for more reviews to load
+2025-03-08 01:42:36,327 - GoogleMaps - INFO - Processing place - Title: Gravity Dental Poly Clinic LLC, Address: Ghazal restaurant building, Al- Murjan Tower - 403 Amman St - url: https://www.google.com/maps/search/clinics/@25.2908331,55.4165928,16z/data=!3m1!4b1 - data: {'title': 'Gravity Dental Poly Clinic LLC', 'address': 'Ghazal restaurant building, Al- Murjan Tower - 403 Amman St'}
+2025-03-08 01:42:37,383 - GoogleMaps - DEBUG - Current review count: 0
+2025-03-08 01:42:37,384 - GoogleMaps - WARNING - Reviews loading error, attempt 1
+2025-03-08 01:42:37,384 - GoogleMaps - ERROR - Error processing place: Stuck while waiting for more reviews to load - url: https://www.google.com/maps/search/clinics/@25.2908331,55.4165929,16z/data=!3m1!4b1
+Traceback (most recent call last):
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/google_maps_scraper.py", line 816, in scroll_all_reviews
+            "inner_elements"
+            ^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    break
+    ^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/selenium/webdriver/support/wait.py", line 146, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/google_maps_scraper.py", line 1036, in get_data_from_place
+    break
+    
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/google_maps_scraper.py", line 877, in get_place_reviews
+    self.logger.error("Browser session error while scrolling reviews", exc_info=True)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/google_maps_scraper.py", line 854, in scroll_all_reviews
+    initial_height = self.driver.execute_script(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        "return arguments[0].scrollHeight", reviews_list
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+Exception: Stuck while waiting for more reviews to load
+2025-03-08 01:42:37,918 - GoogleMaps - INFO - Processing place - Title: Abu Hail Clinic, Address: 48 36B St - url: https://www.google.com/maps/search/clinics/@25.2908331,55.4165929,16z/data=!3m1!4b1 - data: {'title': 'Abu Hail Clinic', 'address': '48 36B St'}
+2025-03-08 01:42:39,605 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:42:41,208 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:42:42,753 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:42:44,342 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:42:45,881 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:42:47,476 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:42:49,017 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:42:50,612 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:42:52,157 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:42:53,738 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:42:55,283 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:42:56,860 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:42:58,406 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:42:59,972 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:43:01,557 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:43:03,104 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:43:04,694 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:43:06,235 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:43:07,823 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:43:09,364 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:43:10,956 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:43:12,504 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:43:14,092 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:43:15,637 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:43:17,226 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:43:18,776 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:43:20,375 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:43:21,914 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:43:23,509 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:43:25,040 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:43:26,639 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:43:28,180 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:43:29,776 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:43:31,317 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:43:32,909 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:43:34,468 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:43:36,045 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:43:37,593 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:43:39,170 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:43:40,744 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:43:42,331 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:43:43,867 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:43:45,453 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:43:46,982 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:43:48,577 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:43:50,102 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:43:51,792 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:43:53,211 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:43:54,901 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:43:56,325 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:43:58,010 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:43:59,426 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:44:01,121 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:44:02,549 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:44:04,706 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:44:06,192 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:44:08,189 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:44:09,448 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:44:11,369 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:44:12,667 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:44:14,498 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:44:15,777 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:44:17,590 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:44:18,863 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:44:20,685 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:44:21,966 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:44:23,794 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:44:25,087 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:44:26,909 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:44:27,000 - GoogleMaps - WARNING - No change in scroll places list height after 20 attempts - url: https://www.google.com/maps/search/clinics/@25.1450395,55.2436334,15z/data=!3m1!4b1
+2025-03-08 01:44:27,010 - GoogleMaps - DEBUG - Current place count: 5
+2025-03-08 01:44:27,010 - GoogleMaps - WARNING - Places loading error, attempt 1
+2025-03-08 01:44:27,010 - GoogleMaps - ERROR - Browser session error while scrap_data_from_search_url - url: https://www.google.com/maps/search/clinics/@25.1450395,55.2436334,15z/data=!3m1!4b1
+Traceback (most recent call last):
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/google_maps_scraper.py", line 322, in scroll_all_places_in_list
+                    ]["css_selector"],
+    ...<8 lines>...
+    ):
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/selenium/webdriver/support/wait.py", line 146, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+0   undetected_chromedriver             0x0000000105016922 undetected_chromedriver + 5843234
+1   undetected_chromedriver             0x000000010500e5ea undetected_chromedriver + 5809642
+2   undetected_chromedriver             0x0000000104aeadfe undetected_chromedriver + 421374
+3   undetected_chromedriver             0x0000000104b3eb69 undetected_chromedriver + 764777
+4   undetected_chromedriver             0x0000000104b3ef51 undetected_chromedriver + 765777
+5   undetected_chromedriver             0x0000000104b8e664 undetected_chromedriver + 1091172
+6   undetected_chromedriver             0x0000000104b65c0d undetected_chromedriver + 924685
+7   undetected_chromedriver             0x0000000104b8b63a undetected_chromedriver + 1078842
+8   undetected_chromedriver             0x0000000104b659b3 undetected_chromedriver + 924083
+9   undetected_chromedriver             0x0000000104b2fec3 undetected_chromedriver + 704195
+10  undetected_chromedriver             0x0000000104b30da1 undetected_chromedriver + 708001
+11  undetected_chromedriver             0x0000000104fded40 undetected_chromedriver + 5614912
+12  undetected_chromedriver             0x0000000104fe1773 undetected_chromedriver + 5625715
+13  undetected_chromedriver             0x0000000104fe12eb undetected_chromedriver + 5624555
+14  undetected_chromedriver             0x0000000104fe1bd5 undetected_chromedriver + 5626837
+15  undetected_chromedriver             0x0000000104fc3cef undetected_chromedriver + 5504239
+16  undetected_chromedriver             0x0000000104fe1ebc undetected_chromedriver + 5627580
+17  undetected_chromedriver             0x0000000104fb48f4 undetected_chromedriver + 5441780
+18  undetected_chromedriver             0x0000000104ffe4f8 undetected_chromedriver + 5743864
+19  undetected_chromedriver             0x0000000104ffe6be undetected_chromedriver + 5744318
+20  undetected_chromedriver             0x000000010500e1b8 undetected_chromedriver + 5808568
+21  libsystem_pthread.dylib             0x00007ff813cb018b _pthread_start + 99
+22  libsystem_pthread.dylib             0x00007ff813cabae3 thread_start + 15
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/google_maps_scraper.py", line 256, in scrap_data_from_search_url
+    # self.get_bounds()
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/google_maps_scraper.py", line 366, in scroll_all_places_in_list
+    return list(
+    
+selenium.common.exceptions.NoSuchWindowException: Message: None
+
+2025-03-08 01:44:28,194 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:44:30,041 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:44:31,311 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:44:33,175 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:44:34,435 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:44:36,304 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:44:37,542 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:44:39,439 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:44:40,643 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:44:42,568 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:44:43,748 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:44:45,695 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:44:46,865 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:44:48,823 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:44:49,996 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:44:51,944 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:44:53,116 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:44:55,049 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:44:56,247 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:44:58,185 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:44:59,392 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:45:01,323 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:45:02,510 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:45:04,460 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:45:05,637 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:45:07,603 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:45:08,764 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:45:10,733 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:45:11,901 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:45:13,868 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:45:15,012 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:45:17,011 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:45:18,134 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:45:20,129 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:45:21,247 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:45:23,247 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:45:24,371 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:45:26,378 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:45:27,495 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:45:29,509 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:45:30,605 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:45:32,616 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:45:33,709 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:45:35,732 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:45:36,842 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:45:38,862 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:45:39,963 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:45:41,993 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:45:43,063 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:45:45,112 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:45:46,225 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:45:48,241 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:45:49,336 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:45:51,354 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:45:52,444 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:45:54,489 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:45:55,551 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:45:57,596 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:45:58,672 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:46:00,718 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:46:01,790 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:46:03,853 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:46:04,908 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:46:06,972 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:46:08,017 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:46:10,090 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:46:11,125 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:46:13,301 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:46:14,348 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:46:16,523 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:46:17,190 - GoogleMaps - INFO - Fetching 200 reviews
+2025-03-08 01:46:17,528 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:46:18,180 - GoogleMaps - INFO - Fetching 8 reviews
+2025-03-08 01:46:32,724 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] div[data-review-id][jsaction*='review.in']
+2025-03-08 01:46:33,233 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] div[data-review-id][jsaction*='review.in']
+2025-03-08 01:46:35,393 - GoogleMaps - WARNING - No change in scroll places list height after 20 attempts - url: https://www.google.com/maps/search/clinics/@25.1450395,55.2436334,15z/data=!3m1!4b1
+2025-03-08 01:46:35,406 - GoogleMaps - DEBUG - Current place count: 20
+2025-03-08 01:46:35,406 - GoogleMaps - WARNING - Places loading error, attempt 1
+2025-03-08 01:46:35,406 - GoogleMaps - ERROR - Browser session error while scrap_data_from_search_url - url: https://www.google.com/maps/search/clinics/@25.1450395,55.2436334,15z/data=!3m1!4b1
+Traceback (most recent call last):
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/google_maps_scraper.py", line 322, in scroll_all_places_in_list
+                    ]["css_selector"],
+    ...<8 lines>...
+    ):
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/selenium/webdriver/support/wait.py", line 146, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+0   undetected_chromedriver             0x0000000104da3922 undetected_chromedriver + 5843234
+1   undetected_chromedriver             0x0000000104d9b5ea undetected_chromedriver + 5809642
+2   undetected_chromedriver             0x0000000104877dfe undetected_chromedriver + 421374
+3   undetected_chromedriver             0x00000001048cbb69 undetected_chromedriver + 764777
+4   undetected_chromedriver             0x00000001048cbf51 undetected_chromedriver + 765777
+5   undetected_chromedriver             0x000000010491b664 undetected_chromedriver + 1091172
+6   undetected_chromedriver             0x00000001048f2c0d undetected_chromedriver + 924685
+7   undetected_chromedriver             0x000000010491863a undetected_chromedriver + 1078842
+8   undetected_chromedriver             0x00000001048f29b3 undetected_chromedriver + 924083
+9   undetected_chromedriver             0x00000001048bcec3 undetected_chromedriver + 704195
+10  undetected_chromedriver             0x00000001048bdda1 undetected_chromedriver + 708001
+11  undetected_chromedriver             0x0000000104d6bd40 undetected_chromedriver + 5614912
+12  undetected_chromedriver             0x0000000104d6e773 undetected_chromedriver + 5625715
+13  undetected_chromedriver             0x0000000104d6e2eb undetected_chromedriver + 5624555
+14  undetected_chromedriver             0x0000000104d6ebd5 undetected_chromedriver + 5626837
+15  undetected_chromedriver             0x0000000104d50cef undetected_chromedriver + 5504239
+16  undetected_chromedriver             0x0000000104d6eebc undetected_chromedriver + 5627580
+17  undetected_chromedriver             0x0000000104d418f4 undetected_chromedriver + 5441780
+18  undetected_chromedriver             0x0000000104d8b4f8 undetected_chromedriver + 5743864
+19  undetected_chromedriver             0x0000000104d8b6be undetected_chromedriver + 5744318
+20  undetected_chromedriver             0x0000000104d9b1b8 undetected_chromedriver + 5808568
+21  libsystem_pthread.dylib             0x00007ff813cb018b _pthread_start + 99
+22  libsystem_pthread.dylib             0x00007ff813cabae3 thread_start + 15
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/google_maps_scraper.py", line 256, in scrap_data_from_search_url
+    # self.get_bounds()
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/google_maps_scraper.py", line 366, in scroll_all_places_in_list
+    return list(
+    
+selenium.common.exceptions.NoSuchWindowException: Message: None
+
+2025-03-08 01:46:59,521 - GoogleMaps - DEBUG - Current review count: 0
+2025-03-08 01:46:59,521 - GoogleMaps - WARNING - Reviews loading error, attempt 2
+2025-03-08 01:46:59,528 - GoogleMaps - INFO - Successfully fetched 0 reviews
+2025-03-08 01:47:00,056 - GoogleMaps - DEBUG - Current review count: 0
+2025-03-08 01:47:00,056 - GoogleMaps - WARNING - Reviews loading error, attempt 2
+2025-03-08 01:47:00,062 - GoogleMaps - INFO - Successfully fetched 0 reviews
+2025-03-08 01:47:20,970 - GoogleMaps - ERROR - Unexpected error while closing place details - url: https://www.google.com/maps/search/clinics/@25.2908331,55.4165928,16z/data=!3m1!4b1
+Traceback (most recent call last):
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/google_maps_scraper.py", line 392, in close_place_details
+        return
+        ^^^^^^
+    self.retrying_times += 1
+    ^^^^^^^^^^^^^^^^^^^^^^^^
+    self.logger.warning(f"Places loading error, attempt {self.retrying_times}")
+    ^^^^^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/google_maps_scraper.py", line 99, in wait_for_css_selector_to_disappear
+    """
+    ^^^
+    WebDriverWait(self.driver, timeout).until(
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        EC.invisibility_of_element_located((By.CSS_SELECTOR, css_selector))
+    
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/selenium/webdriver/support/wait.py", line 146, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/google_maps_scraper.py", line 399, in close_place_details
+Exception
+2025-03-08 01:47:20,974 - GoogleMaps - INFO - Successfully scraped place data - url: https://www.google.com/maps/place/Gravity+Dental+Poly+Clinic+LLC/@25.2978877,55.3455094,14z/data=!4m7!3m6!1s0x3e5f5d3453140177:0xc9879519aa6c9dc!8m2!3d25.2978877!4d55.3815583!15sCgdjbGluaWNzWgkiB2NsaW5pY3OSAQ5tZWRpY2FsX2NlbnRlcuABAA!16s%2Fg%2F11stfrw066?entry=ttu&g_ep=EgoyMDI1MDMwNC4wIKXMDSoASAFQAw%3D%3D - data: {'title': 'Gravity Dental Poly Clinic LLC', 'category': 'Medical Center'}
+2025-03-08 01:47:20,974 - GoogleMaps - INFO - URLS:[0/3]-LIST:[81/122]-DONE:[145]
+2025-03-08 01:47:21,017 - GoogleMaps - INFO - Skipping duplicate place - Title: Abu Hail Clinic, Address: 48 36B St - url: https://www.google.com/maps/search/clinics/@25.2908331,55.4165928,16z/data=!3m1!4b1 - data: {'title': 'Abu Hail Clinic', 'address': '48 36B St'}
+2025-03-08 01:47:21,070 - GoogleMaps - INFO - URLS:[0/3]-LIST:[82/122]-DONE:[145]
+2025-03-08 01:47:21,098 - GoogleMaps - INFO - Processing place - Title: Aster Clinic Emirates Towers Sheikh Zayed Road, Address: Aster Clinic, Sheikh Zayed Road, Al Manal Tower,Trade Center Area Near to Emirates Tower Metro Station Millenium Plaza Hotel - Sheikh Zayed Rd - url: https://www.google.com/maps/search/clinics/@25.2908331,55.4165928,16z/data=!3m1!4b1 - data: {'title': 'Aster Clinic Emirates Towers Sheikh Zayed Road', 'address': 'Aster Clinic, Sheikh Zayed Road, Al Manal Tower,Trade Center Area Near to Emirates Tower Metro Station Millenium Plaza Hotel - Sheikh Zayed Rd'}
+2025-03-08 01:47:21,498 - GoogleMaps - ERROR - Unexpected error while closing place details - url: https://www.google.com/maps/search/clinics/@25.2908331,55.4165929,16z/data=!3m1!4b1
+Traceback (most recent call last):
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/google_maps_scraper.py", line 392, in close_place_details
+        return
+        ^^^^^^
+    self.retrying_times += 1
+    ^^^^^^^^^^^^^^^^^^^^^^^^
+    self.logger.warning(f"Places loading error, attempt {self.retrying_times}")
+    ^^^^^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/google_maps_scraper.py", line 99, in wait_for_css_selector_to_disappear
+    """
+    ^^^
+    WebDriverWait(self.driver, timeout).until(
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        EC.invisibility_of_element_located((By.CSS_SELECTOR, css_selector))
+    
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/selenium/webdriver/support/wait.py", line 146, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/google_maps_scraper.py", line 399, in close_place_details
+Exception
+2025-03-08 01:47:21,499 - GoogleMaps - INFO - Successfully scraped place data - url: https://www.google.com/maps/place/Abu+Hail+Clinic/@25.282001,55.2974346,14z/data=!4m10!1m2!2m1!1sclinics!3m6!1s0x3e5f5d39ce9ed089:0xbc5f4a5608022f87!8m2!3d25.282001!4d55.3334835!15sCgdjbGluaWNzWgkiB2NsaW5pY3OSAQhob3NwaXRhbJoBJENoZERTVWhOTUc5blMwVkpRMEZuU1VSbFowMURjekZCUlJBQuABAPoBBQjvARBI!16s%2Fg%2F11fnb4_h41?entry=ttu&g_ep=EgoyMDI1MDMwNC4wIKXMDSoASAFQAw%3D%3D - data: {'title': 'Abu Hail Clinic', 'category': 'Hospital'}
+2025-03-08 01:47:21,499 - GoogleMaps - INFO - URLS:[0/3]-LIST:[82/122]-DONE:[146]
+2025-03-08 01:47:21,537 - GoogleMaps - INFO - Processing place - Title: Medex Clinic Deira (Dr Reena Beegum Clinic), Address: Next Azhar Al Madeena supermarket - D26&D27, Al Wasl District - old Al Maktoum Hospital Rd - url: https://www.google.com/maps/search/clinics/@25.2908331,55.4165929,16z/data=!3m1!4b1 - data: {'title': 'Medex Clinic Deira (Dr Reena Beegum Clinic)', 'address': 'Next Azhar Al Madeena supermarket - D26&D27, Al Wasl District - old Al Maktoum Hospital Rd'}
+2025-03-08 01:47:24,334 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:47:24,778 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:47:27,444 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:47:27,891 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:47:30,553 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:47:30,990 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:47:33,650 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:47:34,098 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:47:36,754 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:47:37,227 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:47:39,867 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:47:40,345 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:47:42,977 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:47:43,469 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:47:46,074 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:47:46,583 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:47:49,202 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:47:49,715 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:47:52,324 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:47:52,836 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:47:55,442 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:47:55,956 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:47:58,736 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:47:59,129 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:48:01,861 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:48:02,254 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:48:04,990 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:48:05,379 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:48:08,104 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:48:08,501 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:48:11,235 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:48:11,649 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:48:14,347 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:48:14,743 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:48:17,461 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:48:17,850 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:48:20,594 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:48:20,989 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:48:23,949 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:48:24,242 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:48:27,074 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:48:27,344 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:48:30,206 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:48:30,442 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:48:33,317 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:48:33,535 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:48:36,412 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:48:36,640 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:48:39,516 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:48:39,748 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:48:42,630 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:48:42,651 - GoogleMaps - WARNING - No change in scroll places list height after 20 attempts - url: https://www.google.com/maps/search/clinics/@25.1450395,55.2436334,15z/data=!3m1!4b1
+2025-03-08 01:48:42,660 - GoogleMaps - DEBUG - Current place count: 5
+2025-03-08 01:48:42,660 - GoogleMaps - WARNING - Places loading error, attempt 1
+2025-03-08 01:48:42,660 - GoogleMaps - ERROR - Browser session error while scrap_data_from_search_url - url: https://www.google.com/maps/search/clinics/@25.1450395,55.2436334,15z/data=!3m1!4b1
+Traceback (most recent call last):
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/google_maps_scraper.py", line 322, in scroll_all_places_in_list
+    title_css_selector = selectors["places_list"]["inner_elements"]["places_divs"][
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<8 lines>...
+        self.logger.info("No list found, only one place")
+        ^^^^^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/selenium/webdriver/support/wait.py", line 146, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+0   undetected_chromedriver             0x0000000100631922 undetected_chromedriver + 5843234
+1   undetected_chromedriver             0x00000001006295ea undetected_chromedriver + 5809642
+2   undetected_chromedriver             0x0000000100105dfe undetected_chromedriver + 421374
+3   undetected_chromedriver             0x0000000100159b69 undetected_chromedriver + 764777
+4   undetected_chromedriver             0x0000000100159f51 undetected_chromedriver + 765777
+5   undetected_chromedriver             0x00000001001a9664 undetected_chromedriver + 1091172
+6   undetected_chromedriver             0x0000000100180c0d undetected_chromedriver + 924685
+7   undetected_chromedriver             0x00000001001a663a undetected_chromedriver + 1078842
+8   undetected_chromedriver             0x00000001001809b3 undetected_chromedriver + 924083
+9   undetected_chromedriver             0x000000010014aec3 undetected_chromedriver + 704195
+10  undetected_chromedriver             0x000000010014bda1 undetected_chromedriver + 708001
+11  undetected_chromedriver             0x00000001005f9d40 undetected_chromedriver + 5614912
+12  undetected_chromedriver             0x00000001005fc773 undetected_chromedriver + 5625715
+13  undetected_chromedriver             0x00000001005fc2eb undetected_chromedriver + 5624555
+14  undetected_chromedriver             0x00000001005fcbd5 undetected_chromedriver + 5626837
+15  undetected_chromedriver             0x00000001005decef undetected_chromedriver + 5504239
+16  undetected_chromedriver             0x00000001005fcebc undetected_chromedriver + 5627580
+17  undetected_chromedriver             0x00000001005cf8f4 undetected_chromedriver + 5441780
+18  undetected_chromedriver             0x00000001006194f8 undetected_chromedriver + 5743864
+19  undetected_chromedriver             0x00000001006196be undetected_chromedriver + 5744318
+20  undetected_chromedriver             0x00000001006291b8 undetected_chromedriver + 5808568
+21  libsystem_pthread.dylib             0x00007ff813cb018b _pthread_start + 99
+22  libsystem_pthread.dylib             0x00007ff813cabae3 thread_start + 15
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/google_maps_scraper.py", line 256, in scrap_data_from_search_url
+    try:
+    
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/google_maps_scraper.py", line 366, in scroll_all_places_in_list
+    InvalidSessionIdException,
+        ^^^^^^^^^^^^^^^^^^^^^^
+selenium.common.exceptions.NoSuchWindowException: Message: None
+
+2025-03-08 01:48:42,880 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:48:45,753 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:48:45,985 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:48:48,884 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:48:49,097 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:48:52,013 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:48:52,206 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:48:55,145 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:48:55,327 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:48:58,256 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:48:58,432 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:49:01,383 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:49:01,563 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:49:04,509 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:49:04,678 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:49:07,620 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:49:07,787 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:49:10,737 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:49:10,883 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:49:13,858 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:49:13,988 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:49:16,981 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:49:17,090 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:49:20,100 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:49:20,196 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:49:23,235 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:49:23,308 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:49:26,375 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:49:26,415 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:49:29,499 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:49:29,519 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:49:32,633 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:49:32,633 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:49:35,763 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:49:35,764 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:49:38,899 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:49:38,900 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:49:42,033 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:49:42,035 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:49:45,162 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:49:45,163 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:49:48,287 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:49:48,288 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:49:51,421 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:49:51,421 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:49:54,559 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:49:54,559 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:49:57,676 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:49:57,679 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:50:00,790 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:50:00,791 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:50:03,917 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:50:03,917 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:50:07,036 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:50:07,036 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:50:10,163 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:50:10,268 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:50:13,269 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-08 01:50:13,366 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
