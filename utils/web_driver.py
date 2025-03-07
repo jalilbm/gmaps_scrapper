@@ -26,13 +26,6 @@ def get_driver(position, screen_width=None, screen_height=None):
     os.makedirs(user_data_dir, exist_ok=True)
     options.add_argument(f"--user-data-dir={user_data_dir}")
     
-    # Skip first run and welcome screens
-    options.add_argument("--no-first-run")
-    options.add_argument("--no-default-browser-check")
-    options.add_argument("--no-service-autorun")
-    options.add_argument("--password-store=basic")
-    options.add_argument("--disable-features=TranslateUI")
-    
     # Force English language and locale
     options.add_argument("--lang=en-US")
     options.add_argument("--force-fieldtrials=Browser_Language/force/")
