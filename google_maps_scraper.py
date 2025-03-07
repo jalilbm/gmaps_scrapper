@@ -1177,6 +1177,7 @@ def run_scraper_with_thread_pool(urls, drivers, max_drivers, selectors):
             # Task completed successfully, decrement the counter
             active_tasks -= 1
         except NoSuchWindowException:
+            time.sleep(100)
             logger.error(f"Browser window error for driver {driver_id}", exc_info=True, extra={"url": url})
             if not executor_shutdown:  # only retry if the executor has not been shutdown
                 # Attempt to close the current driver
