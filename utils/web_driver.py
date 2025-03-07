@@ -1,11 +1,17 @@
 import undetected_chromedriver as uc
 from screeninfo import get_monitors
 import os
-
+from pathlib import Path
 monitor = get_monitors()[0]
 
 def get_driver(position, screen_width=1920, screen_height=1080):
     options = uc.ChromeOptions()
+
+    if not (os.path.exists("./chrome_profile")):
+        os.mkdir("./chrome_profile")
+        Path("./chrome_profile/First Run").touch()
+
+    options.add_argument("--user-data-dir=./chrome_profile/")
     
     # Disable automation detection
     options.add_argument("--disable-blink-features=AutomationControlled")
