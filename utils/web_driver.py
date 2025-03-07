@@ -2,39 +2,20 @@ import undetected_chromedriver as uc
 from screeninfo import get_monitors
 import os
 
-try:
-    monitor = get_monitors()[0]
-except Exception:
-    # Default values for headless environments like EC2
-    pass
+monitor = get_monitors()[0]
 
 def get_driver(position, screen_width=1920, screen_height=1080):
     options = uc.ChromeOptions()
     
-    # Basic options that are less likely to cause issues
-    options.add_argument("--no-first-run")
-    options.add_argument("--no-default-browser-check")
-    options.add_argument("--disable-features=TranslateUI")
-    
-    # Force English language and locale
-    options.add_argument("--lang=en-US")
-    
     # Disable automation detection
     options.add_argument("--disable-blink-features=AutomationControlled")
+
+    # Bypass Google Consent screen
+    options.add_argument("--disable-features=SameSiteByDefaultCookies,CookiesWithoutSameSiteMustBeSecure")
     
-    # Simplified experimental options
-    options.add_experimental_option("excludeSwitches", ["enable-automation"])
-    options.add_experimental_option('useAutomationExtension', False)
-    
-    # Simplified preferences
-    prefs = {
-        "profile.default_content_setting_values.geolocation": 1,
-        "profile.managed_default_content_settings.images": 1,
-        "credentials_enable_service": False,
-        "profile.password_manager_enabled": False,
-        "profile.default_content_setting_values.notifications": 2
-    }
-    options.add_experimental_option('prefs', prefs)
+    # Prevent pop-ups and infobars
+    options.add_argument("--disable-popup-blocking")
+    options.add_argument("--disable-infobars")
 
     driver = uc.Chrome(options=options)
 
@@ -54,22 +35,6 @@ def get_driver(position, screen_width=1920, screen_height=1080):
         driver.set_window_position(0, window_height)  # bottom left
     elif position == 4:
         driver.set_window_position(window_width, window_height)  # bottom right
-
-
-    # Set geolocation to US
-    driver.execute_cdp_cmd("Emulation.setGeolocationOverride", {
-        "latitude": 37.7749,  # San Francisco, CA
-        "longitude": -122.4194,
-        "accuracy": 10
-    })
-
-    # Set page load strategy
-    driver.execute_script("""
-        Object.defineProperty(navigator, 'language', {get: function() {return 'en-US';}});
-        Object.defineProperty(navigator, 'languages', {get: function() {return ['en-US', 'en'];}});
-        document.documentElement.setAttribute('lang', 'en-US');
-        document.documentElement.setAttribute('dir', 'ltr');
-    """)
 
     # Force Google to English
     driver.get("https://www.google.com/ncr")
