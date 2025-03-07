@@ -9688,3 +9688,1495 @@ Traceback (most recent call last):
     raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='localhost', port=60851): Max retries exceeded with url: /session/98fd8a87bdd2c8f5ac31ba9398d2b619/execute/sync (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1105839b0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-03-07 21:57:43,813 - google_maps_scraper - INFO - Starting Google Maps scraper
+2025-03-07 21:57:43,813 - google_maps_scraper - INFO - Target location: dubai
+2025-03-07 21:57:43,931 - google_maps_scraper - INFO - Search keyword: clinics
+2025-03-07 21:57:43,931 - google_maps_scraper - INFO - Non-allowed categories: ['pharmacy']
+2025-03-07 21:57:43,931 - google_maps_scraper - INFO - Generated 3 search URLs
+2025-03-07 21:57:43,932 - google_maps_scraper - DEBUG - Loaded selectors configuration
+2025-03-07 21:58:31,336 - google_maps_scraper - INFO - Initialized 4 web drivers
+2025-03-07 21:58:31,421 - google_maps_scraper - DEBUG - Submitted scraping task for URL with driver 1
+2025-03-07 21:58:31,489 - google_maps_scraper - DEBUG - Submitted scraping task for URL with driver 2
+2025-03-07 21:58:31,533 - google_maps_scraper - DEBUG - Submitted scraping task for URL with driver 3
+2025-03-07 21:58:31,533 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:58:32,534 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:58:33,535 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:58:34,536 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:58:35,537 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:58:36,539 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:58:37,543 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:58:38,544 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:58:39,545 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:58:40,545 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:58:41,546 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:58:42,548 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:58:43,549 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:58:44,550 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:58:45,551 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:58:46,552 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:58:47,554 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:58:48,555 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:58:49,556 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:58:50,557 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:58:51,559 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:58:52,560 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:58:53,560 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:58:54,561 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:58:55,562 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:58:56,564 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:58:57,565 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:58:58,566 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:58:59,567 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:59:00,567 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:59:01,569 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:59:02,570 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:59:03,571 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:59:04,573 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:59:05,573 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:59:06,575 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:59:07,576 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:59:08,577 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:59:09,578 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:59:10,580 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:59:11,581 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:59:12,582 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:59:13,582 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:59:14,583 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:59:14,990 - GoogleMaps - INFO - All places divs: 122
+2025-03-07 21:59:14,991 - GoogleMaps - INFO - URLS:[0/3]-LIST:[1/122]-DONE:[0]
+2025-03-07 21:59:15,099 - GoogleMaps - INFO - Processing place - Title: Aster Clinic, Al Quoz - Al Khail Mall, Address: Al Khail Mall - First Floor - url: https://www.google.com/maps/search/clinics/@25.1450395,55.2436334,15z/data=!3m1!4b1 - data: {'title': 'Aster Clinic, Al Quoz - Al Khail Mall', 'address': 'Al Khail Mall - First Floor'}
+2025-03-07 21:59:15,585 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:59:15,981 - GoogleMaps - INFO - Fetching 8566 reviews
+2025-03-07 21:59:15,987 - GoogleMaps - WARNING - Retrying to click reviews tab for the 0 time
+2025-03-07 21:59:16,498 - GoogleMaps - WARNING - Retrying to click reviews tab for the 1 time
+2025-03-07 21:59:16,508 - GoogleMaps - INFO - All places divs: 122
+2025-03-07 21:59:16,508 - GoogleMaps - INFO - URLS:[0/3]-LIST:[1/122]-DONE:[0]
+2025-03-07 21:59:16,575 - GoogleMaps - INFO - Processing place - Title: Royal Phoenix Clinic Wasl Village, Address: wasl village Retail Center - url: https://www.google.com/maps/search/clinics/@25.2908331,55.4165928,16z/data=!3m1!4b1 - data: {'title': 'Royal Phoenix Clinic Wasl Village', 'address': 'wasl village Retail Center'}
+2025-03-07 21:59:16,586 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:59:17,004 - GoogleMaps - WARNING - Retrying to click reviews tab for the 2 time
+2025-03-07 21:59:17,448 - GoogleMaps - INFO - Fetching 233 reviews
+2025-03-07 21:59:17,454 - GoogleMaps - WARNING - Retrying to click reviews tab for the 0 time
+2025-03-07 21:59:17,557 - GoogleMaps - WARNING - Retrying to click reviews tab for the 3 time
+2025-03-07 21:59:17,587 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:59:18,588 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:59:19,244 - GoogleMaps - INFO - All places divs: 122
+2025-03-07 21:59:19,244 - GoogleMaps - INFO - URLS:[0/3]-LIST:[1/122]-DONE:[0]
+2025-03-07 21:59:19,281 - GoogleMaps - INFO - Skipping duplicate place - Title: Royal Phoenix Clinic Wasl Village, Address: wasl village Retail Center - url: https://www.google.com/maps/search/clinics/@25.2908331,55.4165929,16z/data=!3m1!4b1 - data: {'title': 'Royal Phoenix Clinic Wasl Village', 'address': 'wasl village Retail Center'}
+2025-03-07 21:59:19,334 - GoogleMaps - INFO - URLS:[0/3]-LIST:[2/122]-DONE:[0]
+2025-03-07 21:59:19,364 - GoogleMaps - INFO - Processing place - Title: Best Health Medical Center (Poly Clinic), Address: 42nd St - url: https://www.google.com/maps/search/clinics/@25.2908331,55.4165929,16z/data=!3m1!4b1 - data: {'title': 'Best Health Medical Center (Poly Clinic)', 'address': '42nd St'}
+2025-03-07 21:59:19,589 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:59:20,228 - GoogleMaps - INFO - Fetching 62 reviews
+2025-03-07 21:59:20,234 - GoogleMaps - WARNING - Retrying to click reviews tab for the 0 time
+2025-03-07 21:59:20,598 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:59:21,599 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:59:22,601 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:59:23,602 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:59:24,604 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:59:25,605 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:59:26,605 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:59:27,606 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:59:28,608 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:59:29,609 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:59:30,609 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:59:31,610 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:59:32,538 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] div[data-review-id][jsaction*='review.in']
+2025-03-07 21:59:32,612 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:59:33,187 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] div[data-review-id][jsaction*='review.in']
+2025-03-07 21:59:33,613 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:59:34,614 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:59:35,615 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:59:35,949 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] div[data-review-id][jsaction*='review.in']
+2025-03-07 21:59:36,616 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:59:37,617 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:59:38,622 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:59:39,623 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:59:40,629 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:59:41,629 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:59:42,631 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:59:43,632 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:59:44,633 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:59:45,634 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:59:46,634 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:59:47,280 - GoogleMaps - INFO - Successfully fetched 62 reviews
+2025-03-07 21:59:47,471 - GoogleMaps - INFO - Successfully scraped place data - url: https://www.google.com/maps/place/Best+Health+Medical+Center+(Poly+Clinic)/@25.2908316,55.4011431,14z/data=!4m10!1m2!2m1!1sclinics!3m6!1s0x3e5f5fd0a928d4f3:0xd565c12c014fe2fe!8m2!3d25.2821911!4d55.4040925!15sCgdjbGluaWNzWgkiB2NsaW5pY3OSAQ5tZWRpY2FsX2NlbnRlcpoBJENoZERTVWhOTUc5blMwVkpRMEZuU1VOZmJEazNMVzVCUlJBQuABAPoBBAgAEEk!16s%2Fg%2F11s7vj2zb3?entry=ttu&g_ep=EgoyMDI1MDMwNC4wIKXMDSoASAFQAw%3D%3D - data: {'title': 'Best Health Medical Center (Poly Clinic)', 'category': 'Medical clinic'}
+2025-03-07 21:59:47,471 - GoogleMaps - INFO - URLS:[0/3]-LIST:[3/122]-DONE:[1]
+2025-03-07 21:59:47,547 - GoogleMaps - INFO - Processing place - Title: ARIN CARE Clinic & Pharmacy, Address: Shop # 5 Talal Plaza Mall - url: https://www.google.com/maps/search/clinics/@25.2908331,55.4165929,16z/data=!3m1!4b1 - data: {'title': 'ARIN CARE Clinic & Pharmacy', 'address': 'Shop # 5 Talal Plaza Mall'}
+2025-03-07 21:59:47,635 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:59:48,522 - GoogleMaps - INFO - Fetching 166 reviews
+2025-03-07 21:59:48,526 - GoogleMaps - WARNING - Retrying to click reviews tab for the 0 time
+2025-03-07 21:59:48,637 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:59:49,033 - GoogleMaps - WARNING - Retrying to click reviews tab for the 1 time
+2025-03-07 21:59:49,539 - GoogleMaps - WARNING - Retrying to click reviews tab for the 2 time
+2025-03-07 21:59:49,638 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:59:50,054 - GoogleMaps - WARNING - Retrying to click reviews tab for the 3 time
+2025-03-07 21:59:50,639 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:59:51,640 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:59:52,646 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:59:53,647 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:59:54,648 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:59:55,649 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:59:56,651 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:59:57,652 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:59:58,653 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 21:59:59,654 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:00:00,655 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:00:01,656 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:00:02,657 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:00:03,659 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:00:04,660 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:00:05,141 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] div[data-review-id][jsaction*='review.in']
+2025-03-07 22:00:05,661 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:00:06,662 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:00:07,663 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:00:08,664 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:00:09,665 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:00:10,666 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:00:11,667 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:00:12,668 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:00:13,669 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:00:14,671 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:00:14,922 - GoogleMaps - INFO - Successfully fetched 233 reviews
+2025-03-07 22:00:15,097 - GoogleMaps - INFO - Successfully scraped place data - url: https://www.google.com/maps/place/Royal+Phoenix+Clinic+Wasl+Village/@25.2908316,55.401143,14z/data=!4m10!1m2!2m1!1sclinics!3m6!1s0x912ba9a4f6ff0d9:0x807839b87d5f75e5!8m2!3d25.2883654!4d55.4125015!15sCgdjbGluaWNzWgkiB2NsaW5pY3OSAQ5tZWRpY2FsX2NsaW5pY5oBJENoZERTVWhOTUc5blMwVkpRMEZuU1VOaWMzUlRVM05CUlJBQuABAPoBBQj-ARBA!16s%2Fg%2F11ldjq8k7q?entry=ttu&g_ep=EgoyMDI1MDMwNC4wIKXMDSoASAFQAw%3D%3D - data: {'title': 'Royal Phoenix Clinic Wasl Village', 'category': 'Medical clinic'}
+2025-03-07 22:00:15,098 - GoogleMaps - INFO - URLS:[0/3]-LIST:[2/122]-DONE:[2]
+2025-03-07 22:00:15,193 - GoogleMaps - INFO - Skipping duplicate place - Title: Best Health Medical Center (Poly Clinic), Address: 42nd St - url: https://www.google.com/maps/search/clinics/@25.2908331,55.4165928,16z/data=!3m1!4b1 - data: {'title': 'Best Health Medical Center (Poly Clinic)', 'address': '42nd St'}
+2025-03-07 22:00:15,248 - GoogleMaps - INFO - URLS:[0/3]-LIST:[3/122]-DONE:[2]
+2025-03-07 22:00:15,352 - GoogleMaps - INFO - Skipping duplicate place - Title: ARIN CARE Clinic & Pharmacy, Address: Shop # 5 Talal Plaza Mall - url: https://www.google.com/maps/search/clinics/@25.2908331,55.4165928,16z/data=!3m1!4b1 - data: {'title': 'ARIN CARE Clinic & Pharmacy', 'address': 'Shop # 5 Talal Plaza Mall'}
+2025-03-07 22:00:15,407 - GoogleMaps - INFO - URLS:[0/3]-LIST:[4/122]-DONE:[2]
+2025-03-07 22:00:15,427 - GoogleMaps - INFO - Processing place - Title: Najmat Alsaqr Clinic LLC, Address: No outside address - url: https://www.google.com/maps/search/clinics/@25.2908331,55.4165928,16z/data=!3m1!4b1 - data: {'title': 'Najmat Alsaqr Clinic LLC', 'address': 'No outside address'}
+2025-03-07 22:00:15,672 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:00:16,243 - GoogleMaps - INFO - Fetching 16 reviews
+2025-03-07 22:00:16,248 - GoogleMaps - WARNING - Retrying to click reviews tab for the 0 time
+2025-03-07 22:00:16,673 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:00:16,754 - GoogleMaps - WARNING - Retrying to click reviews tab for the 1 time
+2025-03-07 22:00:17,261 - GoogleMaps - WARNING - Retrying to click reviews tab for the 2 time
+2025-03-07 22:00:17,674 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:00:17,777 - GoogleMaps - WARNING - Retrying to click reviews tab for the 3 time
+2025-03-07 22:00:18,676 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:00:19,677 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:00:20,678 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:00:21,679 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:00:22,681 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:00:23,682 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:00:24,683 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:00:25,685 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:00:26,686 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:00:27,687 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:00:28,688 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:00:29,689 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:00:30,654 - GoogleMaps - INFO - Successfully fetched 166 reviews
+2025-03-07 22:00:30,690 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:00:30,834 - GoogleMaps - INFO - Successfully scraped place data - url: https://www.google.com/maps/place/ARIN+CARE+Clinic+%26+Pharmacy/@25.2821911,55.3680436,14z/data=!4m10!1m2!2m1!1sclinics!3m6!1s0x3e5f5f77b965f3fd:0xa1546bd8b8bb3ef!8m2!3d25.2804091!4d55.4068664!15sCgdjbGluaWNzWgkiB2NsaW5pY3OSAQ5tZWRpY2FsX2NsaW5pY-ABAA!16s%2Fg%2F11t2t_yzmw?entry=ttu&g_ep=EgoyMDI1MDMwNC4wIKXMDSoASAFQAw%3D%3D - data: {'title': 'ARIN CARE Clinic & Pharmacy', 'category': 'Medical clinic'}
+2025-03-07 22:00:30,834 - GoogleMaps - INFO - URLS:[0/3]-LIST:[4/122]-DONE:[3]
+2025-03-07 22:00:30,903 - GoogleMaps - INFO - Skipping duplicate place - Title: Najmat Alsaqr Clinic LLC, Address: No outside address - url: https://www.google.com/maps/search/clinics/@25.2908331,55.4165929,16z/data=!3m1!4b1 - data: {'title': 'Najmat Alsaqr Clinic LLC', 'address': 'No outside address'}
+2025-03-07 22:00:30,958 - GoogleMaps - INFO - URLS:[0/3]-LIST:[5/122]-DONE:[3]
+2025-03-07 22:00:31,045 - GoogleMaps - WARNING - Place outside location bounds - Coordinates: 25.2934846,55.4141474, Title: Parisa Medical Center, Address: No outside address - url: https://www.google.com/maps/search/clinics/@25.2908331,55.4165929,16z/data=!3m1!4b1 - data: {'coordinates': '25.2934846,55.4141474', 'title': 'Parisa Medical Center', 'address': 'No outside address'}
+2025-03-07 22:00:31,045 - GoogleMaps - INFO - URLS:[0/3]-LIST:[6/122]-DONE:[3]
+2025-03-07 22:00:31,067 - GoogleMaps - INFO - Processing place - Title: Aster Clinic, Muhaisnah 4, Address: Zara Residence 1, Behind St Mary School - url: https://www.google.com/maps/search/clinics/@25.2908331,55.4165929,16z/data=!3m1!4b1 - data: {'title': 'Aster Clinic, Muhaisnah 4', 'address': 'Zara Residence 1, Behind St Mary School'}
+2025-03-07 22:00:31,691 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:00:31,824 - GoogleMaps - INFO - Fetching 1401 reviews
+2025-03-07 22:00:31,830 - GoogleMaps - WARNING - Retrying to click reviews tab for the 0 time
+2025-03-07 22:00:32,337 - GoogleMaps - WARNING - Retrying to click reviews tab for the 1 time
+2025-03-07 22:00:32,692 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:00:32,765 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] div[data-review-id][jsaction*='review.in']
+2025-03-07 22:00:32,846 - GoogleMaps - WARNING - Retrying to click reviews tab for the 2 time
+2025-03-07 22:00:33,374 - GoogleMaps - WARNING - Retrying to click reviews tab for the 3 time
+2025-03-07 22:00:33,694 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:00:34,695 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:00:35,433 - GoogleMaps - INFO - Successfully fetched 16 reviews
+2025-03-07 22:00:35,548 - GoogleMaps - INFO - Successfully scraped place data - url: https://www.google.com/maps/place/Najmat+Alsaqr+Clinic+LLC/@25.2883654,55.3764526,14z/data=!4m10!1m2!2m1!1sclinics!3m6!1s0x3e5f5f1ba74ace3f:0xb6bcef8e6823af7f!8m2!3d25.2929897!4d55.4049123!15sCgdjbGluaWNzWgkiB2NsaW5pY3OSAQ5tZWRpY2FsX2NsaW5pY-ABAA!16s%2Fg%2F11v_4r27wk?entry=ttu&g_ep=EgoyMDI1MDMwNC4wIKXMDSoASAFQAw%3D%3D - data: {'title': 'Najmat Alsaqr Clinic LLC', 'category': 'Medical clinic'}
+2025-03-07 22:00:35,549 - GoogleMaps - INFO - URLS:[0/3]-LIST:[5/122]-DONE:[4]
+2025-03-07 22:00:35,607 - GoogleMaps - WARNING - Place outside location bounds - Coordinates: 25.2934846,55.4141474, Title: Parisa Medical Center, Address: No outside address - url: https://www.google.com/maps/search/clinics/@25.2908331,55.4165928,16z/data=!3m1!4b1 - data: {'coordinates': '25.2934846,55.4141474', 'title': 'Parisa Medical Center', 'address': 'No outside address'}
+2025-03-07 22:00:35,607 - GoogleMaps - INFO - URLS:[0/3]-LIST:[6/122]-DONE:[4]
+2025-03-07 22:00:35,666 - GoogleMaps - INFO - Skipping duplicate place - Title: Aster Clinic, Muhaisnah 4, Address: Zara Residence 1, Behind St Mary School - url: https://www.google.com/maps/search/clinics/@25.2908331,55.4165928,16z/data=!3m1!4b1 - data: {'title': 'Aster Clinic, Muhaisnah 4', 'address': 'Zara Residence 1, Behind St Mary School'}
+2025-03-07 22:00:35,696 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:00:35,716 - GoogleMaps - INFO - URLS:[0/3]-LIST:[7/122]-DONE:[4]
+2025-03-07 22:00:35,781 - GoogleMaps - INFO - Processing place - Title: DOCIB Clinic, Address: Lulu Village - Amman St - url: https://www.google.com/maps/search/clinics/@25.2908331,55.4165928,16z/data=!3m1!4b1 - data: {'title': 'DOCIB Clinic', 'address': 'Lulu Village - Amman St'}
+2025-03-07 22:00:36,563 - GoogleMaps - INFO - Fetching 1737 reviews
+2025-03-07 22:00:36,567 - GoogleMaps - WARNING - Retrying to click reviews tab for the 0 time
+2025-03-07 22:00:36,697 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:00:37,077 - GoogleMaps - WARNING - Retrying to click reviews tab for the 1 time
+2025-03-07 22:00:37,592 - GoogleMaps - WARNING - Retrying to click reviews tab for the 2 time
+2025-03-07 22:00:37,698 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:00:38,101 - GoogleMaps - WARNING - Retrying to click reviews tab for the 3 time
+2025-03-07 22:00:38,610 - GoogleMaps - WARNING - Retrying to click reviews tab for the 4 time
+2025-03-07 22:00:38,700 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:00:39,117 - GoogleMaps - WARNING - Retrying to click reviews tab for the 5 time
+2025-03-07 22:00:39,701 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:00:40,702 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:00:41,703 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:00:42,704 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:00:43,706 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:00:44,707 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:00:45,708 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:00:46,711 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:00:47,712 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:00:48,492 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] div[data-review-id][jsaction*='review.in']
+2025-03-07 22:00:48,714 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:00:49,715 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:00:50,716 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:00:51,716 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:00:52,718 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:00:53,721 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:00:54,254 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] div[data-review-id][jsaction*='review.in']
+2025-03-07 22:00:54,722 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:00:55,723 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:00:56,725 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:00:57,726 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:00:58,727 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:00:59,728 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:01:00,729 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:01:01,730 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:01:02,732 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:01:03,733 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:01:04,734 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:01:05,736 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:01:06,737 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:01:07,738 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:01:08,742 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:01:09,743 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:01:10,744 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:01:11,745 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:01:12,746 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:01:13,748 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:01:14,750 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:01:15,751 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:01:16,752 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:01:17,753 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:01:18,754 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:01:19,756 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:01:20,762 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:01:21,763 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:01:22,765 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:01:23,769 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:01:24,770 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:01:25,771 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:01:26,773 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:01:27,774 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:01:28,775 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:01:29,777 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:01:30,778 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:01:31,779 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:01:32,780 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:01:33,781 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:01:34,782 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:01:35,783 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:01:36,784 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:01:37,786 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:01:38,787 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:01:39,787 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:01:40,789 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:01:41,789 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:01:42,790 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:01:43,792 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:01:44,793 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:01:45,794 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:01:46,794 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:01:47,795 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:01:47,836 - GoogleMaps - DEBUG - Current review count: 340
+2025-03-07 22:01:47,836 - GoogleMaps - WARNING - Reviews loading error, attempt 1
+2025-03-07 22:01:47,837 - GoogleMaps - ERROR - Error processing place: Stuck while waiting for more reviews to load - url: https://www.google.com/maps/search/clinics/@25.2908331,55.4165929,16z/data=!3m1!4b1
+Traceback (most recent call last):
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/google_maps_scraper.py", line 816, in scroll_all_reviews
+    WebDriverWait(self.driver, 0.1).until(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        EC.invisibility_of_element_located(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+            (By.CSS_SELECTOR, loading_spin_css_selector)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        )
+        ^
+    )
+    ^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/selenium/webdriver/support/wait.py", line 146, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/google_maps_scraper.py", line 1036, in get_data_from_place
+    reviews = self.get_place_reviews(number_of_reviews)
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/google_maps_scraper.py", line 877, in get_place_reviews
+    self.scroll_all_reviews(number_of_reviews)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/google_maps_scraper.py", line 854, in scroll_all_reviews
+    raise Exception(
+        "Stuck while waiting for more reviews to load"
+    ) from e
+Exception: Stuck while waiting for more reviews to load
+2025-03-07 22:01:48,414 - GoogleMaps - INFO - Processing place - Title: Aster Clinic, Muhaisnah 4, Address: Zara Residence 1, Behind St Mary School - url: https://www.google.com/maps/search/clinics/@25.2908331,55.4165929,16z/data=!3m1!4b1 - data: {'title': 'Aster Clinic, Muhaisnah 4', 'address': 'Zara Residence 1, Behind St Mary School'}
+2025-03-07 22:01:48,798 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:01:49,799 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:01:50,800 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:01:51,642 - GoogleMaps - DEBUG - Current review count: 720
+2025-03-07 22:01:51,643 - GoogleMaps - WARNING - Reviews loading error, attempt 1
+2025-03-07 22:01:51,643 - GoogleMaps - ERROR - Error processing place: Stuck while waiting for more reviews to load - url: https://www.google.com/maps/search/clinics/@25.1450395,55.2436334,15z/data=!3m1!4b1
+Traceback (most recent call last):
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/google_maps_scraper.py", line 816, in scroll_all_reviews
+    WebDriverWait(self.driver, 0.1).until(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        EC.invisibility_of_element_located(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+            (By.CSS_SELECTOR, loading_spin_css_selector)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        )
+        ^
+    )
+    ^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/selenium/webdriver/support/wait.py", line 146, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/google_maps_scraper.py", line 1036, in get_data_from_place
+    reviews = self.get_place_reviews(number_of_reviews)
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/google_maps_scraper.py", line 877, in get_place_reviews
+    self.scroll_all_reviews(number_of_reviews)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/google_maps_scraper.py", line 854, in scroll_all_reviews
+    raise Exception(
+        "Stuck while waiting for more reviews to load"
+    ) from e
+Exception: Stuck while waiting for more reviews to load
+2025-03-07 22:01:51,736 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-07 22:01:51,801 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:01:52,147 - GoogleMaps - DEBUG - Current review count: 300
+2025-03-07 22:01:52,147 - GoogleMaps - WARNING - Reviews loading error, attempt 1
+2025-03-07 22:01:52,147 - GoogleMaps - ERROR - Error processing place: Stuck while waiting for more reviews to load - url: https://www.google.com/maps/search/clinics/@25.2908331,55.4165928,16z/data=!3m1!4b1
+Traceback (most recent call last):
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/google_maps_scraper.py", line 816, in scroll_all_reviews
+    WebDriverWait(self.driver, 0.1).until(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        EC.invisibility_of_element_located(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+            (By.CSS_SELECTOR, loading_spin_css_selector)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        )
+        ^
+    )
+    ^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/selenium/webdriver/support/wait.py", line 146, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/google_maps_scraper.py", line 1036, in get_data_from_place
+    reviews = self.get_place_reviews(number_of_reviews)
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/google_maps_scraper.py", line 877, in get_place_reviews
+    self.scroll_all_reviews(number_of_reviews)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/google_maps_scraper.py", line 854, in scroll_all_reviews
+    raise Exception(
+        "Stuck while waiting for more reviews to load"
+    ) from e
+Exception: Stuck while waiting for more reviews to load
+2025-03-07 22:01:52,183 - GoogleMaps - INFO - Processing place - Title: Aster Clinic, Al Quoz - Al Khail Mall, Address: Al Khail Mall - First Floor - url: https://www.google.com/maps/search/clinics/@25.1450395,55.2436334,15z/data=!3m1!4b1 - data: {'title': 'Aster Clinic, Al Quoz - Al Khail Mall', 'address': 'Al Khail Mall - First Floor'}
+2025-03-07 22:01:52,714 - GoogleMaps - INFO - Processing place - Title: DOCIB Clinic, Address: Lulu Village - Amman St - url: https://www.google.com/maps/search/clinics/@25.2908331,55.4165928,16z/data=!3m1!4b1 - data: {'title': 'DOCIB Clinic', 'address': 'Lulu Village - Amman St'}
+2025-03-07 22:01:52,803 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:01:53,804 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:01:54,806 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:01:54,879 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-07 22:01:55,403 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-07 22:01:55,807 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:01:56,021 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-07 22:01:56,808 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:01:57,810 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:01:58,013 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-07 22:01:58,535 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-07 22:01:58,811 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:01:59,136 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-07 22:01:59,813 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:02:00,813 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:02:01,159 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-07 22:02:01,683 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-07 22:02:01,814 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:02:02,241 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-07 22:02:02,816 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:02:03,818 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:02:04,822 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:02:05,178 - GoogleMaps - INFO - Fetching 1401 reviews
+2025-03-07 22:02:05,204 - GoogleMaps - INFO - Fetching 8566 reviews
+2025-03-07 22:02:05,823 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:02:05,908 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-07 22:02:06,825 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:02:06,904 - GoogleMaps - INFO - Fetching 1737 reviews
+2025-03-07 22:02:07,826 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:02:08,827 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:02:09,828 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:02:10,829 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:02:11,831 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:02:12,832 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:02:13,834 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:02:14,834 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:02:15,836 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:02:16,837 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:02:17,839 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:02:18,839 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:02:19,840 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:02:20,842 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:02:21,045 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] div[data-review-id][jsaction*='review.in']
+2025-03-07 22:02:21,046 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] div[data-review-id][jsaction*='review.in']
+2025-03-07 22:02:21,843 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:02:22,844 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:02:23,095 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] div[data-review-id][jsaction*='review.in']
+2025-03-07 22:02:23,846 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:02:24,847 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:02:25,848 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:02:26,849 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:02:27,850 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:02:28,853 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:02:29,854 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:02:30,855 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:02:31,855 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:02:32,856 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:02:33,857 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:02:34,858 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:02:35,860 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:02:36,861 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:02:37,862 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:02:38,863 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:02:39,864 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:02:40,865 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:02:41,866 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:02:42,867 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:02:43,869 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:02:44,870 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:02:45,871 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:02:46,873 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:02:47,874 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:02:48,875 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:02:49,875 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:02:50,877 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:02:51,878 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:02:52,880 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:02:53,882 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:02:54,185 - GoogleMaps - DEBUG - Current review count: 20
+2025-03-07 22:02:54,185 - GoogleMaps - WARNING - Reviews loading error, attempt 2
+2025-03-07 22:02:54,709 - GoogleMaps - DEBUG - Current review count: 30
+2025-03-07 22:02:54,709 - GoogleMaps - WARNING - Reviews loading error, attempt 2
+2025-03-07 22:02:54,882 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:02:55,015 - GoogleMaps - INFO - Successfully fetched 20 reviews
+2025-03-07 22:02:55,826 - GoogleMaps - DEBUG - Current review count: 60
+2025-03-07 22:02:55,826 - GoogleMaps - WARNING - Reviews loading error, attempt 2
+2025-03-07 22:02:55,883 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:02:56,492 - GoogleMaps - INFO - Successfully fetched 30 reviews
+2025-03-07 22:02:56,884 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:02:57,886 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:02:58,894 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:02:59,235 - GoogleMaps - INFO - Successfully scraped place data - url: https://www.google.com/maps/place/Aster+Clinic,+Muhaisnah+4/@25.2821911,55.3680436,14z/data=!4m10!1m2!2m1!1sclinics!3m6!1s0x3e5f5f8c23843449:0x972019765dc50c54!8m2!3d25.2795595!4d55.4056447!15sCgdjbGluaWNzWgkiB2NsaW5pY3OSAQ5tZWRpY2FsX2NsaW5pY5oBJENoZERTVWhOTUc5blMwVkpRMEZuU1VSbGJDMVBlREJSUlJBQuABAPoBBAgSEEI!16s%2Fg%2F11j2195fxh?entry=ttu&g_ep=EgoyMDI1MDMwNC4wIKXMDSoASAFQAw%3D%3D - data: {'title': 'Aster Clinic, Muhaisnah 4', 'category': 'Medical clinic'}
+2025-03-07 22:02:59,304 - GoogleMaps - INFO - URLS:[0/3]-LIST:[7/122]-DONE:[5]
+2025-03-07 22:02:59,611 - GoogleMaps - INFO - Successfully scraped place data - url: https://www.google.com/maps/place/DOCIB+Clinic/@25.2814958,55.3745749,14z/data=!4m12!1m2!2m1!1sclinics!3m8!1s0x3e5f5e843785eaa5:0xf2fe8bffa359386!8m2!3d25.2814958!4d55.4106238!9m1!1b1!15sCgdjbGluaWNzWgkiB2NsaW5pY3OSAQ5tZWRpY2FsX2NsaW5pY5oBI0NoWkRTVWhOTUc5blMwVkpRMEZuU1VNNWFsQmlZa1puRUFF4AEA-gEECF0QRA!16s%2Fg%2F11b6nsgs2k?entry=ttu&g_ep=EgoyMDI1MDMwNC4wIKXMDSoASAFQAw%3D%3D - data: {'title': 'DOCIB Clinic', 'category': ''}
+2025-03-07 22:02:59,612 - GoogleMaps - INFO - URLS:[0/3]-LIST:[8/122]-DONE:[6]
+2025-03-07 22:02:59,765 - GoogleMaps - INFO - Processing place - Title: Cornish Arabian Aesthetic Clinic, Address: 79MX+28R madina mall - url: https://www.google.com/maps/search/clinics/@25.2908331,55.4165928,16z/data=!3m1!4b1 - data: {'title': 'Cornish Arabian Aesthetic Clinic', 'address': '79MX+28R madina mall'}
+2025-03-07 22:02:59,765 - GoogleMaps - INFO - Skipping duplicate place - Title: DOCIB Clinic, Address: Lulu Village - Amman St - url: https://www.google.com/maps/search/clinics/@25.2908331,55.4165929,16z/data=!3m1!4b1 - data: {'title': 'DOCIB Clinic', 'address': 'Lulu Village - Amman St'}
+2025-03-07 22:02:59,820 - GoogleMaps - INFO - URLS:[0/3]-LIST:[8/122]-DONE:[6]
+2025-03-07 22:02:59,847 - GoogleMaps - INFO - Skipping duplicate place - Title: Cornish Arabian Aesthetic Clinic, Address: 79MX+28R madina mall - url: https://www.google.com/maps/search/clinics/@25.2908331,55.4165929,16z/data=!3m1!4b1 - data: {'title': 'Cornish Arabian Aesthetic Clinic', 'address': '79MX+28R madina mall'}
+2025-03-07 22:02:59,895 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:02:59,902 - GoogleMaps - INFO - URLS:[0/3]-LIST:[9/122]-DONE:[6]
+2025-03-07 22:02:59,929 - GoogleMaps - INFO - Processing place - Title: Josephs Qusais polyclinic/ Amber Clinic Qusais, Address: 1 32 B St - url: https://www.google.com/maps/search/clinics/@25.2908331,55.4165929,16z/data=!3m1!4b1 - data: {'title': 'Josephs Qusais polyclinic/ Amber Clinic Qusais', 'address': '1 32 B St'}
+2025-03-07 22:03:00,626 - GoogleMaps - INFO - Fetching 301 reviews
+2025-03-07 22:03:00,631 - GoogleMaps - WARNING - Retrying to click reviews tab for the 0 time
+2025-03-07 22:03:00,882 - GoogleMaps - INFO - Fetching 2210 reviews
+2025-03-07 22:03:00,887 - GoogleMaps - WARNING - Retrying to click reviews tab for the 0 time
+2025-03-07 22:03:00,897 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:03:01,141 - GoogleMaps - WARNING - Retrying to click reviews tab for the 1 time
+2025-03-07 22:03:01,401 - GoogleMaps - WARNING - Retrying to click reviews tab for the 1 time
+2025-03-07 22:03:01,647 - GoogleMaps - WARNING - Retrying to click reviews tab for the 2 time
+2025-03-07 22:03:01,898 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:03:01,979 - GoogleMaps - INFO - Successfully fetched 60 reviews
+2025-03-07 22:03:02,162 - GoogleMaps - INFO - Successfully scraped place data - url: https://www.google.com/maps/place/Aster+Clinic,+Al+Quoz+-+Al+Khail+Mall/@25.1491849,55.2282251,15z/data=!3m1!5s0x3e5f69d870a99109:0x5d77e3ee8e63a337!4m10!1m2!2m1!1sclinics!3m6!1s0x3e5f695bfbadf613:0xb5b4454e33e87312!8m2!3d25.1491849!4d55.2462495!15sCgdjbGluaWNzWgkiB2NsaW5pY3OSAQ5tZWRpY2FsX2NlbnRlcuABAA!16s%2Fg%2F11byp83rwz?entry=ttu&g_ep=EgoyMDI1MDMwNC4wIKXMDSoASAFQAw%3D%3D - data: {'title': 'Aster Clinic, Al Quoz - Al Khail Mall', 'category': 'Medical Center'}
+2025-03-07 22:03:02,162 - GoogleMaps - INFO - URLS:[0/3]-LIST:[2/122]-DONE:[7]
+2025-03-07 22:03:02,163 - GoogleMaps - WARNING - Retrying to click reviews tab for the 3 time
+2025-03-07 22:03:02,249 - GoogleMaps - INFO - Processing place - Title: Syed Sadiq Clinic, Address: Latifa Bint Hamdan St - url: https://www.google.com/maps/search/clinics/@25.1450395,55.2436334,15z/data=!3m1!4b1 - data: {'title': 'Syed Sadiq Clinic', 'address': 'Latifa Bint Hamdan St'}
+2025-03-07 22:03:02,899 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:03:03,398 - GoogleMaps - INFO - Fetching 54 reviews
+2025-03-07 22:03:03,404 - GoogleMaps - WARNING - Retrying to click reviews tab for the 0 time
+2025-03-07 22:03:03,901 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:03:03,918 - GoogleMaps - WARNING - Retrying to click reviews tab for the 1 time
+2025-03-07 22:03:04,432 - GoogleMaps - WARNING - Retrying to click reviews tab for the 2 time
+2025-03-07 22:03:04,901 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:03:05,903 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:03:06,904 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:03:07,904 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:03:08,906 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:03:09,907 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:03:10,909 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:03:11,911 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:03:12,913 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:03:13,915 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:03:14,917 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:03:15,918 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:03:16,919 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:03:17,136 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] div[data-review-id][jsaction*='review.in']
+2025-03-07 22:03:17,921 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:03:18,265 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] div[data-review-id][jsaction*='review.in']
+2025-03-07 22:03:18,922 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:03:19,524 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] div[data-review-id][jsaction*='review.in']
+2025-03-07 22:03:19,924 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:03:20,925 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:03:21,926 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:03:22,927 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:03:23,928 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:03:24,930 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:03:25,931 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:03:26,932 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:03:27,933 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:03:28,934 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:03:29,865 - GoogleMaps - INFO - Successfully fetched 54 reviews
+2025-03-07 22:03:29,935 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:03:30,058 - GoogleMaps - INFO - Successfully scraped place data - url: https://www.google.com/maps/place/Syed+Sadiq+Clinic/@25.1491849,55.2282251,15z/data=!4m10!1m2!2m1!1sclinics!3m6!1s0x3e5f699bf9a1021b:0x7b8a03aaeda00094!8m2!3d25.1520481!4d55.2422142!15sCgdjbGluaWNzWgkiB2NsaW5pY3OSAQ5tZWRpY2FsX2NsaW5pY5oBI0NoWkRTVWhOTUc5blMwVkpRMEZuU1VRdExWOHlYMk5uRUFF4AEA-gEECAAQGQ!16s%2Fg%2F11b8c3jl5c?entry=ttu&g_ep=EgoyMDI1MDMwNC4wIKXMDSoASAFQAw%3D%3D - data: {'title': 'Syed Sadiq Clinic', 'category': 'Medical clinic'}
+2025-03-07 22:03:30,058 - GoogleMaps - INFO - URLS:[0/3]-LIST:[3/122]-DONE:[8]
+2025-03-07 22:03:30,173 - GoogleMaps - INFO - Processing place - Title: Al Quoz City Star Polyclinic, Address: Al Rostamani - Al Quoz Street - url: https://www.google.com/maps/search/clinics/@25.1450395,55.2436334,15z/data=!3m1!4b1 - data: {'title': 'Al Quoz City Star Polyclinic', 'address': 'Al Rostamani - Al Quoz Street'}
+2025-03-07 22:03:30,936 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:03:31,328 - GoogleMaps - INFO - Fetching 39 reviews
+2025-03-07 22:03:31,335 - GoogleMaps - WARNING - Retrying to click reviews tab for the 0 time
+2025-03-07 22:03:31,845 - GoogleMaps - WARNING - Retrying to click reviews tab for the 1 time
+2025-03-07 22:03:31,938 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:03:32,356 - GoogleMaps - WARNING - Retrying to click reviews tab for the 2 time
+2025-03-07 22:03:32,880 - GoogleMaps - WARNING - Retrying to click reviews tab for the 3 time
+2025-03-07 22:03:32,939 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:03:33,940 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:03:34,942 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:03:35,943 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:03:36,945 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:03:37,946 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:03:38,947 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:03:39,948 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:03:40,949 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:03:41,949 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:03:42,952 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:03:43,952 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:03:44,954 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:03:45,955 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:03:46,956 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:03:47,958 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:03:48,714 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] div[data-review-id][jsaction*='review.in']
+2025-03-07 22:03:48,960 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:03:49,963 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:03:50,964 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:03:51,965 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:03:52,966 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:03:53,967 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:03:54,968 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:03:55,969 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:03:56,969 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:03:57,627 - GoogleMaps - INFO - Successfully fetched 39 reviews
+2025-03-07 22:03:57,762 - GoogleMaps - INFO - Successfully scraped place data - url: https://www.google.com/maps/place/Al+Quoz+City+Star+Polyclinic/@25.1520481,55.2241898,15z/data=!4m10!1m2!2m1!1sclinics!3m6!1s0x3e5f699bfca6bd93:0x942a7ed558617d0!8m2!3d25.151947!4d55.2421112!15sCgdjbGluaWNzWgkiB2NsaW5pY3OSAQ5tZWRpY2FsX2NsaW5pY5oBJENoZERTVWhOTUc5blMwVkpRMEZuU1VOaExVcHlOSHAzUlJBQuABAPoBBAgAECs!16s%2Fg%2F11bbwmlgvj?entry=ttu&g_ep=EgoyMDI1MDMwNC4wIKXMDSoASAFQAw%3D%3D - data: {'title': 'Al Quoz City Star Polyclinic', 'category': 'Medical clinic'}
+2025-03-07 22:03:57,762 - GoogleMaps - INFO - URLS:[0/3]-LIST:[4/122]-DONE:[9]
+2025-03-07 22:03:57,852 - GoogleMaps - INFO - Processing place - Title: Sekher Medical Clinic LLc, Address: Arabian Gulf - Building- Flat 101 First Floor - opposite Belhasa Driving school - url: https://www.google.com/maps/search/clinics/@25.1450395,55.2436334,15z/data=!3m1!4b1 - data: {'title': 'Sekher Medical Clinic LLc', 'address': 'Arabian Gulf - Building- Flat 101 First Floor - opposite Belhasa Driving school'}
+2025-03-07 22:03:57,970 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:03:58,941 - GoogleMaps - INFO - Fetching 52 reviews
+2025-03-07 22:03:58,947 - GoogleMaps - WARNING - Retrying to click reviews tab for the 0 time
+2025-03-07 22:03:58,971 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:03:59,456 - GoogleMaps - WARNING - Retrying to click reviews tab for the 1 time
+2025-03-07 22:03:59,971 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:03:59,985 - GoogleMaps - WARNING - Retrying to click reviews tab for the 2 time
+2025-03-07 22:04:00,972 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:04:01,973 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:04:02,975 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:04:03,975 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:04:04,976 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:04:05,978 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:04:06,979 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:04:07,980 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:04:08,981 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:04:09,982 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:04:10,983 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:04:11,984 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:04:12,984 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:04:13,986 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:04:14,987 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:04:15,239 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] div[data-review-id][jsaction*='review.in']
+2025-03-07 22:04:15,988 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:04:16,989 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:04:17,990 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:04:18,992 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:04:19,993 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:04:20,994 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:04:21,996 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:04:22,997 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:04:23,998 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:04:25,002 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:04:25,355 - GoogleMaps - INFO - Successfully fetched 52 reviews
+2025-03-07 22:04:25,507 - GoogleMaps - INFO - Successfully scraped place data - url: https://www.google.com/maps/place/Sekher+Medical+Clinic+LLc/@25.1520481,55.2241898,15z/data=!4m10!1m2!2m1!1sclinics!3m6!1s0x3e5f69989a17f927:0x162235b9083b0937!8m2!3d25.1548124!4d55.2473555!15sCgdjbGluaWNzWgkiB2NsaW5pY3OSAQ5tZWRpY2FsX2NlbnRlcuABAA!16s%2Fg%2F11c526hrlf?entry=ttu&g_ep=EgoyMDI1MDMwNC4wIKXMDSoASAFQAw%3D%3D - data: {'title': 'Sekher Medical Clinic LLc', 'category': 'Medical clinic'}
+2025-03-07 22:04:25,507 - GoogleMaps - INFO - URLS:[0/3]-LIST:[5/122]-DONE:[10]
+2025-03-07 22:04:25,610 - GoogleMaps - INFO - Processing place - Title: Lifeline Clinic Al Quoz, Address: 26th St - Al Khail Rd - url: https://www.google.com/maps/search/clinics/@25.1450395,55.2436334,15z/data=!3m1!4b1 - data: {'title': 'Lifeline Clinic Al Quoz', 'address': '26th St - Al Khail Rd'}
+2025-03-07 22:04:26,003 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:04:26,649 - GoogleMaps - INFO - Fetching 31 reviews
+2025-03-07 22:04:26,653 - GoogleMaps - WARNING - Retrying to click reviews tab for the 0 time
+2025-03-07 22:04:27,004 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:04:27,198 - GoogleMaps - WARNING - Retrying to click reviews tab for the 1 time
+2025-03-07 22:04:27,708 - GoogleMaps - WARNING - Retrying to click reviews tab for the 2 time
+2025-03-07 22:04:28,005 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:04:28,241 - GoogleMaps - WARNING - Retrying to click reviews tab for the 3 time
+2025-03-07 22:04:29,006 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:04:30,008 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:04:30,605 - GoogleMaps - INFO - Successfully fetched 301 reviews
+2025-03-07 22:04:30,766 - GoogleMaps - INFO - Successfully scraped place data - url: https://www.google.com/maps/place/Cornish+Arabian+Aesthetic+Clinic/@25.2814958,55.3745749,14z/data=!4m10!1m2!2m1!1sclinics!3m6!1s0x3e5f5dfcc8ad33eb:0xa98aab0167543732!8m2!3d25.2826173!4d55.3982751!15sCgdjbGluaWNzWgkiB2NsaW5pY3OSAQ5tZWRpY2FsX2NsaW5pY5oBI0NoWkRTVWhOTUc5blMwVkpRMEZuU1VObWNWOWxOa0YzRUFF4AEA-gEECHoQNA!16s%2Fg%2F11s2lc0kbz?entry=ttu&g_ep=EgoyMDI1MDMwNC4wIKXMDSoASAFQAw%3D%3D - data: {'title': 'Cornish Arabian Aesthetic Clinic', 'category': 'Medical clinic'}
+2025-03-07 22:04:30,766 - GoogleMaps - INFO - URLS:[0/3]-LIST:[9/122]-DONE:[11]
+2025-03-07 22:04:30,873 - GoogleMaps - INFO - Skipping duplicate place - Title: Josephs Qusais polyclinic/ Amber Clinic Qusais, Address: 1 32 B St - url: https://www.google.com/maps/search/clinics/@25.2908331,55.4165928,16z/data=!3m1!4b1 - data: {'title': 'Josephs Qusais polyclinic/ Amber Clinic Qusais', 'address': '1 32 B St'}
+2025-03-07 22:04:30,929 - GoogleMaps - INFO - URLS:[0/3]-LIST:[10/122]-DONE:[11]
+2025-03-07 22:04:31,009 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:04:31,031 - GoogleMaps - INFO - Processing place - Title: Aster Clinic, Al Qusais(Damascus St.), Address: Ground Floor, Shop no. A 10 & 11, Al Fattan Building، Damascus Street,Opposite to Nehal Complex - url: https://www.google.com/maps/search/clinics/@25.2908331,55.4165928,16z/data=!3m1!4b1 - data: {'title': 'Aster Clinic, Al Qusais(Damascus St.)', 'address': 'Ground Floor, Shop no. A 10 & 11, Al Fattan Building، Damascus Street,Opposite to Nehal Complex'}
+2025-03-07 22:04:31,834 - GoogleMaps - INFO - Fetching 4512 reviews
+2025-03-07 22:04:31,840 - GoogleMaps - WARNING - Retrying to click reviews tab for the 0 time
+2025-03-07 22:04:32,010 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:04:32,345 - GoogleMaps - WARNING - Retrying to click reviews tab for the 1 time
+2025-03-07 22:04:32,855 - GoogleMaps - WARNING - Retrying to click reviews tab for the 2 time
+2025-03-07 22:04:33,011 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:04:33,372 - GoogleMaps - WARNING - Retrying to click reviews tab for the 3 time
+2025-03-07 22:04:34,012 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:04:35,013 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:04:36,015 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:04:37,016 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:04:38,017 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:04:39,018 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:04:40,019 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:04:41,020 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:04:42,021 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:04:43,022 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:04:43,965 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] div[data-review-id][jsaction*='review.in']
+2025-03-07 22:04:44,023 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:04:45,025 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:04:46,026 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:04:47,026 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:04:48,029 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:04:48,405 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] div[data-review-id][jsaction*='review.in']
+2025-03-07 22:04:49,030 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:04:50,030 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:04:50,749 - GoogleMaps - INFO - Successfully fetched 31 reviews
+2025-03-07 22:04:50,907 - GoogleMaps - INFO - Successfully scraped place data - url: https://www.google.com/maps/place/Lifeline+Clinic+Al+Quoz/@25.1548124,55.2293311,15z/data=!4m10!1m2!2m1!1sclinics!3m6!1s0x3e5f69e8a7a2036d:0x5a68ed1bb7d7dcbd!8m2!3d25.1386875!4d55.2581235!15sCgdjbGluaWNzWgkiB2NsaW5pY3OSAQ5tZWRpY2FsX2NsaW5pY5oBI0NoWkRTVWhOTUc5blMwVkpRMEZuU1VSd04zVTJhbUpCRUFF4AEA-gEECEsQJg!16s%2Fg%2F11sstsg5qr?entry=ttu&g_ep=EgoyMDI1MDMwNC4wIKXMDSoASAFQAw%3D%3D - data: {'title': 'Lifeline Clinic Al Quoz', 'category': 'Medical clinic'}
+2025-03-07 22:04:50,907 - GoogleMaps - INFO - URLS:[0/3]-LIST:[6/122]-DONE:[12]
+2025-03-07 22:04:50,977 - GoogleMaps - INFO - Processing place - Title: Aster Al Quoz, Address: Al Qouz Industrial Area 1, Near Old Grand Mall - url: https://www.google.com/maps/search/clinics/@25.1450395,55.2436334,15z/data=!3m1!4b1 - data: {'title': 'Aster Al Quoz', 'address': 'Al Qouz Industrial Area 1, Near Old Grand Mall'}
+2025-03-07 22:04:51,031 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:04:52,030 - GoogleMaps - INFO - Fetching 5107 reviews
+2025-03-07 22:04:52,034 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:04:52,045 - GoogleMaps - WARNING - Retrying to click reviews tab for the 0 time
+2025-03-07 22:04:52,556 - GoogleMaps - WARNING - Retrying to click reviews tab for the 1 time
+2025-03-07 22:04:53,036 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:04:53,066 - GoogleMaps - WARNING - Retrying to click reviews tab for the 2 time
+2025-03-07 22:04:54,037 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:04:55,038 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:04:56,040 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:04:57,042 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:04:58,042 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:04:59,045 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:05:00,048 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:05:01,050 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:05:02,052 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:05:03,053 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:05:04,053 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:05:05,055 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:05:06,055 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:05:07,056 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:05:08,058 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:05:09,002 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] div[data-review-id][jsaction*='review.in']
+2025-03-07 22:05:09,060 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:05:10,061 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:05:11,062 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:05:12,064 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:05:13,067 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:05:14,080 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:05:15,083 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:05:16,084 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:05:17,085 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:05:18,087 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:05:19,088 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:05:20,089 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:05:21,091 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:05:22,095 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:05:23,100 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:05:24,101 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:05:25,103 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:05:26,103 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:05:27,104 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:05:28,105 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:05:29,106 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:05:30,108 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:05:31,109 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:05:32,114 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:05:33,129 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:05:34,132 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:05:35,133 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:05:36,134 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:05:37,135 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:05:38,136 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:05:39,137 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:05:40,141 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:05:41,142 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:05:42,143 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:05:43,144 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:05:44,146 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:05:45,147 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:05:46,149 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:05:47,150 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:05:48,151 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:05:49,152 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:05:50,154 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:05:51,155 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:05:52,156 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:05:53,157 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:05:54,193 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:05:55,195 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:05:56,196 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:05:57,200 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:05:58,202 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:05:59,203 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:06:00,205 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:06:01,208 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:06:02,209 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:06:03,211 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:06:04,212 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:06:05,213 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:06:06,215 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:06:07,216 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:06:08,218 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:06:09,218 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:06:10,220 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:06:11,221 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:06:12,221 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:06:13,225 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:06:14,227 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:06:15,228 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:06:16,229 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:06:17,230 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:06:18,231 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:06:19,232 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:06:20,233 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:06:21,235 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:06:22,236 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:06:23,237 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:06:24,238 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:06:25,239 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:06:26,241 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:06:27,242 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:06:28,243 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:06:29,244 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:06:30,245 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:06:31,246 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:06:32,247 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:06:33,248 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:06:34,249 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:06:35,250 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:06:36,251 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:06:37,253 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:06:38,254 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:06:39,254 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:06:40,255 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:06:41,256 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:06:42,258 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:06:43,259 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:06:43,711 - GoogleMaps - DEBUG - Current review count: 500
+2025-03-07 22:06:43,711 - GoogleMaps - WARNING - Reviews loading error, attempt 1
+2025-03-07 22:06:43,712 - GoogleMaps - ERROR - Error processing place: Stuck while waiting for more reviews to load - url: https://www.google.com/maps/search/clinics/@25.2908331,55.4165928,16z/data=!3m1!4b1
+Traceback (most recent call last):
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/google_maps_scraper.py", line 816, in scroll_all_reviews
+    WebDriverWait(self.driver, 0.1).until(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        EC.invisibility_of_element_located(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+            (By.CSS_SELECTOR, loading_spin_css_selector)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        )
+        ^
+    )
+    ^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/selenium/webdriver/support/wait.py", line 146, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/google_maps_scraper.py", line 1036, in get_data_from_place
+    reviews = self.get_place_reviews(number_of_reviews)
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/google_maps_scraper.py", line 877, in get_place_reviews
+    self.scroll_all_reviews(number_of_reviews)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/google_maps_scraper.py", line 854, in scroll_all_reviews
+    raise Exception(
+        "Stuck while waiting for more reviews to load"
+    ) from e
+Exception: Stuck while waiting for more reviews to load
+2025-03-07 22:06:44,260 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:06:44,272 - GoogleMaps - INFO - Processing place - Title: Aster Clinic, Al Qusais(Damascus St.), Address: Ground Floor, Shop no. A 10 & 11, Al Fattan Building، Damascus Street,Opposite to Nehal Complex - url: https://www.google.com/maps/search/clinics/@25.2908331,55.4165928,16z/data=!3m1!4b1 - data: {'title': 'Aster Clinic, Al Qusais(Damascus St.)', 'address': 'Ground Floor, Shop no. A 10 & 11, Al Fattan Building، Damascus Street,Opposite to Nehal Complex'}
+2025-03-07 22:06:44,278 - GoogleMaps - DEBUG - Current review count: 850
+2025-03-07 22:06:44,278 - GoogleMaps - WARNING - Reviews loading error, attempt 1
+2025-03-07 22:06:44,278 - GoogleMaps - ERROR - Error processing place: Stuck while waiting for more reviews to load - url: https://www.google.com/maps/search/clinics/@25.2908331,55.4165929,16z/data=!3m1!4b1
+Traceback (most recent call last):
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/google_maps_scraper.py", line 816, in scroll_all_reviews
+    WebDriverWait(self.driver, 0.1).until(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        EC.invisibility_of_element_located(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+            (By.CSS_SELECTOR, loading_spin_css_selector)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        )
+        ^
+    )
+    ^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/selenium/webdriver/support/wait.py", line 146, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/google_maps_scraper.py", line 1036, in get_data_from_place
+    reviews = self.get_place_reviews(number_of_reviews)
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/google_maps_scraper.py", line 877, in get_place_reviews
+    self.scroll_all_reviews(number_of_reviews)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/google_maps_scraper.py", line 854, in scroll_all_reviews
+    raise Exception(
+        "Stuck while waiting for more reviews to load"
+    ) from e
+Exception: Stuck while waiting for more reviews to load
+2025-03-07 22:06:44,825 - GoogleMaps - INFO - Processing place - Title: Josephs Qusais polyclinic/ Amber Clinic Qusais, Address: 1 32 B St - url: https://www.google.com/maps/search/clinics/@25.2908331,55.4165929,16z/data=!3m1!4b1 - data: {'title': 'Josephs Qusais polyclinic/ Amber Clinic Qusais', 'address': '1 32 B St'}
+2025-03-07 22:06:45,262 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:06:45,643 - GoogleMaps - DEBUG - Current review count: 420
+2025-03-07 22:06:45,643 - GoogleMaps - WARNING - Reviews loading error, attempt 1
+2025-03-07 22:06:45,643 - GoogleMaps - ERROR - Error processing place: Stuck while waiting for more reviews to load - url: https://www.google.com/maps/search/clinics/@25.1450395,55.2436334,15z/data=!3m1!4b1
+Traceback (most recent call last):
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/google_maps_scraper.py", line 816, in scroll_all_reviews
+    WebDriverWait(self.driver, 0.1).until(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        EC.invisibility_of_element_located(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+            (By.CSS_SELECTOR, loading_spin_css_selector)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        )
+        ^
+    )
+    ^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/selenium/webdriver/support/wait.py", line 146, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/google_maps_scraper.py", line 1036, in get_data_from_place
+    reviews = self.get_place_reviews(number_of_reviews)
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/google_maps_scraper.py", line 877, in get_place_reviews
+    self.scroll_all_reviews(number_of_reviews)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/google_maps_scraper.py", line 854, in scroll_all_reviews
+    raise Exception(
+        "Stuck while waiting for more reviews to load"
+    ) from e
+Exception: Stuck while waiting for more reviews to load
+2025-03-07 22:06:46,197 - GoogleMaps - INFO - Processing place - Title: Aster Al Quoz, Address: Al Qouz Industrial Area 1, Near Old Grand Mall - url: https://www.google.com/maps/search/clinics/@25.1450395,55.2436334,15z/data=!3m1!4b1 - data: {'title': 'Aster Al Quoz', 'address': 'Al Qouz Industrial Area 1, Near Old Grand Mall'}
+2025-03-07 22:06:46,262 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:06:47,263 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:06:47,584 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-07 22:06:48,264 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:06:48,308 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-07 22:06:49,265 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:06:49,504 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-07 22:06:50,266 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:06:50,740 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-07 22:06:51,266 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:06:51,467 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-07 22:06:52,268 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:06:52,642 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-07 22:06:53,270 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:06:53,891 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-07 22:06:54,271 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:06:54,625 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-07 22:06:55,273 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:06:55,825 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-07 22:06:56,274 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:06:56,805 - GoogleMaps - INFO - Fetching 4512 reviews
+2025-03-07 22:06:57,275 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:06:57,291 - GoogleMaps - INFO - Fetching 5107 reviews
+2025-03-07 22:06:58,278 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:06:58,736 - GoogleMaps - INFO - Fetching 2210 reviews
+2025-03-07 22:06:59,279 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:07:00,279 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:07:01,281 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:07:02,282 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:07:03,284 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:07:04,285 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:07:05,226 - GoogleMaps - ERROR - Unexpected error while sorting reviews by time - url: https://www.google.com/maps/search/clinics/@25.2908331,55.4165929,16z/data=!3m1!4b1
+Traceback (most recent call last):
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/google_maps_scraper.py", line 726, in sort_reviews_by_time
+    self.wait_for_css_selector_to_disappear(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        reviews_newest_sort_option_css_selector, timeout=2
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/google_maps_scraper.py", line 99, in wait_for_css_selector_to_disappear
+    WebDriverWait(self.driver, timeout).until(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        EC.invisibility_of_element_located((By.CSS_SELECTOR, css_selector))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/selenium/webdriver/support/wait.py", line 146, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2025-03-07 22:07:05,287 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:07:06,259 - GoogleMaps - WARNING - Browser session error while get_data_from_place for the 1 time - url: https://www.google.com/maps/search/clinics/@25.2908331,55.4165929,16z/data=!3m1!4b1
+2025-03-07 22:07:06,260 - GoogleMaps - ERROR - Browser session error while scrap_data_from_search_url - url: https://www.google.com/maps/search/clinics/@25.2908331,55.4165929,16z/data=!3m1!4b1
+Traceback (most recent call last):
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/google_maps_scraper.py", line 726, in sort_reviews_by_time
+    self.wait_for_css_selector_to_disappear(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        reviews_newest_sort_option_css_selector, timeout=2
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/google_maps_scraper.py", line 99, in wait_for_css_selector_to_disappear
+    WebDriverWait(self.driver, timeout).until(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        EC.invisibility_of_element_located((By.CSS_SELECTOR, css_selector))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/selenium/webdriver/support/wait.py", line 146, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/google_maps_scraper.py", line 1036, in get_data_from_place
+    reviews = self.get_place_reviews(number_of_reviews)
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/google_maps_scraper.py", line 876, in get_place_reviews
+    self.sort_reviews_by_time()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/google_maps_scraper.py", line 740, in sort_reviews_by_time
+    reviews_sort_button.click()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/selenium/webdriver/remote/webelement.py", line 119, in click
+    self._execute(Command.CLICK_ELEMENT)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/selenium/webdriver/remote/webelement.py", line 572, in _execute
+    return self._parent.execute(command, params)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/selenium/webdriver/remote/webdriver.py", line 429, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/selenium/webdriver/remote/errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <button class="g88MCb S9kvJb " jsaction="pane.wfvdle2682;keydown:pane.wfvdle2682;mouseover:pane.wfvdle2682;mouseout:pane.wfvdle2682" aria-label="Sort reviews" data-value="Sort" jslog="59550;track:click;mutable:true;metadata:WyIwYWhVS0V3amN0cDczeHZpTEF4VlhWS1FFSFRlV0dCRVE4QmNJQWlnQSJd">...</button> is not clickable at point (787, 409). Other element would receive the click: <div aria-checked="false" class="fxNQSd" data-index="3" role="menuitemradio" tabindex="0" ved="1i:4,t:25742,e:3,p:yTPLZ6rBBJaVseMPwonAmQc:5000" vet="25742" jsaction="click: actionmenu.select; keydown: actionmenu.keydown">...</div>
+  (Session info: chrome=134.0.6998.45)
+Stacktrace:
+0   undetected_chromedriver             0x000000010267c922 undetected_chromedriver + 5843234
+1   undetected_chromedriver             0x00000001026745ea undetected_chromedriver + 5809642
+2   undetected_chromedriver             0x0000000102150dfe undetected_chromedriver + 421374
+3   undetected_chromedriver             0x00000001021ac416 undetected_chromedriver + 795670
+4   undetected_chromedriver             0x00000001021aa126 undetected_chromedriver + 786726
+5   undetected_chromedriver             0x00000001021a71ed undetected_chromedriver + 774637
+6   undetected_chromedriver             0x00000001021a6363 undetected_chromedriver + 770915
+7   undetected_chromedriver             0x0000000102197dc3 undetected_chromedriver + 712131
+8   undetected_chromedriver             0x00000001021cbbe2 undetected_chromedriver + 924642
+9   undetected_chromedriver             0x00000001021976f8 undetected_chromedriver + 710392
+10  undetected_chromedriver             0x00000001021cbd9e undetected_chromedriver + 925086
+11  undetected_chromedriver             0x00000001021f163a undetected_chromedriver + 1078842
+12  undetected_chromedriver             0x00000001021cb9b3 undetected_chromedriver + 924083
+13  undetected_chromedriver             0x0000000102195ec3 undetected_chromedriver + 704195
+14  undetected_chromedriver             0x0000000102196da1 undetected_chromedriver + 708001
+15  undetected_chromedriver             0x0000000102644d40 undetected_chromedriver + 5614912
+16  undetected_chromedriver             0x0000000102647773 undetected_chromedriver + 5625715
+17  undetected_chromedriver             0x00000001026472eb undetected_chromedriver + 5624555
+18  undetected_chromedriver             0x0000000102647bd5 undetected_chromedriver + 5626837
+19  undetected_chromedriver             0x0000000102629cef undetected_chromedriver + 5504239
+20  undetected_chromedriver             0x0000000102647ebc undetected_chromedriver + 5627580
+21  undetected_chromedriver             0x000000010261a8f4 undetected_chromedriver + 5441780
+22  undetected_chromedriver             0x00000001026644f8 undetected_chromedriver + 5743864
+23  undetected_chromedriver             0x00000001026646be undetected_chromedriver + 5744318
+24  undetected_chromedriver             0x00000001026741b8 undetected_chromedriver + 5808568
+25  libsystem_pthread.dylib             0x00007ff813cb018b _pthread_start + 99
+26  libsystem_pthread.dylib             0x00007ff813cabae3 thread_start + 15
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/google_maps_scraper.py", line 267, in scrap_data_from_search_url
+    self.get_data_from_place(place_div=place_div)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/google_maps_scraper.py", line 1070, in get_data_from_place
+    raise InvalidSessionIdException
+selenium.common.exceptions.InvalidSessionIdException: Message: None
+
+2025-03-07 22:07:06,288 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:07:07,288 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:07:08,289 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:07:09,290 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:07:10,291 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:07:11,292 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:07:12,294 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:07:12,883 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] div[data-review-id][jsaction*='review.in']
+2025-03-07 22:07:13,297 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:07:13,504 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] div[data-review-id][jsaction*='review.in']
+2025-03-07 22:07:14,298 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:07:15,299 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:07:16,301 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:07:17,302 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:07:18,303 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:07:19,304 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:07:20,305 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:07:21,306 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:07:22,307 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:07:23,309 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:07:24,310 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:07:25,312 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:07:26,313 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:07:27,314 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:07:28,315 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:07:29,316 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:07:30,317 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:07:31,319 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:07:32,320 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:07:33,321 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:07:34,322 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:07:35,323 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:07:36,325 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:07:37,326 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:07:38,327 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:07:39,329 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:07:40,329 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:07:41,330 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:07:42,331 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:07:43,333 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:07:44,334 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:07:45,335 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:07:46,336 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:07:47,337 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:07:48,338 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:07:49,343 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:07:50,345 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:07:51,347 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:07:52,348 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:07:53,349 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:07:54,350 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:07:55,351 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:07:56,352 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:07:57,354 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:07:58,356 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:07:59,357 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:08:00,358 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:08:01,359 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:08:02,361 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:08:03,362 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:08:04,363 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:08:05,364 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:08:06,366 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:08:07,367 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:08:08,368 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:08:09,369 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:08:10,370 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:08:11,372 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:08:12,373 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:08:13,374 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:08:14,375 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:08:15,376 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:08:16,377 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:08:17,379 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:08:18,380 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:08:19,381 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:08:20,382 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:08:21,383 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:08:22,384 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:08:23,386 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:08:24,386 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:08:25,387 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:08:26,389 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:08:27,390 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:08:28,391 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:08:29,392 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:08:30,394 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:08:31,395 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:08:32,396 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:08:33,397 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:08:34,399 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:08:35,400 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:08:36,401 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:08:37,403 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:08:38,404 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:08:39,405 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:08:40,406 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:08:41,407 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:08:42,408 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:08:43,409 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:08:44,410 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:08:45,411 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:08:46,276 - google_maps_scraper - ERROR - Browser window error for driver 3 - url: https://www.google.com/maps/search/clinics/@25.2908331,55.4165929,16z/data=!3m1!4b1
+Traceback (most recent call last):
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/google_maps_scraper.py", line 726, in sort_reviews_by_time
+    self.wait_for_css_selector_to_disappear(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        reviews_newest_sort_option_css_selector, timeout=2
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/google_maps_scraper.py", line 99, in wait_for_css_selector_to_disappear
+    WebDriverWait(self.driver, timeout).until(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        EC.invisibility_of_element_located((By.CSS_SELECTOR, css_selector))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/selenium/webdriver/support/wait.py", line 146, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/google_maps_scraper.py", line 1036, in get_data_from_place
+    reviews = self.get_place_reviews(number_of_reviews)
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/google_maps_scraper.py", line 876, in get_place_reviews
+    self.sort_reviews_by_time()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/google_maps_scraper.py", line 740, in sort_reviews_by_time
+    reviews_sort_button.click()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/selenium/webdriver/remote/webelement.py", line 119, in click
+    self._execute(Command.CLICK_ELEMENT)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/selenium/webdriver/remote/webelement.py", line 572, in _execute
+    return self._parent.execute(command, params)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/selenium/webdriver/remote/webdriver.py", line 429, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/selenium/webdriver/remote/errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <button class="g88MCb S9kvJb " jsaction="pane.wfvdle2682;keydown:pane.wfvdle2682;mouseover:pane.wfvdle2682;mouseout:pane.wfvdle2682" aria-label="Sort reviews" data-value="Sort" jslog="59550;track:click;mutable:true;metadata:WyIwYWhVS0V3amN0cDczeHZpTEF4VlhWS1FFSFRlV0dCRVE4QmNJQWlnQSJd">...</button> is not clickable at point (787, 409). Other element would receive the click: <div aria-checked="false" class="fxNQSd" data-index="3" role="menuitemradio" tabindex="0" ved="1i:4,t:25742,e:3,p:yTPLZ6rBBJaVseMPwonAmQc:5000" vet="25742" jsaction="click: actionmenu.select; keydown: actionmenu.keydown">...</div>
+  (Session info: chrome=134.0.6998.45)
+Stacktrace:
+0   undetected_chromedriver             0x000000010267c922 undetected_chromedriver + 5843234
+1   undetected_chromedriver             0x00000001026745ea undetected_chromedriver + 5809642
+2   undetected_chromedriver             0x0000000102150dfe undetected_chromedriver + 421374
+3   undetected_chromedriver             0x00000001021ac416 undetected_chromedriver + 795670
+4   undetected_chromedriver             0x00000001021aa126 undetected_chromedriver + 786726
+5   undetected_chromedriver             0x00000001021a71ed undetected_chromedriver + 774637
+6   undetected_chromedriver             0x00000001021a6363 undetected_chromedriver + 770915
+7   undetected_chromedriver             0x0000000102197dc3 undetected_chromedriver + 712131
+8   undetected_chromedriver             0x00000001021cbbe2 undetected_chromedriver + 924642
+9   undetected_chromedriver             0x00000001021976f8 undetected_chromedriver + 710392
+10  undetected_chromedriver             0x00000001021cbd9e undetected_chromedriver + 925086
+11  undetected_chromedriver             0x00000001021f163a undetected_chromedriver + 1078842
+12  undetected_chromedriver             0x00000001021cb9b3 undetected_chromedriver + 924083
+13  undetected_chromedriver             0x0000000102195ec3 undetected_chromedriver + 704195
+14  undetected_chromedriver             0x0000000102196da1 undetected_chromedriver + 708001
+15  undetected_chromedriver             0x0000000102644d40 undetected_chromedriver + 5614912
+16  undetected_chromedriver             0x0000000102647773 undetected_chromedriver + 5625715
+17  undetected_chromedriver             0x00000001026472eb undetected_chromedriver + 5624555
+18  undetected_chromedriver             0x0000000102647bd5 undetected_chromedriver + 5626837
+19  undetected_chromedriver             0x0000000102629cef undetected_chromedriver + 5504239
+20  undetected_chromedriver             0x0000000102647ebc undetected_chromedriver + 5627580
+21  undetected_chromedriver             0x000000010261a8f4 undetected_chromedriver + 5441780
+22  undetected_chromedriver             0x00000001026644f8 undetected_chromedriver + 5743864
+23  undetected_chromedriver             0x00000001026646be undetected_chromedriver + 5744318
+24  undetected_chromedriver             0x00000001026741b8 undetected_chromedriver + 5808568
+25  libsystem_pthread.dylib             0x00007ff813cb018b _pthread_start + 99
+26  libsystem_pthread.dylib             0x00007ff813cabae3 thread_start + 15
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/google_maps_scraper.py", line 267, in scrap_data_from_search_url
+    self.get_data_from_place(place_div=place_div)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/google_maps_scraper.py", line 1070, in get_data_from_place
+    raise InvalidSessionIdException
+selenium.common.exceptions.InvalidSessionIdException: Message: None
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/google_maps_scraper.py", line 1182, in task_complete
+    future.result()  # This will re-raise any exception that occurred during the task execution.
+    ~~~~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ~~~~~~~~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/concurrent/futures/thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/google_maps_scraper.py", line 277, in scrap_data_from_search_url
+    raise NoSuchWindowException
+selenium.common.exceptions.NoSuchWindowException: Message: None
+
+2025-03-07 22:08:46,411 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:08:47,412 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:08:48,413 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:08:49,414 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:08:50,416 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:08:51,417 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:08:52,417 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:08:53,419 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:08:54,419 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:08:55,421 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:08:56,424 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:08:57,425 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:08:58,426 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:08:59,428 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:09:00,429 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:09:01,430 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:09:02,431 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:09:03,433 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:09:04,434 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:09:05,435 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:09:06,436 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:09:07,438 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:09:08,439 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:09:09,440 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:09:10,441 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:09:11,442 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:09:12,443 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:09:13,444 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:09:14,446 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:09:15,450 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:09:16,451 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:09:17,453 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:09:18,459 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:09:19,461 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:09:20,462 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:09:21,463 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:09:22,464 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:09:23,466 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:09:24,468 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:09:25,469 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:09:26,471 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:09:27,472 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:09:28,089 - GoogleMaps - WARNING - No change in scroll places list height after 20 attempts - url: https://www.google.com/maps/search/clinics/@25.2908331,55.4165929,16z/data=!3m1!4b1
+2025-03-07 22:09:28,102 - GoogleMaps - DEBUG - Current place count: 20
+2025-03-07 22:09:28,102 - GoogleMaps - WARNING - Places loading error, attempt 1
+2025-03-07 22:09:28,103 - GoogleMaps - ERROR - Browser session error while scrap_data_from_search_url - url: https://www.google.com/maps/search/clinics/@25.2908331,55.4165929,16z/data=!3m1!4b1
+Traceback (most recent call last):
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/google_maps_scraper.py", line 322, in scroll_all_places_in_list
+    if WebDriverWait(self.driver, 0.1).until(
+       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        EC.presence_of_element_located(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+        )
+        ^
+    ):
+    ^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/selenium/webdriver/support/wait.py", line 146, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+0   undetected_chromedriver             0x00000001050d9922 undetected_chromedriver + 5843234
+1   undetected_chromedriver             0x00000001050d15ea undetected_chromedriver + 5809642
+2   undetected_chromedriver             0x0000000104baddfe undetected_chromedriver + 421374
+3   undetected_chromedriver             0x0000000104c01b69 undetected_chromedriver + 764777
+4   undetected_chromedriver             0x0000000104c01f51 undetected_chromedriver + 765777
+5   undetected_chromedriver             0x0000000104c51664 undetected_chromedriver + 1091172
+6   undetected_chromedriver             0x0000000104c28c0d undetected_chromedriver + 924685
+7   undetected_chromedriver             0x0000000104c4e63a undetected_chromedriver + 1078842
+8   undetected_chromedriver             0x0000000104c289b3 undetected_chromedriver + 924083
+9   undetected_chromedriver             0x0000000104bf2ec3 undetected_chromedriver + 704195
+10  undetected_chromedriver             0x0000000104bf3da1 undetected_chromedriver + 708001
+11  undetected_chromedriver             0x00000001050a1d40 undetected_chromedriver + 5614912
+12  undetected_chromedriver             0x00000001050a4773 undetected_chromedriver + 5625715
+13  undetected_chromedriver             0x00000001050a42eb undetected_chromedriver + 5624555
+14  undetected_chromedriver             0x00000001050a4bd5 undetected_chromedriver + 5626837
+15  undetected_chromedriver             0x0000000105086cef undetected_chromedriver + 5504239
+16  undetected_chromedriver             0x00000001050a4ebc undetected_chromedriver + 5627580
+17  undetected_chromedriver             0x00000001050778f4 undetected_chromedriver + 5441780
+18  undetected_chromedriver             0x00000001050c14f8 undetected_chromedriver + 5743864
+19  undetected_chromedriver             0x00000001050c16be undetected_chromedriver + 5744318
+20  undetected_chromedriver             0x00000001050d11b8 undetected_chromedriver + 5808568
+21  libsystem_pthread.dylib             0x00007ff813cb018b _pthread_start + 99
+22  libsystem_pthread.dylib             0x00007ff813cabae3 thread_start + 15
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/google_maps_scraper.py", line 256, in scrap_data_from_search_url
+    result = self.scroll_all_places_in_list()
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/google_maps_scraper.py", line 366, in scroll_all_places_in_list
+    raise NoSuchWindowException
+selenium.common.exceptions.NoSuchWindowException: Message: None
+
+2025-03-07 22:09:28,473 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:09:29,474 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:09:30,476 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:09:31,477 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:09:32,478 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:09:33,480 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:09:34,481 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:09:35,482 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:09:36,483 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:09:37,485 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:09:38,486 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:09:39,487 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:09:40,488 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:09:41,490 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:09:42,490 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:09:43,491 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:09:44,493 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:09:45,358 - GoogleMaps - DEBUG - Current review count: 730
+2025-03-07 22:09:45,358 - GoogleMaps - WARNING - Reviews loading error, attempt 2
+2025-03-07 22:09:45,494 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:09:46,495 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:09:47,496 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:09:48,499 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:09:49,500 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:09:49,607 - GoogleMaps - DEBUG - Current review count: 740
+2025-03-07 22:09:49,607 - GoogleMaps - WARNING - Reviews loading error, attempt 2
+2025-03-07 22:09:50,501 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:09:51,502 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:09:52,502 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:09:53,532 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:09:54,533 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:09:55,535 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:09:56,536 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:09:57,537 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:09:58,542 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:09:59,543 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:10:00,544 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:10:01,546 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:10:02,547 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:10:03,550 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:10:04,551 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:10:05,553 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:10:06,553 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:10:07,555 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:10:08,556 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:10:09,558 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:10:10,559 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:10:11,560 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:10:12,561 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:10:13,563 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:10:14,563 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:10:15,564 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:10:16,566 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:10:17,567 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:10:18,568 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:10:19,569 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:10:20,571 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:10:21,572 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:10:22,573 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:10:23,574 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:10:24,575 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:10:25,576 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:10:26,577 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:10:27,578 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:10:28,579 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:10:29,580 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:10:30,581 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:10:30,761 - GoogleMaps - INFO - Successfully fetched 740 reviews
+2025-03-07 22:10:31,581 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:10:32,582 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:10:33,583 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:10:34,092 - GoogleMaps - INFO - Successfully fetched 730 reviews
+2025-03-07 22:10:34,584 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:10:35,585 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:10:36,586 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:10:37,587 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:10:38,588 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:10:39,589 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:10:40,591 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:10:41,592 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:10:42,593 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:10:43,594 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:10:44,594 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:10:45,595 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:10:46,596 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:10:47,598 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:10:48,599 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:10:49,599 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:10:50,600 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:10:51,601 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:10:52,508 - GoogleMaps - ERROR - Unexpected error while closing place details - url: https://www.google.com/maps/search/clinics/@25.1450395,55.2436334,15z/data=!3m1!4b1
+Traceback (most recent call last):
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/google_maps_scraper.py", line 392, in close_place_details
+    self.driver.find_element(
+            ~~~~~~~~~~~~~~~~~
+        by=By.CSS_SELECTOR, value=close_place_details_selector
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    ).click()
+    ~~~~~~~^^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/google_maps_scraper.py", line 99, in wait_for_css_selector_to_disappear
+    WebDriverWait(self.driver, timeout).until(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        EC.invisibility_of_element_located((By.CSS_SELECTOR, css_selector))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/selenium/webdriver/support/wait.py", line 146, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/google_maps_scraper.py", line 399, in close_place_details
+    close_place_details_selector, timeout=1
+    ^^^^^^^^^^^^^^^
+Exception
+2025-03-07 22:10:52,513 - GoogleMaps - INFO - Successfully scraped place data - url: https://www.google.com/maps/place/Aster+Al+Quoz/@25.1474399,55.2280121,15z/data=!4m10!1m2!2m1!1sclinics!3m6!1s0x3e5f69759561e099:0xc08e2ea29a0f53e9!8m2!3d25.1474399!4d55.2460365!15sCgdjbGluaWNzWgkiB2NsaW5pY3OSAQ5tZWRpY2FsX2NlbnRlcpoBI0NoWkRTVWhOTUc5blMwVkpRMEZuU1VSS09XVnFUMVZCRUFF4AEA-gEECAAQRA!16s%2Fg%2F1tjz1vjq?entry=ttu&g_ep=EgoyMDI1MDMwNC4wIKXMDSoASAFQAw%3D%3D - data: {'title': 'Aster Al Quoz', 'category': 'Medical Center'}
+2025-03-07 22:10:52,513 - GoogleMaps - INFO - URLS:[0/3]-LIST:[7/122]-DONE:[13]
+2025-03-07 22:10:52,559 - GoogleMaps - INFO - Processing place - Title: Access Clinic, Address: Al Waha St - url: https://www.google.com/maps/search/clinics/@25.1450395,55.2436334,15z/data=!3m1!4b1 - data: {'title': 'Access Clinic', 'address': 'Al Waha St'}
+2025-03-07 22:10:52,602 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:10:53,603 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:10:54,604 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:10:55,605 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:10:55,765 - GoogleMaps - ERROR - Unexpected error while closing place details - url: https://www.google.com/maps/search/clinics/@25.2908331,55.4165928,16z/data=!3m1!4b1
+Traceback (most recent call last):
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/google_maps_scraper.py", line 392, in close_place_details
+    self.driver.find_element(
+            ~~~~~~~~~~~~~~~~~
+        by=By.CSS_SELECTOR, value=close_place_details_selector
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    ).click()
+    ~~~~~~~^^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/google_maps_scraper.py", line 99, in wait_for_css_selector_to_disappear
+    WebDriverWait(self.driver, timeout).until(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        EC.invisibility_of_element_located((By.CSS_SELECTOR, css_selector))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/venv/lib/python3.13/site-packages/selenium/webdriver/support/wait.py", line 146, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/macbook/PycharmProjects/google_maps_scraper/google_maps_scraper.py", line 399, in close_place_details
+    close_place_details_selector, timeout=1
+    ^^^^^^^^^^^^^^^
+Exception
+2025-03-07 22:10:55,777 - GoogleMaps - INFO - Successfully scraped place data - url: https://www.google.com/maps/place/Aster+Clinic,+Al+Qusais(Damascus+St.)/@25.2695082,55.3444648,14z/data=!4m10!1m2!2m1!1sclinics!3m6!1s0x3e5f5c35da5e4825:0xd8d5ed1a47036b3d!8m2!3d25.2695082!4d55.3805137!15sCgdjbGluaWNzWgkiB2NsaW5pY3OSAQ5tZWRpY2FsX2NsaW5pY5oBI0NoWkRTVWhOTUc5blMwVkpRMEZuU1VONGRIRkxlVlpCRUFF4AEA-gEECAAQOA!16s%2Fg%2F1tdzplwn?entry=ttu&g_ep=EgoyMDI1MDMwNC4wIKXMDSoASAFQAw%3D%3D - data: {'title': 'Aster Clinic, Al Qusais(Damascus St.)', 'category': 'Medical clinic'}
+2025-03-07 22:10:55,778 - GoogleMaps - INFO - URLS:[0/3]-LIST:[11/122]-DONE:[14]
+2025-03-07 22:10:55,814 - GoogleMaps - INFO - Processing place - Title: LIFE GP Clinic - Al Qusais, Address: Al Huraiz Building - Damascus Street - url: https://www.google.com/maps/search/clinics/@25.2908331,55.4165928,16z/data=!3m1!4b1 - data: {'title': 'LIFE GP Clinic - Al Qusais', 'address': 'Al Huraiz Building - Damascus Street'}
+2025-03-07 22:10:55,848 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-07 22:10:56,606 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:10:57,607 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:10:58,608 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:10:59,032 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-07 22:10:59,104 - GoogleMaps - WARNING - Timeout waiting for selector: [tabindex='-1'] [role='main'][aria-label] h1
+2025-03-07 22:10:59,609 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:11:00,610 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
+2025-03-07 22:11:01,612 - google_maps_scraper - DEBUG - Waiting for 3 active tasks to complete
