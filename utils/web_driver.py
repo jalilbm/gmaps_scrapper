@@ -21,6 +21,11 @@ def get_driver(position, screen_width=None, screen_height=None):
     
     options = uc.ChromeOptions()
     
+    # Create a persistent user data directory
+    user_data_dir = os.path.join(os.getcwd(), "chrome_user_data")
+    os.makedirs(user_data_dir, exist_ok=True)
+    options.add_argument(f"--user-data-dir={user_data_dir}")
+    
     # Skip first run and welcome screens
     options.add_argument("--no-first-run")
     options.add_argument("--no-default-browser-check")
