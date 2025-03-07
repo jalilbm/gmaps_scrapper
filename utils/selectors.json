@@ -1,4 +1,7 @@
 {
+	"accept_cookies": {
+		"css_selector": "button[aria-label='Accept all']"
+	},
 	"coordinates": {
 		"css_selector": "div[role='menuitemradio'][data-index='0']"
 	},
