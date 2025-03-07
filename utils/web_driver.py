@@ -1,37 +1,15 @@
 import undetected_chromedriver as uc
+from screeninfo import get_monitors
 import os
 
-# Try to get monitor info, but use default values if not available
-default_width = 1920
-default_height = 1080
+monitor = get_monitors()[0]
 
-try:
-    from screeninfo import get_monitors
-    monitor = get_monitors()[0]
-    default_width = monitor.width
-    default_height = monitor.height
-except Exception:
-    # Keep using default values if screeninfo fails
-    pass
-
-def get_driver(position, screen_width=None, screen_height=None):
-    # Use provided dimensions or fall back to defaults
-    screen_width = screen_width or default_width
-    screen_height = screen_height or default_height
-    
+def get_driver(position, screen_width=1920, screen_height=1080):
     options = uc.ChromeOptions()
-    
-    # Create a persistent user data directory
-    user_data_dir = os.path.join(os.getcwd(), "chrome_user_data")
-    os.makedirs(user_data_dir, exist_ok=True)
-    options.add_argument(f"--user-data-dir={user_data_dir}")
     
     # Force English language and locale
     options.add_argument("--lang=en-US")
     options.add_argument("--force-fieldtrials=Browser_Language/force/")
-    
-    # User-Agent Spoofing (forces Google to think it's a US browser)
-    options.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36")
 
     # Disable automation detection
     options.add_argument("--disable-blink-features=AutomationControlled")
@@ -48,6 +26,11 @@ def get_driver(position, screen_width=None, screen_height=None):
             }
         }
     })
+
+    # # Create a persistent user data directory
+    # user_data_dir = os.path.join(os.getcwd(), "utils/chrome_profile")
+    # os.makedirs(user_data_dir, exist_ok=True)
+    # options.add_argument(f"--user-data-dir={user_data_dir}")
 
     driver = uc.Chrome(options=options)
 
