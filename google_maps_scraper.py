@@ -72,7 +72,13 @@ class GoogleMaps:
         css_selector (str): The CSS selector to wait for.
         timeout (int, optional): The number of seconds to wait before timing out. Default is 10 seconds.
         """
+        logger.info(f"Waiting for selector: {css_selector}")
+        time.sleep(10)
+        logger.info(f"Current url: {self.driver.current_url}")
+        time.sleep(10)
+        logger.info(f"we are going to wait for the selector")
         try:
+            logger.info(f"we are going to wait for the selector 2")
             WebDriverWait(self.driver, timeout).until(
                 EC.presence_of_element_located((By.CSS_SELECTOR, css_selector))
             )
@@ -85,7 +91,7 @@ class GoogleMaps:
             self.logger.error(f"Browser session error while waiting for selector: {css_selector}", exc_info=True)
             raise NoSuchWindowException
         except Exception as e:
-            self.logger.warning(f"Timeout waiting for selector: {css_selector}, Exception: {e}, current url: {self.driver.current_url}")
+            self.logger.warning(f"Timeout waiting for selector: {css_selector}, Exception: {e}")
             return False
 
     def wait_for_css_selector_to_disappear(self, css_selector, timeout=10):
