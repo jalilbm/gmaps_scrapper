@@ -237,23 +237,34 @@ class GoogleMaps:
 
         while True:
             try:
+                logger.info(f"Scraping data from URL: {self.search_url}")
                 # create thread for the url check
                 get_url = Thread(target=self.get_url)
                 get_url.start()
 
+                logger.info(f"Waiting for URL to load")
                 # wait for 12 seconds for the thread to finish
                 get_url.join(timeout=12)
 
+                logger.info(f"Checking if URL loaded")
                 # check if the thread is still alive (i.e., it didn't finish within 12 seconds)
                 if get_url.is_alive() or not get_url:
                     raise WebDriverException("Failed to get url")
+                
+                logger.info(f"Scrolling all places in list")
                 result = self.scroll_all_places_in_list()
                 if result == "No list":
                     self.get_data_from_place(one_item=True)
                     break
+
+                logger.info(f"Getting all places divs")
                 all_places_divs = self.get_all_places_divs()
                 self.logger.info(f"All places divs: {len(all_places_divs)}")
+
+                logger.info(f"Getting bounds")
                 # self.get_bounds()
+
+                logger.info(f"Getting data from places")
                 for i, place_div in enumerate(all_places_divs):
                     self.logger.info(
                         f"URLS:[{len(scraped_urls)}/{len(urls)}]-LIST:[{i+1}/{len(all_places_divs)}]-DONE:[{len(places_details)}]"
