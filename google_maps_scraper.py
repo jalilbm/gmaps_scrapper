@@ -72,14 +72,8 @@ class GoogleMaps:
         css_selector (str): The CSS selector to wait for.
         timeout (int, optional): The number of seconds to wait before timing out. Default is 10 seconds.
         """
-        logger.info(f"Waiting for selector: {css_selector}")
-        time.sleep(10)
 
-        logger.info(f"Current url: {self.driver.current_url}")
-        time.sleep(10)
-        logger.info(f"we are going to wait for the selector")
         try:
-            logger.info(f"we are going to wait for the selector 2")
             WebDriverWait(self.driver, timeout).until(
                 EC.presence_of_element_located((By.CSS_SELECTOR, css_selector))
             )
@@ -1197,7 +1191,6 @@ def run_scraper_with_thread_pool(urls, drivers, max_drivers, selectors):
             # Task completed successfully, decrement the counter
             active_tasks -= 1
         except NoSuchWindowException:
-            time.sleep(10000)
             logger.error(f"Browser window error for driver {driver_id}", exc_info=True, extra={"url": url})
             if not executor_shutdown:  # only retry if the executor has not been shutdown
                 # Attempt to close the current driver
