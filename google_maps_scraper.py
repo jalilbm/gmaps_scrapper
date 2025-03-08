@@ -84,8 +84,8 @@ class GoogleMaps:
         ):
             self.logger.error(f"Browser session error while waiting for selector: {css_selector}", exc_info=True)
             raise NoSuchWindowException
-        except Exception:
-            self.logger.warning(f"Timeout waiting for selector: {css_selector}")
+        except Exception as e:
+            self.logger.warning(f"Timeout waiting for selector: {css_selector}, Exception: {e}")
             return False
 
     def wait_for_css_selector_to_disappear(self, css_selector, timeout=10):
