@@ -1149,6 +1149,8 @@ def initialize_drivers(num_drivers=4):
     drivers = Queue()
     for i in range(1, num_drivers + 1):
         drivers.put((i, web_driver.get_driver(i)))
+        # Add a delay between driver initializations
+        time.sleep(2)
     logger.info(f"Initialized {num_drivers} web drivers")
     
     return drivers, num_drivers
