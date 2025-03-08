@@ -1269,7 +1269,7 @@ if __name__ == "__main__":
     logger.debug("Loaded selectors configuration")
     
     # Initialize drivers
-    drivers, max_drivers = initialize_drivers(1)
+    drivers, max_drivers = initialize_drivers(2)
     
     # Run the scraper
     places_details = run_scraper_with_thread_pool(
