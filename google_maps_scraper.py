@@ -1149,7 +1149,7 @@ def initialize_drivers(num_drivers=4):
     drivers = Queue()
     for i in range(1, num_drivers + 1):
         # Pass a unique debugging port for each driver
-        drivers.put((i, web_driver.get_driver(i, debug_port=9222+i)))
+        drivers.put((i, web_driver.get_driver(i)))
     logger.info(f"Initialized {num_drivers} web drivers")
     
     return drivers, num_drivers
