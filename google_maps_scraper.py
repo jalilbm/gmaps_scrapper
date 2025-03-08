@@ -74,6 +74,7 @@ class GoogleMaps:
         """
         logger.info(f"Waiting for selector: {css_selector}")
         time.sleep(10)
+
         logger.info(f"Current url: {self.driver.current_url}")
         time.sleep(10)
         logger.info(f"we are going to wait for the selector")
@@ -1274,7 +1275,7 @@ if __name__ == "__main__":
     logger.debug("Loaded selectors configuration")
     
     # Initialize drivers
-    drivers, max_drivers = initialize_drivers(4)
+    drivers, max_drivers = initialize_drivers(1)
     
     # Run the scraper
     places_details = run_scraper_with_thread_pool(
