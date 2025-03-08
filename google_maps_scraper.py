@@ -293,6 +293,8 @@ class GoogleMaps:
             "inner_elements"
         ]["place_details"]["title"]["css_selector"]
         places_list_css_selector = selectors["places_list"]["css_selector"]
+        
+        logger.info(f"Waiting for places list to load: {places_list_css_selector}", )
 
         if self.wait_for_css_selector(places_list_css_selector, timeout=20):
             places_list = self.driver.find_element(
