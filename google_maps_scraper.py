@@ -292,46 +292,37 @@ class GoogleMaps:
         title_css_selector = selectors["places_list"]["inner_elements"]["places_divs"][
             "inner_elements"
         ]["place_details"]["title"]["css_selector"]
-        css_selector = selectors["places_list"]["css_selector"]
-        self.logger.info(f"1")
-        if self.wait_for_css_selector(css_selector, timeout=20):
-            self.logger.info(f"2")
+        places_list_css_selector = selectors["places_list"]["css_selector"]
+
+        if self.wait_for_css_selector(places_list_css_selector, timeout=20):
             places_list = self.driver.find_element(
-                by=By.CSS_SELECTOR, value=css_selector
+                by=By.CSS_SELECTOR, value=places_list_css_selector
             )
         elif self.wait_for_css_selector(title_css_selector, timeout=15):
-            self.logger.info(f"3")
             self.logger.info("No list found, only one place")
             return "No list"
         else:
-            self.logger.info(f"4")
             self.logger.error("No list found", extra={"url": self.search_url})
             raise (NoSuchWindowException)
         # Loop until "You've reached the end of the list." appears or it kept loading for 10 seconds
 
-        self.logger.info(f"5")
         # Get the initial height of the list
         initial_height = self.driver.execute_script(
             "return arguments[0].scrollHeight", places_list
         )
 
-        self.logger.info(f"6")
         # Initialize a counter for the number of times the height has not changed
         no_change_count = 0
 
-        self.logger.info(f"7")
         while True:
-            self.logger.info(f"8")
             # Scroll the div by randint(300, 600) pixels
             scroll = random.randint(300, 600)
             self.driver.execute_script(
                 f"arguments[0].scrollTop += {scroll}", places_list
             )
 
-            self.logger.info(f"9")
             # Check if the specified paragraph is present
             try:
-                self.logger.info(f"10")
                 if WebDriverWait(self.driver, 0.1).until(
                     EC.presence_of_element_located(
                         (
@@ -348,11 +339,9 @@ class GoogleMaps:
                 SessionNotCreatedException,
                 NoSuchWindowException,
             ):
-                self.logger.info(f"11")
                 self.logger.error("Browser session error while scrolling places list", exc_info=True)
                 raise NoSuchWindowException
             except Exception:
-                self.logger.info(f"12")
                 # Get the current height of the reviews list
                 current_height = self.driver.execute_script(
                     "return arguments[0].scrollHeight", places_list
@@ -366,7 +355,6 @@ class GoogleMaps:
                 initial_height = current_height
                 # If no changes after 10 attempts, raise exception
                 if no_change_count >= 20:
-                    self.logger.info(f"13")
                     self.logger.warning("No change in scroll places list height after 20 attempts", extra={"url": self.search_url, "no_change_count": no_change_count})
                     current_place_count = len(
                         places_list.find_elements(By.CSS_SELECTOR, place_css_selector)

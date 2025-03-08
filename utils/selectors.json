@@ -12,7 +12,7 @@
 		"css_selector": "[class*='scene-footer-container']"
 	},
 	"places_list": {
-		"css_selector": "[style='position: relative;'][tabindex='-1'] [tabindex='-1']",
+		"css_selector": "[style='position: relative;'][tabindex='-1'] [tabindex='-1'][aria-label*='Results for']",
 		"inner_elements": {
 			"stop_paragraph": {
 				"css_selector": "[style='position: relative;'][tabindex='-1'] [tabindex='-1'] [class='fontBodyMedium '] span > span"
