@@ -302,7 +302,7 @@ class GoogleMaps:
             self.logger.info("No list found, only one place")
             return "No list"
         else:
-            self.logger.error("No list found", extra={"url": self.search_url})
+            self.logger.error("No list found after waiting for 20 seconds", extra={"url": self.search_url})
             raise (NoSuchWindowException)
         # Loop until "You've reached the end of the list." appears or it kept loading for 10 seconds
 
