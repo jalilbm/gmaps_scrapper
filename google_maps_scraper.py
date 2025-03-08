@@ -1144,31 +1144,15 @@ def generate_search_urls(config):
     logger.info(f"Generated {len(urls)} search URLs with US region")
     return urls
 
-def initialize_drivers(num_drivers=2):
-    """Initialize and return a queue of web drivers with proper delays."""
+def initialize_drivers(num_drivers=4):
+    """Initialize and return a queue of web drivers."""
     drivers = Queue()
-    
-    # First, make sure no Chrome processes are running
-    try:
-        import psutil
-        web_driver.kill_chrome_processes()
-    except ImportError:
-        pass
-    
     for i in range(1, num_drivers + 1):
-        try:
-            logger.info(f"Initializing driver {i}...")
-            driver = web_driver.get_driver(i)
-            drivers.put((i, driver))
-            # Add a significant delay between driver initializations
-            time.sleep(10)
-        except Exception as e:
-            logger.error(f"Failed to initialize driver {i}: {str(e)}")
+        # Pass a unique debugging port for each driver
+        drivers.put((i, web_driver.get_driver(i, debug_port=9222+i)))
+    logger.info(f"Initialized {num_drivers} web drivers")
     
-    actual_num_drivers = drivers.qsize()
-    logger.info(f"Successfully initialized {actual_num_drivers} web drivers")
-    
-    return drivers, actual_num_drivers
+    return drivers, num_drivers
 
 def save_results(places_details, keyword):
     """Save the scraped data to JSON files."""
@@ -1285,7 +1269,7 @@ if __name__ == "__main__":
     logger.debug("Loaded selectors configuration")
     
     # Initialize drivers
-    drivers, max_drivers = initialize_drivers(2)
+    drivers, max_drivers = initialize_drivers(1)
     
     # Run the scraper
     places_details = run_scraper_with_thread_pool(
