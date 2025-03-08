@@ -8,10 +8,26 @@ except Exception:
     # Default values for headless environments like EC2
     pass
 
-def get_driver(position, screen_width=1920, screen_height=1080):
+def get_driver(position, debug_port=None, screen_width=1920, screen_height=1080):
     options = uc.ChromeOptions()
     
-    # Set a US location to avoid consent pages (may help in some cases)
+    # Essential options for stability
+    options.add_argument('--no-sandbox')
+    options.add_argument('--disable-dev-shm-usage')  # Critical for cloud VMs
+    
+    # Memory optimization
+    options.add_argument('--disable-extensions')
+    options.add_argument('--disable-gpu')
+    options.add_argument('--disable-software-rasterizer')
+    options.add_argument('--js-flags=--max-old-space-size=1024')  # Limit JS memory
+    
+    # Process isolation - assign unique debugging port to each instance
+    if debug_port:
+        options.add_argument(f'--remote-debugging-port={debug_port}')
+    else:
+        options.add_argument(f'--remote-debugging-port={9222 + position}')
+    
+    # Set a US location to avoid consent pages
     options.add_argument("--lang=en-US")
     options.add_argument("--country=US")
     
@@ -25,7 +41,13 @@ def get_driver(position, screen_width=1920, screen_height=1080):
     options.add_argument("--disable-popup-blocking")
     options.add_argument("--disable-infobars")
     
+    # Set page load strategy to eager (don't wait for all resources)
+    options.page_load_strategy = 'eager'
+    
+    # Create the driver with appropriate timeouts
     driver = uc.Chrome(options=options)
+    driver.set_page_load_timeout(30)
+    driver.set_script_timeout(30)
 
     # Calculate window dimensions - each window should be half the screen
     window_width = int(screen_width / 2)
@@ -46,7 +68,6 @@ def get_driver(position, screen_width=1920, screen_height=1080):
 
     # Force Google to English and US region
     driver.get("https://www.google.com/ncr")  # No Country Redirect
-    
     
     # Set Google to US region
     driver.get("https://www.google.com/?gl=us&hl=en")

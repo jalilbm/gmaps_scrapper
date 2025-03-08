@@ -1148,9 +1148,8 @@ def initialize_drivers(num_drivers=4):
     """Initialize and return a queue of web drivers."""
     drivers = Queue()
     for i in range(1, num_drivers + 1):
-        drivers.put((i, web_driver.get_driver(i)))
-        # Add a delay between driver initializations
-        time.sleep(2)
+        # Pass a unique debugging port for each driver
+        drivers.put((i, web_driver.get_driver(i, debug_port=9222+i)))
     logger.info(f"Initialized {num_drivers} web drivers")
     
     return drivers, num_drivers
