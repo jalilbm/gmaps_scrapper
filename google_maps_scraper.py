@@ -236,17 +236,14 @@ class GoogleMaps:
         global scraped_urls
 
         while True:
-            try:
-                logger.info(f"Scraping data from URL: {self.search_url}")
+            try:                
                 # create thread for the url check
                 get_url = Thread(target=self.get_url)
                 get_url.start()
 
-                logger.info(f"Waiting for URL to load")
                 # wait for 12 seconds for the thread to finish
                 get_url.join(timeout=12)
 
-                logger.info(f"Checking if URL loaded")
                 # check if the thread is still alive (i.e., it didn't finish within 12 seconds)
                 if get_url.is_alive() or not get_url:
                     raise WebDriverException("Failed to get url")
@@ -300,7 +297,7 @@ class GoogleMaps:
             places_list = self.driver.find_element(
                 by=By.CSS_SELECTOR, value=css_selector
             )
-        elif self.wait_for_css_selector(title_css_selector, timeout=5):
+        elif self.wait_for_css_selector(title_css_selector, timeout=15):
             self.logger.info("No list found, only one place")
             return "No list"
         else:
