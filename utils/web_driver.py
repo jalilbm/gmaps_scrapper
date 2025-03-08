@@ -1,7 +1,6 @@
 import undetected_chromedriver as uc
 from screeninfo import get_monitors
 import os
-import time
 
 try:
     monitor = get_monitors()[0]
@@ -12,22 +11,6 @@ except Exception:
 def get_driver(position, screen_width=1920, screen_height=1080):
     options = uc.ChromeOptions()
     
-    # Enable headless mode with proper settings
-    options.add_argument("--headless=new")  # New headless mode for Chrome
-    options.add_argument("--window-size=1920,1080")  # Set window size in headless mode
-    
-    # Essential options for stability on cloud VMs
-    options.add_argument('--no-sandbox')
-    options.add_argument('--disable-dev-shm-usage')
-    
-    # Memory optimization
-    options.add_argument('--disable-extensions')
-    options.add_argument('--disable-gpu')
-    options.add_argument('--disable-software-rasterizer')
-    
-    # Set unique debugging port for each instance
-    options.add_argument(f'--remote-debugging-port={9222 + position}')
-    
     # Disable automation detection
     options.add_argument("--disable-blink-features=AutomationControlled")
 
@@ -37,13 +20,25 @@ def get_driver(position, screen_width=1920, screen_height=1080):
     # Prevent pop-ups and infobars
     options.add_argument("--disable-popup-blocking")
     options.add_argument("--disable-infobars")
-    
-    # Create the driver
+
     driver = uc.Chrome(options=options)
-    
-    # Set timeouts
-    driver.set_page_load_timeout(30)
-    driver.set_script_timeout(30)
+
+    # Calculate window dimensions - each window should be half the screen
+    window_width = int(screen_width / 2)
+    window_height = int(screen_height / 2)
+
+    # Set window size first
+    driver.set_window_size(window_width, window_height)
+
+    # Then set position based on quadrant
+    if position == 1:
+        driver.set_window_position(0, 0)  # top left
+    elif position == 2:
+        driver.set_window_position(window_width, 0)  # top right
+    elif position == 3:
+        driver.set_window_position(0, window_height)  # bottom left
+    elif position == 4:
+        driver.set_window_position(window_width, window_height)  # bottom right
 
     # Force Google to English
     driver.get("https://www.google.com/ncr")
